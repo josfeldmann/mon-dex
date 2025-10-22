@@ -1,0 +1,5781 @@
+{
+  "monsters": {
+    "Shibu": {
+      "monsterName": "Shibu",
+      "monsterID": 1,
+      "monsterType": [
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 92.0,
+        "ATTACK": 92.0,
+        "DEFENSE": 92.0,
+        "SPECIALATTACK": 92.0,
+        "SPECIALDEFENSE": 92.0,
+        "SPEED": 92.0
+      },
+      "abilities": [
+        "Toothy"
+      ],
+      "moves": [
+        "Tackle",
+        "NormalWave",
+        "Growl",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "BugShibu": {
+      "monsterName": "Sectinu",
+      "monsterID": 2,
+      "monsterType": [
+        "Insect",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 126.0,
+        "ATTACK": 198.0,
+        "DEFENSE": 144.0,
+        "SPECIALATTACK": 99.0,
+        "SPECIALDEFENSE": 144.0,
+        "SPEED": 189.0
+      },
+      "abilities": [
+        "tech"
+      ],
+      "moves": [
+        "Tackle",
+        "NormalWave",
+        "Growl",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "WaterShibu": {
+      "monsterName": "Swampinu",
+      "monsterID": 3,
+      "monsterType": [
+        "Water",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 168.2243,
+        "ATTACK": 185.046722,
+        "DEFENSE": 151.401871,
+        "SPECIALATTACK": 142.990662,
+        "SPECIALDEFENSE": 151.401871,
+        "SPEED": 100.934578
+      },
+      "abilities": [
+        "Toothy"
+      ],
+      "moves": [
+        "Tackle",
+        "NormalWave",
+        "Growl",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "FireShibu": {
+      "monsterName": "Cindinu",
+      "monsterID": 5,
+      "monsterType": [
+        "Fire",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 112.140579,
+        "ATTACK": 200.0,
+        "DEFENSE": 122.779556,
+        "SPECIALATTACK": 163.897766,
+        "SPECIALDEFENSE": 189.776352,
+        "SPEED": 112.140579
+      },
+      "abilities": [
+        "Toothy"
+      ],
+      "moves": [
+        "Tackle",
+        "NormalWave",
+        "Growl",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "ElecShibu": {
+      "monsterName": "Voltinu",
+      "monsterID": 6,
+      "monsterType": [
+        "Lightning",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 139.655167,
+        "ATTACK": 131.896545,
+        "DEFENSE": 116.379311,
+        "SPECIALATTACK": 178.448273,
+        "SPECIALDEFENSE": 155.172409,
+        "SPEED": 178.448273
+      },
+      "abilities": [
+        "Toothy"
+      ],
+      "moves": [
+        "Tackle",
+        "NormalWave",
+        "Growl",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "IceShibu": {
+      "monsterName": "Frostinu",
+      "monsterID": 7,
+      "monsterType": [
+        "Ice",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 172.46051,
+        "ATTACK": 189.271057,
+        "DEFENSE": 143.107376,
+        "SPECIALATTACK": 126.488457,
+        "SPECIALDEFENSE": 119.102272,
+        "SPEED": 149.5703
+      },
+      "abilities": [
+        "Toothy"
+      ],
+      "moves": [
+        "Tackle",
+        "NormalWave",
+        "Growl",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "FightSHibu": {
+      "monsterName": "Cheeminu",
+      "monsterID": 8,
+      "monsterType": [
+        "Combat",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 149.1751,
+        "ATTACK": 200.741776,
+        "DEFENSE": 139.851654,
+        "SPECIALATTACK": 74.58755,
+        "SPECIALDEFENSE": 177.145416,
+        "SPEED": 158.49852
+      },
+      "abilities": [
+        "Toothy"
+      ],
+      "moves": [
+        "Tackle",
+        "NormalWave",
+        "Growl",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "UndeadShibe": {
+      "monsterName": "Specinu",
+      "monsterID": 9,
+      "monsterType": [
+        "Undead",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 140.461517,
+        "ATTACK": 170.0,
+        "DEFENSE": 192.906342,
+        "SPECIALATTACK": 120.0,
+        "SPECIALDEFENSE": 192.906342,
+        "SPEED": 84.1584244
+      },
+      "abilities": [
+        "Toothy"
+      ],
+      "moves": [
+        "Tackle",
+        "NormalWave",
+        "Growl",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "DarkShibu": {
+      "monsterName": "Necrinu",
+      "monsterID": 10,
+      "monsterType": [
+        "Dark",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 134.700668,
+        "ATTACK": 161.6408,
+        "DEFENSE": 89.8004456,
+        "SPECIALATTACK": 199.556534,
+        "SPECIALDEFENSE": 143.68071,
+        "SPEED": 170.62085
+      },
+      "abilities": [
+        "Toothy"
+      ],
+      "moves": [
+        "Tackle",
+        "NormalWave",
+        "Growl",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "GrassSHibu": {
+      "monsterName": "Shishinu",
+      "monsterID": 11,
+      "monsterType": [
+        "Leaf",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 151.578949,
+        "ATTACK": 189.473679,
+        "DEFENSE": 132.631577,
+        "SPECIALATTACK": 113.684212,
+        "SPECIALDEFENSE": 132.631577,
+        "SPEED": 180.0
+      },
+      "abilities": [
+        "Toothy"
+      ],
+      "moves": [
+        "Tackle",
+        "NormalWave",
+        "Growl",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "DinoShibu": {
+      "monsterName": "Tyrinu",
+      "monsterID": 12,
+      "monsterType": [
+        "Dino",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 142.8866,
+        "ATTACK": 222.68042,
+        "DEFENSE": 167.010315,
+        "SPECIALATTACK": 111.34021,
+        "SPECIALDEFENSE": 167.010315,
+        "SPEED": 89.07217
+      },
+      "abilities": [
+        "Toothy"
+      ],
+      "moves": [
+        "Tackle",
+        "NormalWave",
+        "Growl",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "MoonShibu": {
+      "monsterName": "Papillinu",
+      "monsterID": 13,
+      "monsterType": [
+        "Psy",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 159.81308,
+        "ATTACK": 117.757,
+        "DEFENSE": 117.757,
+        "SPECIALATTACK": 185.046722,
+        "SPECIALDEFENSE": 218.691589,
+        "SPEED": 100.93457
+      },
+      "abilities": [
+        "Toothy"
+      ],
+      "moves": [
+        "Tackle",
+        "NormalWave",
+        "Growl",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "NormalShibu": {
+      "monsterName": "Tsuinu",
+      "monsterID": 14,
+      "monsterType": [
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 150.0,
+        "ATTACK": 150.0,
+        "DEFENSE": 150.0,
+        "SPECIALATTACK": 150.0,
+        "SPECIALDEFENSE": 150.0,
+        "SPEED": 150.0
+      },
+      "abilities": [
+        "Toothy"
+      ],
+      "moves": [
+        "Tackle",
+        "NormalWave",
+        "Growl",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "SteelShibu": {
+      "monsterName": "SteelShibu",
+      "monsterID": 15,
+      "monsterType": [
+        "Steel",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 156.706787,
+        "ATTACK": 114.516495,
+        "DEFENSE": 161.528534,
+        "SPECIALATTACK": 200.846619,
+        "SPECIALDEFENSE": 163.9394,
+        "SPEED": 102.462128
+      },
+      "abilities": [
+        "Toothy"
+      ],
+      "moves": [
+        "Tackle",
+        "NormalWave",
+        "Growl",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "GroundShibu": {
+      "monsterName": "MoleShibu",
+      "monsterID": 17,
+      "monsterType": [
+        "Earth",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 184.69751,
+        "ATTACK": 184.69751,
+        "DEFENSE": 113.041656,
+        "SPECIALATTACK": 113.041656,
+        "SPECIALDEFENSE": 158.258316,
+        "SPEED": 146.263351
+      },
+      "abilities": [
+        "Toothy"
+      ],
+      "moves": [
+        "Tackle",
+        "NormalWave",
+        "Growl",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "PoisonShibu": {
+      "monsterName": "Shroomu",
+      "monsterID": 18,
+      "monsterType": [
+        "Poison",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 135.274078,
+        "ATTACK": 127.316788,
+        "DEFENSE": 119.359482,
+        "SPECIALATTACK": 199.345078,
+        "SPECIALDEFENSE": 119.359482,
+        "SPEED": 199.345078
+      },
+      "abilities": [
+        "Toothy"
+      ],
+      "moves": [
+        "Tackle",
+        "NormalWave",
+        "Growl",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "FlyingShibu": {
+      "monsterName": "Angu",
+      "monsterID": 19,
+      "monsterType": [
+        "Wind",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 139.655167,
+        "ATTACK": 139.655167,
+        "DEFENSE": 131.896545,
+        "SPECIALATTACK": 193.965515,
+        "SPECIALDEFENSE": 139.655167,
+        "SPEED": 155.172409
+      },
+      "abilities": [
+        "Toothy"
+      ],
+      "moves": [
+        "Tackle",
+        "NormalWave",
+        "Growl",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "Alshocka": {
+      "monsterName": "Alshocka",
+      "monsterID": 20,
+      "monsterType": [
+        "Leaf",
+        "Lightning"
+      ],
+      "baseStats": {
+        "HP": 84.0,
+        "ATTACK": 85.90476,
+        "DEFENSE": 86.95238,
+        "SPECIALATTACK": 104.7619,
+        "SPECIALDEFENSE": 104.7619,
+        "SPEED": 83.8095245
+      },
+      "abilities": [
+        "shocking",
+        "DangerZone"
+      ],
+      "moves": [
+        "Tackle",
+        "Drain",
+        "Growth",
+        "VoltRush",
+        "PoisonSting",
+        "RootStrike",
+        "ShockSting"
+      ],
+      "evolutions": null
+    },
+    "Voltcaya": {
+      "monsterName": "Voltcaya",
+      "monsterID": 21,
+      "monsterType": [
+        "Leaf",
+        "Lightning"
+      ],
+      "baseStats": {
+        "HP": 114.285713,
+        "ATTACK": 117.14286,
+        "DEFENSE": 118.571426,
+        "SPECIALATTACK": 142.857132,
+        "SPECIALDEFENSE": 142.857132,
+        "SPEED": 114.285713
+      },
+      "abilities": [
+        "shocking",
+        "DangerZone"
+      ],
+      "moves": [
+        "Tackle",
+        "Drain",
+        "Growth",
+        "VoltRush",
+        "PoisonSting",
+        "RootStrike",
+        "ShockSting"
+      ],
+      "evolutions": null
+    },
+    "Voltpaca": {
+      "monsterName": "Voltpaca",
+      "monsterID": 22,
+      "monsterType": [
+        "Leaf",
+        "Lightning"
+      ],
+      "baseStats": {
+        "HP": 137.142853,
+        "ATTACK": 140.571426,
+        "DEFENSE": 142.2857,
+        "SPECIALATTACK": 171.428574,
+        "SPECIALDEFENSE": 171.428574,
+        "SPEED": 137.142853
+      },
+      "abilities": [
+        "shocking",
+        "DangerZone"
+      ],
+      "moves": [
+        "Tackle",
+        "Drain",
+        "Growth",
+        "VoltRush",
+        "PoisonSting",
+        "RootStrike",
+        "ShockSting"
+      ],
+      "evolutions": null
+    },
+    "Ignilob": {
+      "monsterName": "Ignilob",
+      "monsterID": 23,
+      "monsterType": [
+        "Fire",
+        "Water"
+      ],
+      "baseStats": {
+        "HP": 77.15746,
+        "ATTACK": 104.589165,
+        "DEFENSE": 102.801323,
+        "SPECIALATTACK": 131.4069,
+        "SPECIALDEFENSE": 66.1848,
+        "SPEED": 67.86037
+      },
+      "abilities": [
+        "DangerZone"
+      ],
+      "moves": [
+        "FlameTackle",
+        "ArmorUp",
+        "BubbleSpray",
+        "PebblePulse",
+        "WaterTackle",
+        "FireSpray"
+      ],
+      "evolutions": null
+    },
+    "Cindclaw": {
+      "monsterName": "Cindclaw",
+      "monsterID": 24,
+      "monsterType": [
+        "Fire",
+        "Water"
+      ],
+      "baseStats": {
+        "HP": 105.214722,
+        "ATTACK": 142.621582,
+        "DEFENSE": 140.183624,
+        "SPECIALATTACK": 179.191238,
+        "SPECIALDEFENSE": 90.252,
+        "SPEED": 92.5368652
+      },
+      "abilities": [
+        "DangerZone"
+      ],
+      "moves": [
+        "FlameTackle",
+        "ArmorUp",
+        "BubbleSpray",
+        "PebblePulse",
+        "WaterTackle",
+        "FireSpray"
+      ],
+      "evolutions": null
+    },
+    "Cindcannon": {
+      "monsterName": "Cindcannon",
+      "monsterID": 25,
+      "monsterType": [
+        "Fire",
+        "Water"
+      ],
+      "baseStats": {
+        "HP": 126.257668,
+        "ATTACK": 171.1459,
+        "DEFENSE": 168.220352,
+        "SPECIALATTACK": 215.02948,
+        "SPECIALDEFENSE": 108.3024,
+        "SPEED": 111.044235
+      },
+      "abilities": [
+        "DangerZone"
+      ],
+      "moves": [
+        "FlameTackle",
+        "ArmorUp",
+        "BubbleSpray",
+        "PebblePulse",
+        "WaterTackle",
+        "FireSpray"
+      ],
+      "evolutions": null
+    },
+    "Lapiseal": {
+      "monsterName": "Lapiseal",
+      "monsterID": 26,
+      "monsterType": [
+        "Ice",
+        "Earth"
+      ],
+      "baseStats": {
+        "HP": 66.0,
+        "ATTACK": 124.0,
+        "DEFENSE": 84.0,
+        "SPECIALATTACK": 121.0,
+        "SPECIALDEFENSE": 71.0,
+        "SPEED": 84.0
+      },
+      "abilities": [
+        "DangerZone"
+      ],
+      "moves": [
+        "Tackle",
+        "PebblePulse",
+        "ColdCrash",
+        "ArmorUp",
+        "StalactiteSpear",
+        "IceSpray"
+      ],
+      "evolutions": null
+    },
+    "Lapisvitula": {
+      "monsterName": "Lapisvitula",
+      "monsterID": 27,
+      "monsterType": [
+        "Ice",
+        "Earth"
+      ],
+      "baseStats": {
+        "HP": 66.0,
+        "ATTACK": 124.0,
+        "DEFENSE": 84.0,
+        "SPECIALATTACK": 121.0,
+        "SPECIALDEFENSE": 71.0,
+        "SPEED": 84.0
+      },
+      "abilities": [
+        "DangerZone"
+      ],
+      "moves": [
+        "Tackle",
+        "PebblePulse",
+        "ColdCrash",
+        "ArmorUp",
+        "StalactiteSpear",
+        "IceSpray"
+      ],
+      "evolutions": null
+    },
+    "Lapislion": {
+      "monsterName": "Lapislion",
+      "monsterID": 28,
+      "monsterType": [
+        "Ice",
+        "Earth"
+      ],
+      "baseStats": {
+        "HP": 66.0,
+        "ATTACK": 124.0,
+        "DEFENSE": 84.0,
+        "SPECIALATTACK": 121.0,
+        "SPECIALDEFENSE": 71.0,
+        "SPEED": 84.0
+      },
+      "abilities": [
+        "DangerZone"
+      ],
+      "moves": [
+        "Tackle",
+        "PebblePulse",
+        "ColdCrash",
+        "ArmorUp",
+        "StalactiteSpear",
+        "IceSpray"
+      ],
+      "evolutions": null
+    },
+    "Elofly": {
+      "monsterName": "Elofly",
+      "monsterID": 29,
+      "monsterType": [
+        "Normal",
+        "Wind"
+      ],
+      "baseStats": {
+        "HP": 95.30271,
+        "ATTACK": 91.85804,
+        "DEFENSE": 86.11691,
+        "SPECIALATTACK": 80.3757858,
+        "SPECIALDEFENSE": 80.3757858,
+        "SPEED": 115.970772
+      },
+      "abilities": [
+        "daunt",
+        "guts"
+      ],
+      "moves": [
+        "Tackle",
+        "AirStrike",
+        "Unnerve",
+        "WindBlast",
+        "SpeedStrike",
+        "NormalWave"
+      ],
+      "evolutions": null
+    },
+    "Elowind": {
+      "monsterName": "Elowind",
+      "monsterID": 30,
+      "monsterType": [
+        "Normal",
+        "Wind"
+      ],
+      "baseStats": {
+        "HP": 129.958237,
+        "ATTACK": 125.260963,
+        "DEFENSE": 117.432152,
+        "SPECIALATTACK": 109.603348,
+        "SPECIALDEFENSE": 109.603348,
+        "SPEED": 158.141968
+      },
+      "abilities": [
+        "daunt",
+        "guts"
+      ],
+      "moves": [
+        "Tackle",
+        "AirStrike",
+        "Unnerve",
+        "WindBlast",
+        "SpeedStrike",
+        "NormalWave"
+      ],
+      "evolutions": null
+    },
+    "Elostorm": {
+      "monsterName": "Elostorm",
+      "monsterID": 31,
+      "monsterType": [
+        "Normal",
+        "Wind"
+      ],
+      "baseStats": {
+        "HP": 155.94989,
+        "ATTACK": 150.313156,
+        "DEFENSE": 140.918579,
+        "SPECIALATTACK": 131.524017,
+        "SPECIALDEFENSE": 131.524017,
+        "SPEED": 189.770355
+      },
+      "abilities": [
+        "daunt",
+        "guts"
+      ],
+      "moves": [
+        "Tackle",
+        "AirStrike",
+        "Unnerve",
+        "WindBlast",
+        "SpeedStrike",
+        "NormalWave"
+      ],
+      "evolutions": null
+    },
+    "Rockitten": {
+      "monsterName": "Rockitten",
+      "monsterID": 32,
+      "monsterType": [
+        "Earth",
+        "Steel"
+      ],
+      "baseStats": {
+        "HP": 88.8888855,
+        "ATTACK": 133.333328,
+        "DEFENSE": 144.444443,
+        "SPECIALATTACK": 61.11111,
+        "SPECIALDEFENSE": 72.22222,
+        "SPEED": 50.0
+      },
+      "abilities": [
+        "SuperArmor",
+        "guts"
+      ],
+      "moves": [
+        "Tackle",
+        "StalactiteSpear",
+        "ArmorUp",
+        "PebblePulse"
+      ],
+      "evolutions": null
+    },
+    "Boulynx": {
+      "monsterName": "Boulynx",
+      "monsterID": 33,
+      "monsterType": [
+        "Earth",
+        "Steel"
+      ],
+      "baseStats": {
+        "HP": 109.265732,
+        "ATTACK": 163.89859,
+        "DEFENSE": 177.556824,
+        "SPECIALATTACK": 96.45433,
+        "SPECIALDEFENSE": 110.8774,
+        "SPEED": 91.94711
+      },
+      "abilities": [
+        "SuperArmor",
+        "guts"
+      ],
+      "moves": [
+        "Tackle",
+        "StalactiteSpear",
+        "ArmorUp",
+        "PebblePulse"
+      ],
+      "evolutions": null
+    },
+    "Rockat": {
+      "monsterName": "Rockat",
+      "monsterID": 34,
+      "monsterType": [
+        "Earth",
+        "Steel"
+      ],
+      "baseStats": {
+        "HP": 130.685822,
+        "ATTACK": 196.028732,
+        "DEFENSE": 215.33696,
+        "SPECIALATTACK": 115.362915,
+        "SPECIALDEFENSE": 132.613449,
+        "SPEED": 109.972115
+      },
+      "abilities": [
+        "SuperArmor",
+        "guts"
+      ],
+      "moves": [
+        "Tackle",
+        "StalactiteSpear",
+        "ArmorUp",
+        "PebblePulse"
+      ],
+      "evolutions": null
+    },
+    "Delichick": {
+      "monsterName": "Delichick",
+      "monsterID": 35,
+      "monsterType": [
+        "Wind",
+        "Water"
+      ],
+      "baseStats": {
+        "HP": 87.2093048,
+        "ATTACK": 101.162788,
+        "DEFENSE": 73.25581,
+        "SPECIALATTACK": 101.162788,
+        "SPECIALDEFENSE": 73.25581,
+        "SPEED": 113.953491
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "Unnerve",
+        "AirStrike",
+        "BubbleSpray",
+        "WindBlast"
+      ],
+      "evolutions": null
+    },
+    "Felichick": {
+      "monsterName": "Felichick",
+      "monsterID": 35,
+      "monsterType": [
+        "Wind",
+        "Combat"
+      ],
+      "baseStats": {
+        "HP": 85.8,
+        "ATTACK": 101.2,
+        "DEFENSE": 82.5,
+        "SPECIALATTACK": 81.4,
+        "SPECIALDEFENSE": 69.3,
+        "SPEED": 129.8
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "Unnerve",
+        "AirStrike",
+        "BubbleSpray",
+        "WindBlast"
+      ],
+      "evolutions": null
+    },
+    "Herotint": {
+      "monsterName": "Herotint",
+      "monsterID": 36,
+      "monsterType": [
+        "Wind",
+        "Water"
+      ],
+      "baseStats": {
+        "HP": 118.921776,
+        "ATTACK": 137.949265,
+        "DEFENSE": 99.8942947,
+        "SPECIALATTACK": 137.949265,
+        "SPECIALDEFENSE": 99.8942947,
+        "SPEED": 155.391113
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "Unnerve",
+        "AirStrike",
+        "BubbleSpray",
+        "WindBlast"
+      ],
+      "evolutions": null
+    },
+    "Feerotint": {
+      "monsterName": "Feerotint",
+      "monsterID": 36,
+      "monsterType": [
+        "Wind",
+        "Combat"
+      ],
+      "baseStats": {
+        "HP": 117.0,
+        "ATTACK": 138.0,
+        "DEFENSE": 112.5,
+        "SPECIALATTACK": 111.0,
+        "SPECIALDEFENSE": 94.5,
+        "SPEED": 177.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "Unnerve",
+        "AirStrike",
+        "BubbleSpray",
+        "WindBlast"
+      ],
+      "evolutions": null
+    },
+    "Azuron": {
+      "monsterName": "Azuron",
+      "monsterID": 37,
+      "monsterType": [
+        "Wind",
+        "Water"
+      ],
+      "baseStats": {
+        "HP": 142.706131,
+        "ATTACK": 165.539108,
+        "DEFENSE": 119.873154,
+        "SPECIALATTACK": 165.539108,
+        "SPECIALDEFENSE": 119.873154,
+        "SPEED": 186.469345
+      },
+      "abilities": [
+        "rainshaman"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "Unnerve",
+        "AirStrike",
+        "BubbleSpray",
+        "WindBlast"
+      ],
+      "evolutions": null
+    },
+    "Blancron": {
+      "monsterName": "Blancron",
+      "monsterID": 37,
+      "monsterType": [
+        "Wind",
+        "Combat"
+      ],
+      "baseStats": {
+        "HP": 140.4,
+        "ATTACK": 165.6,
+        "DEFENSE": 135.0,
+        "SPECIALATTACK": 133.2,
+        "SPECIALDEFENSE": 113.4,
+        "SPEED": 212.4
+      },
+      "abilities": [
+        "Shock Immunity"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "Unnerve",
+        "AirStrike",
+        "BubbleSpray",
+        "WindBlast"
+      ],
+      "evolutions": null
+    },
+    "Lambert": {
+      "monsterName": "Lambert",
+      "monsterID": 38,
+      "monsterType": [
+        "Leaf",
+        "Psy"
+      ],
+      "baseStats": {
+        "HP": 98.58491,
+        "ATTACK": 98.58491,
+        "DEFENSE": 88.20755,
+        "SPECIALATTACK": 129.71698,
+        "SPECIALDEFENSE": 77.8301849,
+        "SPEED": 57.07547
+      },
+      "abilities": [
+        "MindFray",
+        "chlorophyll"
+      ],
+      "moves": [
+        "Tackle",
+        "RootStrike",
+        "Growth",
+        "PsiStrike",
+        "Drain",
+        "PoisonSting",
+        "PsiBlast"
+      ],
+      "evolutions": null
+    },
+    "Vambert": {
+      "monsterName": "Vambert",
+      "monsterID": 38,
+      "monsterType": [
+        "Poison",
+        "Dark"
+      ],
+      "baseStats": {
+        "HP": 98.58491,
+        "ATTACK": 98.58491,
+        "DEFENSE": 88.20755,
+        "SPECIALATTACK": 129.71698,
+        "SPECIALDEFENSE": 77.8301849,
+        "SPEED": 57.07547
+      },
+      "abilities": [
+        "MindFray",
+        "chlorophyll"
+      ],
+      "moves": [
+        "Tackle",
+        "RootStrike",
+        "Growth",
+        "PsiStrike",
+        "Drain",
+        "PoisonSting",
+        "PsiBlast"
+      ],
+      "evolutions": null
+    },
+    "Legko": {
+      "monsterName": "Legko",
+      "monsterID": 39,
+      "monsterType": [
+        "Leaf",
+        "Psy"
+      ],
+      "baseStats": {
+        "HP": 134.43396,
+        "ATTACK": 134.43396,
+        "DEFENSE": 120.28302,
+        "SPECIALATTACK": 176.8868,
+        "SPECIALDEFENSE": 106.132072,
+        "SPEED": 77.8301849
+      },
+      "abilities": [
+        "MindFray",
+        "chlorophyll"
+      ],
+      "moves": [
+        "Tackle",
+        "RootStrike",
+        "Growth",
+        "PsiStrike",
+        "Drain",
+        "PoisonSting",
+        "PsiBlast"
+      ],
+      "evolutions": null
+    },
+    "Velko": {
+      "monsterName": "Velko",
+      "monsterID": 39,
+      "monsterType": [
+        "Poison",
+        "Dark"
+      ],
+      "baseStats": {
+        "HP": 134.43396,
+        "ATTACK": 134.43396,
+        "DEFENSE": 120.28302,
+        "SPECIALATTACK": 176.8868,
+        "SPECIALDEFENSE": 106.132072,
+        "SPEED": 77.8301849
+      },
+      "abilities": [
+        "MindFray",
+        "chlorophyll"
+      ],
+      "moves": [
+        "Tackle",
+        "RootStrike",
+        "Growth",
+        "PsiStrike",
+        "Drain",
+        "PoisonSting",
+        "PsiBlast"
+      ],
+      "evolutions": null
+    },
+    "Moloch": {
+      "monsterName": "Moloch",
+      "monsterID": 40,
+      "monsterType": [
+        "Leaf",
+        "Psy"
+      ],
+      "baseStats": {
+        "HP": 164.05307,
+        "ATTACK": 164.05307,
+        "DEFENSE": 146.784317,
+        "SPECIALATTACK": 200.615891,
+        "SPECIALDEFENSE": 129.515564,
+        "SPEED": 94.97808
+      },
+      "abilities": [
+        "MindFray",
+        "chlorophyll"
+      ],
+      "moves": [
+        "Tackle",
+        "RootStrike",
+        "Growth",
+        "PsiStrike",
+        "Drain",
+        "PoisonSting",
+        "PsiBlast"
+      ],
+      "evolutions": null
+    },
+    "Velloch": {
+      "monsterName": "Velloch",
+      "monsterID": 40,
+      "monsterType": [
+        "Poison",
+        "Dark"
+      ],
+      "baseStats": {
+        "HP": 164.05307,
+        "ATTACK": 164.05307,
+        "DEFENSE": 146.784317,
+        "SPECIALATTACK": 200.615891,
+        "SPECIALDEFENSE": 129.515564,
+        "SPEED": 94.97808
+      },
+      "abilities": [
+        "MindFray",
+        "chlorophyll"
+      ],
+      "moves": [
+        "Tackle",
+        "RootStrike",
+        "Growth",
+        "PsiStrike",
+        "Drain",
+        "PoisonSting",
+        "PsiBlast"
+      ],
+      "evolutions": null
+    },
+    "Rocksnek": {
+      "monsterName": "Rocksnek",
+      "monsterID": 41,
+      "monsterType": [
+        "Earth",
+        "Fire"
+      ],
+      "baseStats": {
+        "HP": 73.66071,
+        "ATTACK": 116.629463,
+        "DEFENSE": 84.70982,
+        "SPECIALATTACK": 79.79911,
+        "SPECIALDEFENSE": 96.98661,
+        "SPEED": 98.21429
+      },
+      "abilities": [
+        "rockhead"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "Unnerve",
+        "StalactiteSpear"
+      ],
+      "evolutions": null
+    },
+    "Rockhead": {
+      "monsterName": "Rockhead",
+      "monsterID": 42,
+      "monsterType": [
+        "Earth",
+        "Fire"
+      ],
+      "baseStats": {
+        "HP": 100.446426,
+        "ATTACK": 159.040176,
+        "DEFENSE": 115.51339,
+        "SPECIALATTACK": 108.816963,
+        "SPECIALDEFENSE": 132.254471,
+        "SPEED": 133.928574
+      },
+      "abilities": [
+        "rockhead"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "Unnerve",
+        "StalactiteSpear"
+      ],
+      "evolutions": null
+    },
+    "Rockobra": {
+      "monsterName": "Rockobra",
+      "monsterID": 43,
+      "monsterType": [
+        "Earth",
+        "Fire"
+      ],
+      "baseStats": {
+        "HP": 120.535713,
+        "ATTACK": 190.848221,
+        "DEFENSE": 138.616074,
+        "SPECIALATTACK": 130.580353,
+        "SPECIALDEFENSE": 158.705353,
+        "SPEED": 160.714279
+      },
+      "abilities": [
+        "rockhead"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "Unnerve",
+        "StalactiteSpear"
+      ],
+      "evolutions": null
+    },
+    "Tulemur": {
+      "monsterName": "Tulemur",
+      "monsterID": 44,
+      "monsterType": [
+        "Normal",
+        "Leaf"
+      ],
+      "baseStats": {
+        "HP": 95.81088,
+        "ATTACK": 135.320526,
+        "DEFENSE": 94.4795761,
+        "SPECIALATTACK": 70.85968,
+        "SPECIALDEFENSE": 70.85968,
+        "SPEED": 82.66963
+      },
+      "abilities": [
+        "tech"
+      ],
+      "moves": [
+        "Growl",
+        "Tackle",
+        "RootStrike",
+        "NormalWave",
+        "Drain",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Tulemuru": {
+      "monsterName": "Tulemuru",
+      "monsterID": 45,
+      "monsterType": [
+        "Normal",
+        "Leaf"
+      ],
+      "baseStats": {
+        "HP": 142.394913,
+        "ATTACK": 200.407639,
+        "DEFENSE": 165.095551,
+        "SPECIALATTACK": 123.821655,
+        "SPECIALDEFENSE": 123.821655,
+        "SPEED": 144.4586
+      },
+      "abilities": [
+        "tech"
+      ],
+      "moves": [
+        "Growl",
+        "Tackle",
+        "RootStrike",
+        "NormalWave",
+        "Drain",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Larvug": {
+      "monsterName": "Larvug",
+      "monsterID": 46,
+      "monsterType": [
+        "Insect",
+        "Dino"
+      ],
+      "baseStats": {
+        "HP": 85.71429,
+        "ATTACK": 71.42857,
+        "DEFENSE": 100.0,
+        "SPECIALATTACK": 71.42857,
+        "SPECIALDEFENSE": 128.571426,
+        "SPEED": 92.85714
+      },
+      "abilities": [
+        "agile"
+      ],
+      "moves": [
+        "Tackle",
+        "Sting",
+        "PoisonSting",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "LarvaFly": {
+      "monsterName": "LarvaFly",
+      "monsterID": 47,
+      "monsterType": [
+        "Dino",
+        "Insect"
+      ],
+      "baseStats": {
+        "HP": 141.897812,
+        "ATTACK": 118.248184,
+        "DEFENSE": 165.547455,
+        "SPECIALATTACK": 118.248184,
+        "SPECIALDEFENSE": 202.33577,
+        "SPEED": 153.722626
+      },
+      "abilities": [
+        "agile"
+      ],
+      "moves": [
+        "Tackle",
+        "Sting",
+        "PoisonSting",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "Aard": {
+      "monsterName": "Aard",
+      "monsterID": 48,
+      "monsterType": [
+        "Earth",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 99.0,
+        "ATTACK": 94.0,
+        "DEFENSE": 118.0,
+        "SPECIALATTACK": 39.0,
+        "SPECIALDEFENSE": 119.0,
+        "SPEED": 81.0
+      },
+      "abilities": [
+        "sandrush"
+      ],
+      "moves": [
+        "Tackle",
+        "Unnerve",
+        "Growl",
+        "NormalWave"
+      ],
+      "evolutions": null
+    },
+    "Chaard": {
+      "monsterName": "Chaard",
+      "monsterID": 48,
+      "monsterType": [
+        "Fire",
+        "Dark"
+      ],
+      "baseStats": {
+        "HP": 25.0,
+        "ATTACK": 25.0,
+        "DEFENSE": 25.0,
+        "SPECIALATTACK": 25.0,
+        "SPECIALDEFENSE": 25.0,
+        "SPEED": 25.0
+      },
+      "abilities": [
+        "sandrush"
+      ],
+      "moves": [
+        "Tackle",
+        "Unnerve",
+        "FireSpray",
+        "Growl",
+        "Rob",
+        "FlameTackle",
+        "SinisterPulse"
+      ],
+      "evolutions": null
+    },
+    "Aartorious": {
+      "monsterName": "Aartorious",
+      "monsterID": 49,
+      "monsterType": [
+        "Earth",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 171.0,
+        "ATTACK": 133.0,
+        "DEFENSE": 184.0,
+        "SPECIALATTACK": 113.0,
+        "SPECIALDEFENSE": 184.0,
+        "SPEED": 115.0
+      },
+      "abilities": [
+        "sandrush"
+      ],
+      "moves": [
+        "Tackle",
+        "Unnerve",
+        "Growl",
+        "NormalWave"
+      ],
+      "evolutions": null
+    },
+    "Chaartorious": {
+      "monsterName": "Chaartorious",
+      "monsterID": 49,
+      "monsterType": [
+        "Fire",
+        "Dark"
+      ],
+      "baseStats": {
+        "HP": 25.0,
+        "ATTACK": 25.0,
+        "DEFENSE": 25.0,
+        "SPECIALATTACK": 25.0,
+        "SPECIALDEFENSE": 25.0,
+        "SPEED": 25.0
+      },
+      "abilities": [
+        "sandrush"
+      ],
+      "moves": [
+        "Tackle",
+        "Unnerve",
+        "FireSpray",
+        "Growl",
+        "Rob",
+        "FlameTackle",
+        "SinisterPulse"
+      ],
+      "evolutions": null
+    },
+    "Dreed": {
+      "monsterName": "Dreed",
+      "monsterID": 50,
+      "monsterType": [
+        "Leaf",
+        "Poison"
+      ],
+      "baseStats": {
+        "HP": 85.73529,
+        "ATTACK": 88.97059,
+        "DEFENSE": 72.79412,
+        "SPECIALATTACK": 124.558823,
+        "SPECIALDEFENSE": 72.79412,
+        "SPEED": 105.147057
+      },
+      "abilities": [
+        "toxicskin"
+      ],
+      "moves": [
+        "Tackle",
+        "PoisonSting",
+        "SeedShot",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Drout": {
+      "monsterName": "Drout",
+      "monsterID": 51,
+      "monsterType": [
+        "Leaf",
+        "Poison"
+      ],
+      "baseStats": {
+        "HP": 116.911758,
+        "ATTACK": 121.323532,
+        "DEFENSE": 99.26471,
+        "SPECIALATTACK": 169.852936,
+        "SPECIALDEFENSE": 99.26471,
+        "SPEED": 143.382355
+      },
+      "abilities": [
+        "toxicskin"
+      ],
+      "moves": [
+        "Tackle",
+        "PoisonSting",
+        "SeedShot",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Dragalia": {
+      "monsterName": "Dragalia",
+      "monsterID": 52,
+      "monsterType": [
+        "Leaf",
+        "Poison"
+      ],
+      "baseStats": {
+        "HP": 140.294113,
+        "ATTACK": 145.588242,
+        "DEFENSE": 119.117653,
+        "SPECIALATTACK": 203.823532,
+        "SPECIALDEFENSE": 119.117653,
+        "SPEED": 172.058823
+      },
+      "abilities": [
+        "toxicskin"
+      ],
+      "moves": [
+        "Tackle",
+        "PoisonSting",
+        "SeedShot",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Coldrhabi": {
+      "monsterName": "Coldrhabi",
+      "monsterID": 53,
+      "monsterType": [
+        "Leaf",
+        "Ice"
+      ],
+      "baseStats": {
+        "HP": 77.66666,
+        "ATTACK": 77.66666,
+        "DEFENSE": 76.73091,
+        "SPECIALATTACK": 124.193665,
+        "SPECIALDEFENSE": 114.258179,
+        "SPEED": 79.48395
+      },
+      "abilities": [
+        "snowshaman"
+      ],
+      "moves": [
+        "Tackle",
+        "IceSpray",
+        "SeedShot",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Letice": {
+      "monsterName": "Letice",
+      "monsterID": 54,
+      "monsterType": [
+        "Leaf",
+        "Ice"
+      ],
+      "baseStats": {
+        "HP": 105.909081,
+        "ATTACK": 105.909081,
+        "DEFENSE": 104.633064,
+        "SPECIALATTACK": 169.355,
+        "SPECIALDEFENSE": 155.80661,
+        "SPEED": 108.3872
+      },
+      "abilities": [
+        "snowshaman"
+      ],
+      "moves": [
+        "Tackle",
+        "IceSpray",
+        "SeedShot",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Frostuce": {
+      "monsterName": "Frostuce",
+      "monsterID": 55,
+      "monsterType": [
+        "Leaf",
+        "Ice"
+      ],
+      "baseStats": {
+        "HP": 127.090889,
+        "ATTACK": 127.090889,
+        "DEFENSE": 125.559669,
+        "SPECIALATTACK": 203.226,
+        "SPECIALDEFENSE": 186.967926,
+        "SPEED": 130.064636
+      },
+      "abilities": [
+        "snowshaman"
+      ],
+      "moves": [
+        "Tackle",
+        "IceSpray",
+        "SeedShot",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Chillimp": {
+      "monsterName": "Chillimp",
+      "monsterID": 58,
+      "monsterType": [
+        "Ice",
+        "Combat"
+      ],
+      "baseStats": {
+        "HP": 111.610878,
+        "ATTACK": 151.882843,
+        "DEFENSE": 88.59833,
+        "SPECIALATTACK": 71.33891,
+        "SPECIALDEFENSE": 77.09205,
+        "SPEED": 49.4769859
+      },
+      "abilities": [
+        "punchpuller"
+      ],
+      "moves": [
+        "Tackle",
+        "Growl",
+        "FreezeFist",
+        "FastFist"
+      ],
+      "evolutions": null
+    },
+    "Cheti": {
+      "monsterName": "Cheti",
+      "monsterID": 59,
+      "monsterType": [
+        "Ice",
+        "Combat"
+      ],
+      "baseStats": {
+        "HP": 191.046555,
+        "ATTACK": 218.534912,
+        "DEFENSE": 151.655518,
+        "SPECIALATTACK": 122.112236,
+        "SPECIALDEFENSE": 131.959991,
+        "SPEED": 84.69074
+      },
+      "abilities": [
+        "punchpuller"
+      ],
+      "moves": [
+        "Tackle",
+        "Growl",
+        "FreezeFist",
+        "FastFist"
+      ],
+      "evolutions": null
+    },
+    "Boltnu": {
+      "monsterName": "Boltnu",
+      "monsterID": 60,
+      "monsterType": [
+        "Lightning",
+        "Steel"
+      ],
+      "baseStats": {
+        "HP": 59.1397858,
+        "ATTACK": 70.96774,
+        "DEFENSE": 112.365593,
+        "SPECIALATTACK": 141.935486,
+        "SPECIALDEFENSE": 82.7957,
+        "SPEED": 82.7957
+      },
+      "abilities": [],
+      "moves": [
+        "Tackle",
+        "ShockSting",
+        "GearBlast",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "Zagon": {
+      "monsterName": "Zagon",
+      "monsterID": 61,
+      "monsterType": [
+        "Lightning",
+        "Steel"
+      ],
+      "baseStats": {
+        "HP": 120.495483,
+        "ATTACK": 124.937706,
+        "DEFENSE": 158.15033,
+        "SPECIALATTACK": 204.895218,
+        "SPECIALDEFENSE": 145.760651,
+        "SPEED": 145.760651
+      },
+      "abilities": [],
+      "moves": [
+        "Tackle",
+        "ShockSting",
+        "GearBlast",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "Drashimi": {
+      "monsterName": "Drashimi",
+      "monsterID": 62,
+      "monsterType": [
+        "Dino",
+        "Combat"
+      ],
+      "baseStats": {
+        "HP": 68.75,
+        "ATTACK": 100.833336,
+        "DEFENSE": 114.583336,
+        "SPECIALATTACK": 91.6666641,
+        "SPECIALDEFENSE": 96.25,
+        "SPEED": 77.9166641
+      },
+      "abilities": [
+        "guts"
+      ],
+      "moves": [
+        "Tackle",
+        "DinoClaw",
+        "ArmorUp",
+        "LowKick"
+      ],
+      "evolutions": null
+    },
+    "Drushi": {
+      "monsterName": "Drushi",
+      "monsterID": 63,
+      "monsterType": [
+        "Dino",
+        "Combat"
+      ],
+      "baseStats": {
+        "HP": 93.75,
+        "ATTACK": 137.5,
+        "DEFENSE": 156.25,
+        "SPECIALATTACK": 125.0,
+        "SPECIALDEFENSE": 131.25,
+        "SPEED": 106.25
+      },
+      "abilities": [
+        "guts"
+      ],
+      "moves": [
+        "Tackle",
+        "DinoClaw",
+        "ArmorUp",
+        "LowKick"
+      ],
+      "evolutions": null
+    },
+    "Dragami": {
+      "monsterName": "Dragami",
+      "monsterID": 64,
+      "monsterType": [
+        "Dino",
+        "Combat"
+      ],
+      "baseStats": {
+        "HP": 112.5,
+        "ATTACK": 165.0,
+        "DEFENSE": 187.5,
+        "SPECIALATTACK": 150.0,
+        "SPECIALDEFENSE": 157.5,
+        "SPEED": 127.5
+      },
+      "abilities": [
+        "guts"
+      ],
+      "moves": [
+        "Tackle",
+        "DinoClaw",
+        "ArmorUp",
+        "LowKick"
+      ],
+      "evolutions": null
+    },
+    "Metesaur": {
+      "monsterName": "Metesaur",
+      "monsterID": 65,
+      "monsterType": [
+        "Earth",
+        "Wind"
+      ],
+      "baseStats": {
+        "HP": 85.43689,
+        "ATTACK": 112.135925,
+        "DEFENSE": 69.41747,
+        "SPECIALATTACK": 64.07767,
+        "SPECIALDEFENSE": 80.097084,
+        "SPEED": 138.834946
+      },
+      "abilities": [
+        "rockhead"
+      ],
+      "moves": [
+        "Tackle",
+        "FlameTackle",
+        "FireSpray",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Meteodactly": {
+      "monsterName": "Meteodactly",
+      "monsterID": 66,
+      "monsterType": [
+        "Earth",
+        "Wind"
+      ],
+      "baseStats": {
+        "HP": 141.565079,
+        "ATTACK": 185.804169,
+        "DEFENSE": 115.021622,
+        "SPECIALATTACK": 106.173813,
+        "SPECIALDEFENSE": 132.717255,
+        "SPEED": 218.718048
+      },
+      "abilities": [
+        "rockhead"
+      ],
+      "moves": [
+        "Tackle",
+        "FlameTackle",
+        "FireSpray",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Pyghoul": {
+      "monsterName": "Pyghoul",
+      "monsterID": 67,
+      "monsterType": [
+        "Undead",
+        "Dino"
+      ],
+      "baseStats": {
+        "HP": 121.323532,
+        "ATTACK": 80.8823547,
+        "DEFENSE": 97.05882,
+        "SPECIALATTACK": 80.8823547,
+        "SPECIALDEFENSE": 97.05882,
+        "SPEED": 72.79412
+      },
+      "abilities": [
+        "prankster"
+      ],
+      "moves": [
+        "Tackle",
+        "DinoClaw",
+        "Haunt",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Vyghoul": {
+      "monsterName": "Vyghoul",
+      "monsterID": 67,
+      "monsterType": [
+        "Undead",
+        "Poison"
+      ],
+      "baseStats": {
+        "HP": 121.323532,
+        "ATTACK": 80.8823547,
+        "DEFENSE": 97.05882,
+        "SPECIALATTACK": 80.8823547,
+        "SPECIALDEFENSE": 97.05882,
+        "SPEED": 72.79412
+      },
+      "abilities": [
+        "prankster"
+      ],
+      "moves": [
+        "Tackle",
+        "DinoClaw",
+        "Haunt",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Pythock": {
+      "monsterName": "Pythock",
+      "monsterID": 68,
+      "monsterType": [
+        "Undead",
+        "Dino"
+      ],
+      "baseStats": {
+        "HP": 198.529419,
+        "ATTACK": 132.352951,
+        "DEFENSE": 158.823532,
+        "SPECIALATTACK": 132.352951,
+        "SPECIALDEFENSE": 158.823532,
+        "SPEED": 119.117653
+      },
+      "abilities": [
+        "prankster"
+      ],
+      "moves": [
+        "Tackle",
+        "DinoClaw",
+        "Haunt",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Vythock": {
+      "monsterName": "Vythock",
+      "monsterID": 68,
+      "monsterType": [
+        "Undead",
+        "Poison"
+      ],
+      "baseStats": {
+        "HP": 198.529419,
+        "ATTACK": 132.352951,
+        "DEFENSE": 158.823532,
+        "SPECIALATTACK": 132.352951,
+        "SPECIALDEFENSE": 158.823532,
+        "SPEED": 119.117653
+      },
+      "abilities": [
+        "prankster"
+      ],
+      "moves": [
+        "Tackle",
+        "DinoClaw",
+        "Haunt",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Seltek": {
+      "monsterName": "Seltek",
+      "monsterID": 69,
+      "monsterType": [
+        "Earth",
+        "Insect"
+      ],
+      "baseStats": {
+        "HP": 113.14286,
+        "ATTACK": 117.333336,
+        "DEFENSE": 123.619049,
+        "SPECIALATTACK": 71.2381,
+        "SPECIALDEFENSE": 75.42857,
+        "SPEED": 49.2380943
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "StalactiteSpear",
+        "BugCut",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Selmatek": {
+      "monsterName": "Selmatek",
+      "monsterID": 70,
+      "monsterType": [
+        "Earth",
+        "Insect"
+      ],
+      "baseStats": {
+        "HP": 185.142853,
+        "ATTACK": 192.0,
+        "DEFENSE": 202.285721,
+        "SPECIALATTACK": 116.571426,
+        "SPECIALDEFENSE": 123.428574,
+        "SPEED": 80.57143
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "StalactiteSpear",
+        "BugCut",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Turnipper": {
+      "monsterName": "Turnipper",
+      "monsterID": 71,
+      "monsterType": [
+        "Leaf",
+        "Dark"
+      ],
+      "baseStats": {
+        "HP": 87.0,
+        "ATTACK": 102.0,
+        "DEFENSE": 63.0,
+        "SPECIALATTACK": 99.0,
+        "SPECIALDEFENSE": 64.0,
+        "SPEED": 135.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "Rob",
+        "RootStrike",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Beenstalker": {
+      "monsterName": "Beenstalker",
+      "monsterID": 72,
+      "monsterType": [
+        "Leaf",
+        "Dark"
+      ],
+      "baseStats": {
+        "HP": 150.0,
+        "ATTACK": 176.0,
+        "DEFENSE": 102.0,
+        "SPECIALATTACK": 171.0,
+        "SPECIALDEFENSE": 102.0,
+        "SPEED": 199.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "Rob",
+        "RootStrike",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Agnite": {
+      "monsterName": "Agnite",
+      "monsterID": 73,
+      "monsterType": [
+        "Fire",
+        "Dino"
+      ],
+      "baseStats": {
+        "HP": 61.0,
+        "ATTACK": 150.0,
+        "DEFENSE": 72.0,
+        "SPECIALATTACK": 77.0,
+        "SPECIALDEFENSE": 78.0,
+        "SPEED": 112.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "PrehistoricPulse",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Agnidon": {
+      "monsterName": "Agnidon",
+      "monsterID": 74,
+      "monsterType": [
+        "Fire",
+        "Dino"
+      ],
+      "baseStats": {
+        "HP": 109.0,
+        "ATTACK": 197.0,
+        "DEFENSE": 94.0,
+        "SPECIALATTACK": 101.0,
+        "SPECIALDEFENSE": 102.0,
+        "SPEED": 147.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "PrehistoricPulse",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Agnigon": {
+      "monsterName": "Agnigon",
+      "monsterID": 75,
+      "monsterType": [
+        "Fire",
+        "Dino"
+      ],
+      "baseStats": {
+        "HP": 99.0,
+        "ATTACK": 235.0,
+        "DEFENSE": 123.0,
+        "SPECIALATTACK": 128.0,
+        "SPECIALDEFENSE": 132.0,
+        "SPEED": 183.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "PrehistoricPulse",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Memnomnon": {
+      "monsterName": "Memnomnon",
+      "monsterID": 78,
+      "monsterType": [
+        "Earth",
+        "Poison"
+      ],
+      "baseStats": {
+        "HP": 83.0,
+        "ATTACK": 107.0,
+        "DEFENSE": 84.0,
+        "SPECIALATTACK": 87.0,
+        "SPECIALDEFENSE": 85.0,
+        "SPEED": 104.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "PoisonSting",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "Miaownolith": {
+      "monsterName": "Miaownolith",
+      "monsterID": 79,
+      "monsterType": [
+        "Earth",
+        "Undead"
+      ],
+      "baseStats": {
+        "HP": 174.0,
+        "ATTACK": 96.0,
+        "DEFENSE": 213.0,
+        "SPECIALATTACK": 97.0,
+        "SPECIALDEFENSE": 214.0,
+        "SPEED": 106.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "PoisonSting",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "Pyraminx": {
+      "monsterName": "Pyraminx",
+      "monsterID": 80,
+      "monsterType": [
+        "Earth",
+        "Ice"
+      ],
+      "baseStats": {
+        "HP": 214.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 165.0,
+        "SPECIALATTACK": 131.0,
+        "SPECIALDEFENSE": 166.0,
+        "SPEED": 133.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "PoisonSting",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "Pyrominx": {
+      "monsterName": "Pyrominx",
+      "monsterID": 81,
+      "monsterType": [
+        "Earth",
+        "Fire"
+      ],
+      "baseStats": {
+        "HP": 140.0,
+        "ATTACK": 182.0,
+        "DEFENSE": 133.0,
+        "SPECIALATTACK": 180.0,
+        "SPECIALDEFENSE": 141.0,
+        "SPEED": 121.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "PoisonSting",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "Bigfin": {
+      "monsterName": "Bigfin",
+      "monsterID": 82,
+      "monsterType": [
+        "Leaf",
+        "Water"
+      ],
+      "baseStats": {
+        "HP": 250.0,
+        "ATTACK": 102.0,
+        "DEFENSE": 145.0,
+        "SPECIALATTACK": 171.0,
+        "SPECIALDEFENSE": 138.0,
+        "SPEED": 94.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "BubbleSpray",
+        "SeedShot",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Sharpfin": {
+      "monsterName": "Sharpfin",
+      "monsterID": 83,
+      "monsterType": [
+        "Leaf",
+        "Water"
+      ],
+      "baseStats": {
+        "HP": 127.0,
+        "ATTACK": 203.0,
+        "DEFENSE": 129.0,
+        "SPECIALATTACK": 116.0,
+        "SPECIALDEFENSE": 126.0,
+        "SPEED": 199.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "BubbleSpray",
+        "SeedShot",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Grintot": {
+      "monsterName": "Grintot",
+      "monsterID": 84,
+      "monsterType": [
+        "Earth"
+      ],
+      "baseStats": {
+        "HP": 93.4380951,
+        "ATTACK": 124.03907,
+        "DEFENSE": 139.806747,
+        "SPECIALATTACK": 64.23869,
+        "SPECIALDEFENSE": 75.91845,
+        "SPEED": 52.55893
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "PebblePulse",
+        "StalactiteSpear",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Grinflare": {
+      "monsterName": "Grinflare",
+      "monsterID": 85,
+      "monsterType": [
+        "Earth",
+        "Fire"
+      ],
+      "baseStats": {
+        "HP": 169.300262,
+        "ATTACK": 191.207169,
+        "DEFENSE": 190.31076,
+        "SPECIALATTACK": 116.393936,
+        "SPECIALDEFENSE": 137.556458,
+        "SPEED": 95.23141
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "PebblePulse",
+        "StalactiteSpear",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Grinshock": {
+      "monsterName": "Grinshock",
+      "monsterID": 86,
+      "monsterType": [
+        "Earth",
+        "Lightning"
+      ],
+      "baseStats": {
+        "HP": 187.136948,
+        "ATTACK": 88.80881,
+        "DEFENSE": 150.129166,
+        "SPECIALATTACK": 186.1582,
+        "SPECIALDEFENSE": 192.614563,
+        "SPEED": 95.15229
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "PebblePulse",
+        "StalactiteSpear",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Pondive": {
+      "monsterName": "Pondive",
+      "monsterID": 87,
+      "monsterType": [
+        "Insect",
+        "Water"
+      ],
+      "baseStats": {
+        "HP": 106.089226,
+        "ATTACK": 79.05915,
+        "DEFENSE": 99.594,
+        "SPECIALATTACK": 85.5962448,
+        "SPECIALDEFENSE": 99.594,
+        "SPEED": 80.0673447
+      },
+      "abilities": [
+        "Blubber"
+      ],
+      "moves": [
+        "Tackle",
+        "Sting",
+        "ArmorUp",
+        "WaterTackle",
+        "BugCut",
+        "BubbleSpray"
+      ],
+      "evolutions": null
+    },
+    "Divurf": {
+      "monsterName": "Divurf",
+      "monsterID": 88,
+      "monsterType": [
+        "Insect",
+        "Water"
+      ],
+      "baseStats": {
+        "HP": 215.0,
+        "ATTACK": 195.0,
+        "DEFENSE": 137.0,
+        "SPECIALATTACK": 102.0,
+        "SPECIALDEFENSE": 142.0,
+        "SPEED": 105.0
+      },
+      "abilities": [
+        "Blubber"
+      ],
+      "moves": [
+        "Tackle",
+        "Sting",
+        "ArmorUp",
+        "WaterTackle",
+        "BugCut",
+        "BubbleSpray"
+      ],
+      "evolutions": null
+    },
+    "Medipup": {
+      "monsterName": "Medipup",
+      "monsterID": 89,
+      "monsterType": [
+        "Psy",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 132.0,
+        "ATTACK": 137.5,
+        "DEFENSE": 88.0,
+        "SPECIALATTACK": 60.5,
+        "SPECIALDEFENSE": 66.0,
+        "SPEED": 66.0
+      },
+      "abilities": [
+        "healingaura"
+      ],
+      "moves": [
+        "Tackle",
+        "NormalWave",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Doctsy": {
+      "monsterName": "Doctsy",
+      "monsterID": 90,
+      "monsterType": [
+        "Psy",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 216.0,
+        "ATTACK": 225.0,
+        "DEFENSE": 144.0,
+        "SPECIALATTACK": 99.0,
+        "SPECIALDEFENSE": 108.0,
+        "SPEED": 108.0
+      },
+      "abilities": [
+        "healingaura"
+      ],
+      "moves": [
+        "Tackle",
+        "NormalWave",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Foillet": {
+      "monsterName": "Foillet",
+      "monsterID": 91,
+      "monsterType": [
+        "Steel",
+        "Wind"
+      ],
+      "baseStats": {
+        "HP": 109.0,
+        "ATTACK": 108.0,
+        "DEFENSE": 144.0,
+        "SPECIALATTACK": 35.0,
+        "SPECIALDEFENSE": 67.0,
+        "SPEED": 87.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "IronStrike",
+        "WindBlast",
+        "AirStrike"
+      ],
+      "evolutions": null
+    },
+    "Swanfoil": {
+      "monsterName": "Swanfoil",
+      "monsterID": 92,
+      "monsterType": [
+        "Steel",
+        "Wind"
+      ],
+      "baseStats": {
+        "HP": 164.0,
+        "ATTACK": 165.0,
+        "DEFENSE": 224.0,
+        "SPECIALATTACK": 75.0,
+        "SPECIALDEFENSE": 118.0,
+        "SPEED": 154.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "IronStrike",
+        "WindBlast",
+        "AirStrike"
+      ],
+      "evolutions": null
+    },
+    "Psynaps": {
+      "monsterName": "Psynaps",
+      "monsterID": 93,
+      "monsterType": [
+        "Psy",
+        "Lightning"
+      ],
+      "baseStats": {
+        "HP": 103.0,
+        "ATTACK": 53.0,
+        "DEFENSE": 77.0,
+        "SPECIALATTACK": 150.0,
+        "SPECIALDEFENSE": 114.0,
+        "SPEED": 53.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "ShockSting",
+        "Growth",
+        "PsiBlast"
+      ],
+      "evolutions": null
+    },
+    "Denvivo": {
+      "monsterName": "Denvivo",
+      "monsterID": 94,
+      "monsterType": [
+        "Psy",
+        "Lightning"
+      ],
+      "baseStats": {
+        "HP": 140.0,
+        "ATTACK": 72.0,
+        "DEFENSE": 107.0,
+        "SPECIALATTACK": 204.0,
+        "SPECIALDEFENSE": 155.0,
+        "SPEED": 72.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "ShockSting",
+        "Growth",
+        "PsiBlast"
+      ],
+      "evolutions": null
+    },
+    "Somatose": {
+      "monsterName": "Somatose",
+      "monsterID": 95,
+      "monsterType": [
+        "Psy",
+        "Lightning"
+      ],
+      "baseStats": {
+        "HP": 168.0,
+        "ATTACK": 86.0,
+        "DEFENSE": 129.0,
+        "SPECIALATTACK": 245.0,
+        "SPECIALDEFENSE": 186.0,
+        "SPEED": 86.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "ShockSting",
+        "Growth",
+        "PsiBlast"
+      ],
+      "evolutions": null
+    },
+    "Bumbulus": {
+      "monsterName": "Bumbulus",
+      "monsterID": 96,
+      "monsterType": [
+        "Lightning",
+        "Wind"
+      ],
+      "baseStats": {
+        "HP": 111.0,
+        "ATTACK": 39.5756454,
+        "DEFENSE": 92.0,
+        "SPECIALATTACK": 114.0,
+        "SPECIALDEFENSE": 78.0,
+        "SPEED": 116.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WindBlast",
+        "ShockSting",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "Nimbulus": {
+      "monsterName": "Nimbulus",
+      "monsterID": 97,
+      "monsterType": [
+        "Lightning",
+        "Wind"
+      ],
+      "baseStats": {
+        "HP": 164.0,
+        "ATTACK": 76.0,
+        "DEFENSE": 141.0,
+        "SPECIALATTACK": 226.0,
+        "SPECIALDEFENSE": 122.0,
+        "SPEED": 169.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WindBlast",
+        "ShockSting",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "Tribial": {
+      "monsterName": "Tribial",
+      "monsterID": 98,
+      "monsterType": [
+        "Dark",
+        "Fire"
+      ],
+      "baseStats": {
+        "HP": 97.0,
+        "ATTACK": 39.0,
+        "DEFENSE": 86.0,
+        "SPECIALATTACK": 146.0,
+        "SPECIALDEFENSE": 88.0,
+        "SPEED": 90.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "SinisterPulse",
+        "FireSpray",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Shamage": {
+      "monsterName": "Shamage",
+      "monsterID": 99,
+      "monsterType": [
+        "Dark",
+        "Fire"
+      ],
+      "baseStats": {
+        "HP": 156.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 154.0,
+        "SPECIALATTACK": 202.0,
+        "SPECIALDEFENSE": 161.0,
+        "SPEED": 136.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "SinisterPulse",
+        "FireSpray",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Tadcool": {
+      "monsterName": "Tadcool",
+      "monsterID": 100,
+      "monsterType": [
+        "Ice",
+        "Water"
+      ],
+      "baseStats": {
+        "HP": 178.0,
+        "ATTACK": 35.0,
+        "DEFENSE": 121.0,
+        "SPECIALATTACK": 60.0,
+        "SPECIALDEFENSE": 118.0,
+        "SPEED": 35.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "IceSpray",
+        "BubbleSpray",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Fribbit": {
+      "monsterName": "Fribbit",
+      "monsterID": 101,
+      "monsterType": [
+        "Ice",
+        "Water"
+      ],
+      "baseStats": {
+        "HP": 232.0,
+        "ATTACK": 60.0,
+        "DEFENSE": 210.0,
+        "SPECIALATTACK": 130.0,
+        "SPECIALDEFENSE": 205.0,
+        "SPEED": 60.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "IceSpray",
+        "BubbleSpray",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Millil": {
+      "monsterName": "Millil",
+      "monsterID": 102,
+      "monsterType": [
+        "Insect",
+        "Poison"
+      ],
+      "baseStats": {
+        "HP": 81.0,
+        "ATTACK": 111.0,
+        "DEFENSE": 83.0,
+        "SPECIALATTACK": 74.0,
+        "SPECIALDEFENSE": 118.0,
+        "SPEED": 83.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "PoisonSting",
+        "BugCut",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Millisting": {
+      "monsterName": "Millisting",
+      "monsterID": 103,
+      "monsterType": [
+        "Insect",
+        "Poison"
+      ],
+      "baseStats": {
+        "HP": 135.0,
+        "ATTACK": 190.0,
+        "DEFENSE": 138.0,
+        "SPECIALATTACK": 124.0,
+        "SPECIALDEFENSE": 175.0,
+        "SPEED": 138.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "PoisonSting",
+        "BugCut",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Sampsack": {
+      "monsterName": "Sampsack",
+      "monsterID": 104,
+      "monsterType": [
+        "Combat"
+      ],
+      "baseStats": {
+        "HP": 207.0,
+        "ATTACK": 208.0,
+        "DEFENSE": 183.0,
+        "SPECIALATTACK": 36.0,
+        "SPECIALDEFENSE": 174.0,
+        "SPEED": 92.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "PsiStrike",
+        "LowKick",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Sampsage": {
+      "monsterName": "Sampsage",
+      "monsterID": 105,
+      "monsterType": [
+        "Combat",
+        "Psy"
+      ],
+      "baseStats": {
+        "HP": 176.0,
+        "ATTACK": 92.0,
+        "DEFENSE": 191.0,
+        "SPECIALATTACK": 164.0,
+        "SPECIALDEFENSE": 181.0,
+        "SPEED": 96.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "PsiStrike",
+        "LowKick",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Weedsea": {
+      "monsterName": "Weedsea",
+      "monsterID": 106,
+      "monsterType": [
+        "Leaf",
+        "Water"
+      ],
+      "baseStats": {
+        "HP": 123.0,
+        "ATTACK": 65.0,
+        "DEFENSE": 134.0,
+        "SPECIALATTACK": 70.0,
+        "SPECIALDEFENSE": 78.0,
+        "SPEED": 80.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "RootStrike",
+        "BubbleSpray",
+        "PebblePulse"
+      ],
+      "evolutions": null
+    },
+    "Weedlantis": {
+      "monsterName": "Weedlantis",
+      "monsterID": 107,
+      "monsterType": [
+        "Leaf",
+        "Water"
+      ],
+      "baseStats": {
+        "HP": 195.0,
+        "ATTACK": 120.0,
+        "DEFENSE": 200.0,
+        "SPECIALATTACK": 122.0,
+        "SPECIALDEFENSE": 137.0,
+        "SPEED": 126.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "RootStrike",
+        "BubbleSpray",
+        "PebblePulse"
+      ],
+      "evolutions": null
+    },
+    "Tungrub": {
+      "monsterName": "Tungrub",
+      "monsterID": 108,
+      "monsterType": [
+        "Steel",
+        "Earth"
+      ],
+      "baseStats": {
+        "HP": 73.0,
+        "ATTACK": 73.0,
+        "DEFENSE": 137.0,
+        "SPECIALATTACK": 58.0,
+        "SPECIALDEFENSE": 136.0,
+        "SPEED": 73.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "IronStrike",
+        "BugCut",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Worbolt": {
+      "monsterName": "Worbolt",
+      "monsterID": 109,
+      "monsterType": [
+        "Steel",
+        "Earth"
+      ],
+      "baseStats": {
+        "HP": 125.0,
+        "ATTACK": 125.0,
+        "DEFENSE": 211.0,
+        "SPECIALATTACK": 98.87892,
+        "SPECIALDEFENSE": 213.0,
+        "SPEED": 125.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "IronStrike",
+        "BugCut",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Waysprite": {
+      "monsterName": "Waysprite",
+      "monsterID": 110,
+      "monsterType": [
+        "Ice",
+        "Dark"
+      ],
+      "baseStats": {
+        "HP": 66.0,
+        "ATTACK": 76.0,
+        "DEFENSE": 71.0,
+        "SPECIALATTACK": 136.0,
+        "SPECIALDEFENSE": 73.0,
+        "SPEED": 128.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "IceSpray",
+        "SinisterPulse",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Agnesnow": {
+      "monsterName": "Agnesnow",
+      "monsterID": 111,
+      "monsterType": [
+        "Ice",
+        "Psy"
+      ],
+      "baseStats": {
+        "HP": 84.0,
+        "ATTACK": 97.0,
+        "DEFENSE": 114.0,
+        "SPECIALATTACK": 171.0,
+        "SPECIALDEFENSE": 121.0,
+        "SPEED": 163.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "IceSpray",
+        "SinisterPulse",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Seraphice": {
+      "monsterName": "Seraphice",
+      "monsterID": 112,
+      "monsterType": [
+        "Ice",
+        "Psy"
+      ],
+      "baseStats": {
+        "HP": 138.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 134.0,
+        "SPECIALATTACK": 202.0,
+        "SPECIALDEFENSE": 143.0,
+        "SPEED": 192.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "IceSpray",
+        "SinisterPulse",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Demisnow": {
+      "monsterName": "Demisnow",
+      "monsterID": 113,
+      "monsterType": [
+        "Ice",
+        "Dark"
+      ],
+      "baseStats": {
+        "HP": 85.0,
+        "ATTACK": 167.0,
+        "DEFENSE": 116.0,
+        "SPECIALATTACK": 93.0,
+        "SPECIALDEFENSE": 123.0,
+        "SPEED": 166.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "IceSpray",
+        "SinisterPulse",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Lucifice": {
+      "monsterName": "Lucifice",
+      "monsterID": 114,
+      "monsterType": [
+        "Ice",
+        "Dark"
+      ],
+      "baseStats": {
+        "HP": 118.0,
+        "ATTACK": 199.0,
+        "DEFENSE": 165.0,
+        "SPECIALATTACK": 110.986549,
+        "SPECIALDEFENSE": 109.977577,
+        "SPEED": 198.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "IceSpray",
+        "SinisterPulse",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Nudaflott": {
+      "monsterName": "Nudaflott",
+      "monsterID": 115,
+      "monsterType": [
+        "Water"
+      ],
+      "baseStats": {
+        "HP": 110.0,
+        "ATTACK": 58.0,
+        "DEFENSE": 72.0,
+        "SPECIALATTACK": 112.0,
+        "SPECIALDEFENSE": 140.0,
+        "SPEED": 58.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "BubbleSpray",
+        "PoisonSting",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Nudaqueen": {
+      "monsterName": "Nudaqueen",
+      "monsterID": 116,
+      "monsterType": [
+        "Water",
+        "Psy"
+      ],
+      "baseStats": {
+        "HP": 190.0,
+        "ATTACK": 85.0,
+        "DEFENSE": 139.0,
+        "SPECIALATTACK": 170.0,
+        "SPECIALDEFENSE": 227.0,
+        "SPEED": 89.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "BubbleSpray",
+        "PoisonSting",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "NudoFlott": {
+      "monsterName": "NudoFlott",
+      "monsterID": 117,
+      "monsterType": [
+        "Water"
+      ],
+      "baseStats": {
+        "HP": 111.0,
+        "ATTACK": 125.0,
+        "DEFENSE": 72.0,
+        "SPECIALATTACK": 60.0,
+        "SPECIALDEFENSE": 124.0,
+        "SPEED": 58.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "BubbleSpray",
+        "PoisonSting",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Nudoking": {
+      "monsterName": "Nudoking",
+      "monsterID": 118,
+      "monsterType": [
+        "Water",
+        "Poison"
+      ],
+      "baseStats": {
+        "HP": 181.0,
+        "ATTACK": 204.0,
+        "DEFENSE": 121.0,
+        "SPECIALATTACK": 98.0,
+        "SPECIALDEFENSE": 202.0,
+        "SPEED": 94.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "BubbleSpray",
+        "PoisonSting",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Poturney": {
+      "monsterName": "Poturney",
+      "monsterID": 119,
+      "monsterType": [
+        "Undead"
+      ],
+      "baseStats": {
+        "HP": 115.0,
+        "ATTACK": 60.0,
+        "DEFENSE": 115.0,
+        "SPECIALATTACK": 79.0,
+        "SPECIALDEFENSE": 121.0,
+        "SPEED": 60.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "Haunt",
+        "Growth",
+        "Rob"
+      ],
+      "evolutions": null
+    },
+    "Potturnery": {
+      "monsterName": "Potturnery",
+      "monsterID": 120,
+      "monsterType": [
+        "Undead"
+      ],
+      "baseStats": {
+        "HP": 188.0,
+        "ATTACK": 98.0,
+        "DEFENSE": 188.0,
+        "SPECIALATTACK": 130.0,
+        "SPECIALDEFENSE": 198.0,
+        "SPEED": 98.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "Haunt",
+        "Growth",
+        "Rob"
+      ],
+      "evolutions": null
+    },
+    "Pawsand": {
+      "monsterName": "Pawsand",
+      "monsterID": 121,
+      "monsterType": [
+        "Undead",
+        "Earth"
+      ],
+      "baseStats": {
+        "HP": 123.224045,
+        "ATTACK": 92.16758,
+        "DEFENSE": 115.209473,
+        "SPECIALATTACK": 40.07286,
+        "SPECIALDEFENSE": 116.211296,
+        "SPEED": 63.1147537
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "Haunt",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Rooksand": {
+      "monsterName": "Rooksand",
+      "monsterID": 122,
+      "monsterType": [
+        "Undead",
+        "Earth"
+      ],
+      "baseStats": {
+        "HP": 201.0,
+        "ATTACK": 150.0,
+        "DEFENSE": 188.0,
+        "SPECIALATTACK": 65.0,
+        "SPECIALDEFENSE": 190.0,
+        "SPEED": 103.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "Haunt",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Embra": {
+      "monsterName": "Embra",
+      "monsterID": 123,
+      "monsterType": [
+        "Fire",
+        "Undead"
+      ],
+      "baseStats": {
+        "HP": 113.0,
+        "ATTACK": 37.0,
+        "DEFENSE": 75.0,
+        "SPECIALATTACK": 138.0,
+        "SPECIALDEFENSE": 78.0,
+        "SPEED": 109.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "Haunt",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Ruption": {
+      "monsterName": "Ruption",
+      "monsterID": 124,
+      "monsterType": [
+        "Fire",
+        "Undead"
+      ],
+      "baseStats": {
+        "HP": 192.0,
+        "ATTACK": 62.0,
+        "DEFENSE": 116.0,
+        "SPECIALATTACK": 230.0,
+        "SPECIALDEFENSE": 114.0,
+        "SPEED": 186.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "Haunt",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Eyenemy": {
+      "monsterName": "Eyenemy",
+      "monsterID": 125,
+      "monsterType": [
+        "Undead",
+        "Psy"
+      ],
+      "baseStats": {
+        "HP": 65.0,
+        "ATTACK": 92.0,
+        "DEFENSE": 90.0,
+        "SPECIALATTACK": 123.0,
+        "SPECIALDEFENSE": 49.0,
+        "SPEED": 131.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "PsiStrike",
+        "Unnerve",
+        "Haunt"
+      ],
+      "evolutions": null
+    },
+    "Eyesore": {
+      "monsterName": "Eyesore",
+      "monsterID": 126,
+      "monsterType": [
+        "Undead",
+        "Psy"
+      ],
+      "baseStats": {
+        "HP": 104.0,
+        "ATTACK": 148.0,
+        "DEFENSE": 79.0,
+        "SPECIALATTACK": 202.0,
+        "SPECIALDEFENSE": 156.0,
+        "SPEED": 211.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "PsiStrike",
+        "Unnerve",
+        "Haunt"
+      ],
+      "evolutions": null
+    },
+    "Polyrock": {
+      "monsterName": "Polyrock",
+      "monsterID": 127,
+      "monsterType": [
+        "Earth",
+        "Combat"
+      ],
+      "baseStats": {
+        "HP": 143.0,
+        "ATTACK": 159.0,
+        "DEFENSE": 150.0,
+        "SPECIALATTACK": 38.0,
+        "SPECIALDEFENSE": 145.0,
+        "SPEED": 115.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "LowKick",
+        "StalactiteSpear",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Polypoison": {
+      "monsterName": "Polypoison",
+      "monsterID": 128,
+      "monsterType": [
+        "Poison",
+        "Combat"
+      ],
+      "baseStats": {
+        "HP": 143.0,
+        "ATTACK": 159.0,
+        "DEFENSE": 150.0,
+        "SPECIALATTACK": 38.0,
+        "SPECIALDEFENSE": 145.0,
+        "SPEED": 115.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "LowKick",
+        "StalactiteSpear",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Polyice": {
+      "monsterName": "Polyice",
+      "monsterID": 129,
+      "monsterType": [
+        "Ice",
+        "Combat"
+      ],
+      "baseStats": {
+        "HP": 143.0,
+        "ATTACK": 159.0,
+        "DEFENSE": 150.0,
+        "SPECIALATTACK": 38.0,
+        "SPECIALDEFENSE": 145.0,
+        "SPEED": 115.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "LowKick",
+        "StalactiteSpear",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Tweesher": {
+      "monsterName": "Tweesher",
+      "monsterID": 130,
+      "monsterType": [
+        "Ice",
+        "Wind"
+      ],
+      "baseStats": {
+        "HP": 88.0,
+        "ATTACK": 137.0,
+        "DEFENSE": 70.0,
+        "SPECIALATTACK": 77.0,
+        "SPECIALDEFENSE": 76.0,
+        "SPEED": 102.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "IceSpray",
+        "AirStrike",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Heronquak": {
+      "monsterName": "Heronquak",
+      "monsterID": 131,
+      "monsterType": [
+        "Ice",
+        "Wind"
+      ],
+      "baseStats": {
+        "HP": 109.0,
+        "ATTACK": 149.0,
+        "DEFENSE": 109.0,
+        "SPECIALATTACK": 110.0,
+        "SPECIALDEFENSE": 113.0,
+        "SPEED": 160.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "IceSpray",
+        "AirStrike",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Eaglace": {
+      "monsterName": "Eaglace",
+      "monsterID": 132,
+      "monsterType": [
+        "Ice",
+        "Wind"
+      ],
+      "baseStats": {
+        "HP": 109.0,
+        "ATTACK": 184.0,
+        "DEFENSE": 130.0,
+        "SPECIALATTACK": 130.0,
+        "SPECIALDEFENSE": 124.0,
+        "SPEED": 223.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "IceSpray",
+        "AirStrike",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Sniprit": {
+      "monsterName": "Sniprit",
+      "monsterID": 133,
+      "monsterType": [
+        "Dark",
+        "Wind"
+      ],
+      "baseStats": {
+        "HP": 25.0,
+        "ATTACK": 25.0,
+        "DEFENSE": 25.0,
+        "SPECIALATTACK": 25.0,
+        "SPECIALDEFENSE": 25.0,
+        "SPEED": 25.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "Rob",
+        "AirStrike",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Foutlaw": {
+      "monsterName": "Foutlaw",
+      "monsterID": 134,
+      "monsterType": [
+        "Dark",
+        "Wind"
+      ],
+      "baseStats": {
+        "HP": 25.0,
+        "ATTACK": 25.0,
+        "DEFENSE": 25.0,
+        "SPECIALATTACK": 25.0,
+        "SPECIALDEFENSE": 25.0,
+        "SPEED": 25.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "Rob",
+        "AirStrike",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Flamdito": {
+      "monsterName": "Flamdito",
+      "monsterID": 135,
+      "monsterType": [
+        "Dark",
+        "Wind"
+      ],
+      "baseStats": {
+        "HP": 25.0,
+        "ATTACK": 25.0,
+        "DEFENSE": 25.0,
+        "SPECIALATTACK": 25.0,
+        "SPECIALDEFENSE": 25.0,
+        "SPEED": 25.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "Rob",
+        "AirStrike",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Pickoon": {
+      "monsterName": "Pickoon",
+      "monsterID": 136,
+      "monsterType": [
+        "Dark",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 76.0,
+        "ATTACK": 87.0,
+        "DEFENSE": 74.0,
+        "SPECIALATTACK": 76.0,
+        "SPECIALDEFENSE": 67.0,
+        "SPEED": 170.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "Rob",
+        "SpeedStrike",
+        "SpeedStrike"
+      ],
+      "evolutions": null
+    },
+    "Raccsal": {
+      "monsterName": "Raccsal",
+      "monsterID": 137,
+      "monsterType": [
+        "Dark",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 130.0,
+        "ATTACK": 146.0,
+        "DEFENSE": 131.0,
+        "SPECIALATTACK": 134.0,
+        "SPECIALDEFENSE": 127.0,
+        "SPEED": 232.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "Rob",
+        "SpeedStrike",
+        "SpeedStrike"
+      ],
+      "evolutions": null
+    },
+    "Stonifly": {
+      "monsterName": "Stonifly",
+      "monsterID": 138,
+      "monsterType": [
+        "Earth",
+        "Insect"
+      ],
+      "baseStats": {
+        "HP": 65.0,
+        "ATTACK": 50.0,
+        "DEFENSE": 138.0,
+        "SPECIALATTACK": 128.0,
+        "SPECIALDEFENSE": 100.0,
+        "SPEED": 65.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "PebblePulse",
+        "BugCut",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "Cocrune": {
+      "monsterName": "Cocrune",
+      "monsterID": 139,
+      "monsterType": [
+        "Earth",
+        "Insect"
+      ],
+      "baseStats": {
+        "HP": 132.0,
+        "ATTACK": 61.0,
+        "DEFENSE": 236.0,
+        "SPECIALATTACK": 62.0,
+        "SPECIALDEFENSE": 237.0,
+        "SPEED": 22.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "PebblePulse",
+        "BugCut",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "Runesquito": {
+      "monsterName": "Runesquito",
+      "monsterID": 140,
+      "monsterType": [
+        "Earth",
+        "Insect"
+      ],
+      "baseStats": {
+        "HP": 148.0,
+        "ATTACK": 126.0,
+        "DEFENSE": 208.0,
+        "SPECIALATTACK": 195.0,
+        "SPECIALDEFENSE": 125.0,
+        "SPEED": 98.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "PebblePulse",
+        "BugCut",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "Sparepple": {
+      "monsterName": "Sparepple",
+      "monsterID": 141,
+      "monsterType": [
+        "Leaf",
+        "Combat"
+      ],
+      "baseStats": {
+        "HP": 104.7619,
+        "ATTACK": 145.0,
+        "DEFENSE": 145.0,
+        "SPECIALATTACK": 33.2417564,
+        "SPECIALDEFENSE": 33.2417564,
+        "SPEED": 88.64469
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "LowKick",
+        "RootStrike",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Samurepple": {
+      "monsterName": "Samurepple",
+      "monsterID": 142,
+      "monsterType": [
+        "Leaf",
+        "Combat"
+      ],
+      "baseStats": {
+        "HP": 156.0,
+        "ATTACK": 218.0,
+        "DEFENSE": 218.0,
+        "SPECIALATTACK": 87.0,
+        "SPECIALDEFENSE": 87.0,
+        "SPEED": 132.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "LowKick",
+        "RootStrike",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Bulkow": {
+      "monsterName": "Bulkow",
+      "monsterID": 149,
+      "monsterType": [
+        "Combat",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 109.0,
+        "ATTACK": 109.0,
+        "DEFENSE": 109.0,
+        "SPECIALATTACK": 57.0,
+        "SPECIALDEFENSE": 57.0,
+        "SPEED": 109.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "LowKick",
+        "ChiBall",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Muscletaur": {
+      "monsterName": "Muscletaur",
+      "monsterID": 150,
+      "monsterType": [
+        "Combat",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 194.0,
+        "ATTACK": 194.0,
+        "DEFENSE": 194.0,
+        "SPECIALATTACK": 63.0,
+        "SPECIALDEFENSE": 61.0,
+        "SPEED": 194.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "LowKick",
+        "ChiBall",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Flouresfin": {
+      "monsterName": "Flouresfin",
+      "monsterID": 151,
+      "monsterType": [
+        "Water",
+        "Dark"
+      ],
+      "baseStats": {
+        "HP": 25.0,
+        "ATTACK": 25.0,
+        "DEFENSE": 25.0,
+        "SPECIALATTACK": 25.0,
+        "SPECIALDEFENSE": 25.0,
+        "SPEED": 25.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "SinisterPulse",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "Lightmare": {
+      "monsterName": "Lightmare",
+      "monsterID": 153,
+      "monsterType": [
+        "Water",
+        "Dark"
+      ],
+      "baseStats": {
+        "HP": 25.0,
+        "ATTACK": 25.0,
+        "DEFENSE": 25.0,
+        "SPECIALATTACK": 25.0,
+        "SPECIALDEFENSE": 25.0,
+        "SPEED": 25.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "SinisterPulse",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "Pairagrin": {
+      "monsterName": "Pairagrin",
+      "monsterID": 154,
+      "monsterType": [
+        "Normal",
+        "Wind"
+      ],
+      "baseStats": {
+        "HP": 92.0,
+        "ATTACK": 116.0,
+        "DEFENSE": 95.0,
+        "SPECIALATTACK": 36.6666679,
+        "SPECIALDEFENSE": 92.0,
+        "SPEED": 119.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "AirStrike",
+        "WindBlast",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Pairagrim": {
+      "monsterName": "Pairagrim",
+      "monsterID": 155,
+      "monsterType": [
+        "Normal",
+        "Wind"
+      ],
+      "baseStats": {
+        "HP": 150.0,
+        "ATTACK": 193.0,
+        "DEFENSE": 155.0,
+        "SPECIALATTACK": 58.0,
+        "SPECIALDEFENSE": 150.0,
+        "SPEED": 194.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "AirStrike",
+        "WindBlast",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Forturtle": {
+      "monsterName": "Forturtle",
+      "monsterID": 156,
+      "monsterType": [
+        "Psy"
+      ],
+      "baseStats": {
+        "HP": 112.0,
+        "ATTACK": 30.0,
+        "DEFENSE": 107.0,
+        "SPECIALATTACK": 137.0,
+        "SPECIALDEFENSE": 141.0,
+        "SPEED": 23.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "PsiBlast",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Prophetoise": {
+      "monsterName": "Prophetoise",
+      "monsterID": 157,
+      "monsterType": [
+        "Psy",
+        "Fire"
+      ],
+      "baseStats": {
+        "HP": 184.0,
+        "ATTACK": 51.0,
+        "DEFENSE": 176.0,
+        "SPECIALATTACK": 226.0,
+        "SPECIALDEFENSE": 226.0,
+        "SPEED": 37.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "PsiBlast",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Yabba": {
+      "monsterName": "Yabba",
+      "monsterID": 165,
+      "monsterType": [
+        "Dino"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "DinoClaw",
+        "PrehistoricPulse",
+        "Haunt"
+      ],
+      "evolutions": null
+    },
+    "Dabadoo": {
+      "monsterName": "Dabadoo",
+      "monsterID": 166,
+      "monsterType": [
+        "Dino",
+        "Undead"
+      ],
+      "baseStats": {
+        "HP": 150.0,
+        "ATTACK": 150.0,
+        "DEFENSE": 150.0,
+        "SPECIALATTACK": 150.0,
+        "SPECIALDEFENSE": 150.0,
+        "SPEED": 150.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "DinoClaw",
+        "PrehistoricPulse",
+        "Haunt"
+      ],
+      "evolutions": null
+    },
+    "SLichen": {
+      "monsterName": "SLichen",
+      "monsterID": 167,
+      "monsterType": [
+        "Leaf",
+        "Earth"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "SeedShot",
+        "PebblePulse",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Glombroc": {
+      "monsterName": "Glombroc",
+      "monsterID": 168,
+      "monsterType": [
+        "Leaf",
+        "Earth"
+      ],
+      "baseStats": {
+        "HP": 150.0,
+        "ATTACK": 150.0,
+        "DEFENSE": 150.0,
+        "SPECIALATTACK": 150.0,
+        "SPECIALDEFENSE": 150.0,
+        "SPEED": 150.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "SeedShot",
+        "PebblePulse",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Uneye": {
+      "monsterName": "Uneye",
+      "monsterID": 170,
+      "monsterType": [
+        "Undead",
+        "Dark"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "SinisterPulse",
+        "PoisonSting",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "Lendos": {
+      "monsterName": "Lendos",
+      "monsterID": 171,
+      "monsterType": [
+        "Undead",
+        "Dark"
+      ],
+      "baseStats": {
+        "HP": 150.0,
+        "ATTACK": 150.0,
+        "DEFENSE": 150.0,
+        "SPECIALATTACK": 150.0,
+        "SPECIALDEFENSE": 150.0,
+        "SPEED": 150.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "SinisterPulse",
+        "PoisonSting",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "Boldersaur": {
+      "monsterName": "Boldersaur",
+      "monsterID": 176,
+      "monsterType": [
+        "Earth",
+        "Dino"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "StalactiteSpear",
+        "DinoClaw",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Shocksaur": {
+      "monsterName": "Shocksaur",
+      "monsterID": 176,
+      "monsterType": [
+        "Lightning",
+        "Dino"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "VoltRush",
+        "DinoClaw",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Velocifracture": {
+      "monsterName": "Velocifracture",
+      "monsterID": 177,
+      "monsterType": [
+        "Earth",
+        "Dino"
+      ],
+      "baseStats": {
+        "HP": 150.0,
+        "ATTACK": 150.0,
+        "DEFENSE": 150.0,
+        "SPECIALATTACK": 150.0,
+        "SPECIALDEFENSE": 150.0,
+        "SPEED": 150.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "StalactiteSpear",
+        "DinoClaw",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Velocishock": {
+      "monsterName": "Velocishock",
+      "monsterID": 177,
+      "monsterType": [
+        "Lightning",
+        "Dino"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "VoltRush",
+        "DinoClaw",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Neublott": {
+      "monsterName": "Neublott",
+      "monsterID": 179,
+      "monsterType": [
+        "Water",
+        "Poison"
+      ],
+      "baseStats": {
+        "HP": 150.0,
+        "ATTACK": 150.0,
+        "DEFENSE": 150.0,
+        "SPECIALATTACK": 150.0,
+        "SPECIALDEFENSE": 150.0,
+        "SPEED": 150.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "PoisonSting",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Praysteel": {
+      "monsterName": "Praysteel",
+      "monsterID": 180,
+      "monsterType": [
+        "Insect",
+        "Steel"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "IronStrike",
+        "BugCut",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Mantobo": {
+      "monsterName": "Mantobo",
+      "monsterID": 180,
+      "monsterType": [
+        "Insect",
+        "Ice"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "BugCut",
+        "ColdCrash",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "Mantsteel": {
+      "monsterName": "Mantsteel",
+      "monsterID": 181,
+      "monsterType": [
+        "Insect",
+        "Steel"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "IronStrike",
+        "BugCut",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Mantoboggan": {
+      "monsterName": "Mantoboggan",
+      "monsterID": 181,
+      "monsterType": [
+        "Insect",
+        "Ice"
+      ],
+      "baseStats": {
+        "HP": 150.0,
+        "ATTACK": 150.0,
+        "DEFENSE": 150.0,
+        "SPECIALATTACK": 150.0,
+        "SPECIALDEFENSE": 150.0,
+        "SPEED": 150.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "BugCut",
+        "ColdCrash",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "Swampu": {
+      "monsterName": "Swampu",
+      "monsterID": 182,
+      "monsterType": [
+        "Normal",
+        "Water"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "NormalWave",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Blazu": {
+      "monsterName": "Blazu",
+      "monsterID": 182,
+      "monsterType": [
+        "Psy",
+        "Fire"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "FlameTackle"
+      ],
+      "evolutions": null
+    },
+    "Swamploom": {
+      "monsterName": "Swamploom",
+      "monsterID": 183,
+      "monsterType": [
+        "Normal",
+        "Water"
+      ],
+      "baseStats": {
+        "HP": 150.0,
+        "ATTACK": 150.0,
+        "DEFENSE": 150.0,
+        "SPECIALATTACK": 150.0,
+        "SPECIALDEFENSE": 150.0,
+        "SPEED": 150.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "NormalWave",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Blazloom": {
+      "monsterName": "Blazloom",
+      "monsterID": 183,
+      "monsterType": [
+        "Psy",
+        "Fire"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "FlameTackle"
+      ],
+      "evolutions": null
+    },
+    "Shockshrew": {
+      "monsterName": "Shockshrew",
+      "monsterID": 184,
+      "monsterType": [
+        "Lightning",
+        "Poison"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "ShockSting",
+        "PoisonSting",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "Cindshrew": {
+      "monsterName": "Cindshrew",
+      "monsterID": 184,
+      "monsterType": [
+        "Lightning",
+        "Fire"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "ShockSting",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "Shockupine": {
+      "monsterName": "Shockupine",
+      "monsterID": 185,
+      "monsterType": [
+        "Lightning",
+        "Poison"
+      ],
+      "baseStats": {
+        "HP": 211.704544,
+        "ATTACK": 115.568184,
+        "DEFENSE": 206.590912,
+        "SPECIALATTACK": 94.09091,
+        "SPECIALDEFENSE": 152.386368,
+        "SPEED": 119.659088
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "ShockSting",
+        "PoisonSting",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "Cindipine": {
+      "monsterName": "Cindipine",
+      "monsterID": 185,
+      "monsterType": [
+        "Lightning",
+        "Fire"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "ShockSting",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "PysOwl": {
+      "monsterName": "PysOwl",
+      "monsterID": 186,
+      "monsterType": [
+        "Psy",
+        "Wind"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "PsiBlast",
+        "WindBlast",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Xylofish": {
+      "monsterName": "Xylofish",
+      "monsterID": 188,
+      "monsterType": [
+        "Water",
+        "Steel"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "GearBlast",
+        "BubbleSpray",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "BloatFish": {
+      "monsterName": "BloatFish",
+      "monsterID": 190,
+      "monsterType": [
+        "Water",
+        "Undead"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "Haunt",
+        "WaterTackle",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "Apeoro": {
+      "monsterName": "Apeoro",
+      "monsterID": 194,
+      "monsterType": [
+        "Lightning",
+        "Earth"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "VoltRush",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Dankush": {
+      "monsterName": "Dankush",
+      "monsterID": 195,
+      "monsterType": [
+        "Leaf",
+        "Fire"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "SeedShot",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Mingdyn": {
+      "monsterName": "Mingdyn",
+      "monsterID": 196,
+      "monsterType": [
+        "Fire",
+        "Dino"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "PrehistoricPulse",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Mauai": {
+      "monsterName": "Mauai",
+      "monsterID": 196,
+      "monsterType": [
+        "Earth",
+        "Undead"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "Haunt",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Mystikapi": {
+      "monsterName": "Mystikapi",
+      "monsterID": 196,
+      "monsterType": [
+        "Psy",
+        "Lightning"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "VoltRush",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Medushock": {
+      "monsterName": "Medushock",
+      "monsterID": 196,
+      "monsterType": [
+        "Water",
+        "Lightning"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "BubbleSpray",
+        "ShockSting",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Medusting": {
+      "monsterName": "Medusting",
+      "monsterID": 196,
+      "monsterType": [
+        "Water",
+        "Lightning"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "BubbleSpray",
+        "ShockSting",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Baoby": {
+      "monsterName": "Baoby",
+      "monsterID": 196,
+      "monsterType": [
+        "Leaf",
+        "Earth"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "RootStrike",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Baobaraffe": {
+      "monsterName": "Baobaraffe",
+      "monsterID": 196,
+      "monsterType": [
+        "Leaf",
+        "Earth"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "RootStrike",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "leonSoul": {
+      "monsterName": "leonSoul",
+      "monsterID": 196,
+      "monsterType": [
+        "Fire",
+        "Leaf"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "SeedShot",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Wendigo": {
+      "monsterName": "Wendigo",
+      "monsterID": 196,
+      "monsterType": [
+        "Leaf",
+        "Dark"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "Rob",
+        "RootStrike",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Goldstream": {
+      "monsterName": "GoldStream",
+      "monsterID": 196,
+      "monsterType": [
+        "Water",
+        "Fire"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "BubbleSpray",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Goldscale": {
+      "monsterName": "Goldscale",
+      "monsterID": 196,
+      "monsterType": [
+        "Water",
+        "Fire"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "BubbleSpray",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "Goldcind": {
+      "monsterName": "Goldcind",
+      "monsterID": 196,
+      "monsterType": [
+        "Water",
+        "Fire"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "BubbleSpray",
+        "Growl"
+      ],
+      "evolutions": null
+    },
+    "GrassRhinoBaby": {
+      "monsterName": "GrassRhinoBaby",
+      "monsterID": 196,
+      "monsterType": [
+        "Leaf",
+        "Steel"
+      ],
+      "baseStats": {
+        "HP": 150.0,
+        "ATTACK": 100.0,
+        "DEFENSE": 100.0,
+        "SPECIALATTACK": 66.6666641,
+        "SPECIALDEFENSE": 66.6666641,
+        "SPEED": 66.6666641
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "RootStrike",
+        "IronStrike",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "GrassRhino": {
+      "monsterName": "GrassRhino",
+      "monsterID": 196,
+      "monsterType": [
+        "Leaf",
+        "Steel"
+      ],
+      "baseStats": {
+        "HP": 161.104965,
+        "ATTACK": 184.972382,
+        "DEFENSE": 185.966858,
+        "SPECIALATTACK": 132.2652,
+        "SPECIALDEFENSE": 134.25415,
+        "SPEED": 101.436462
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "RootStrike",
+        "IronStrike",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "FirePony": {
+      "monsterName": "FirePony",
+      "monsterID": 196,
+      "monsterType": [
+        "Fire",
+        "Steel"
+      ],
+      "baseStats": {
+        "HP": 71.5,
+        "ATTACK": 110.0,
+        "DEFENSE": 77.0,
+        "SPECIALATTACK": 88.0,
+        "SPECIALDEFENSE": 88.0,
+        "SPEED": 115.5
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FlameTackle",
+        "IronStrike",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "FireHorse": {
+      "monsterName": "FireHorse",
+      "monsterID": 196,
+      "monsterType": [
+        "Fire",
+        "Steel"
+      ],
+      "baseStats": {
+        "HP": 117.0,
+        "ATTACK": 180.0,
+        "DEFENSE": 126.0,
+        "SPECIALATTACK": 144.0,
+        "SPECIALDEFENSE": 144.0,
+        "SPEED": 189.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FlameTackle",
+        "IronStrike",
+        "Unnerve"
+      ],
+      "evolutions": null
+    },
+    "SteelPlatypus": {
+      "monsterName": "SteelPlatypus",
+      "monsterID": 196,
+      "monsterType": [
+        "Water",
+        "Steel"
+      ],
+      "baseStats": {
+        "HP": 129.8,
+        "ATTACK": 99.0,
+        "DEFENSE": 88.0,
+        "SPECIALATTACK": 77.0,
+        "SPECIALDEFENSE": 88.0,
+        "SPEED": 68.2
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "IronStrike",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "SteelPlatypusLarge": {
+      "monsterName": "SteelPlatypusLarge",
+      "monsterID": 197,
+      "monsterType": [
+        "Water",
+        "Steel"
+      ],
+      "baseStats": {
+        "HP": 173.414627,
+        "ATTACK": 186.585373,
+        "DEFENSE": 131.707321,
+        "SPECIALATTACK": 120.731705,
+        "SPECIALDEFENSE": 131.707321,
+        "SPEED": 155.853653
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "IronStrike",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Workant": {
+      "monsterName": "Workant",
+      "monsterID": 216,
+      "monsterType": [
+        "Insect",
+        "Dark"
+      ],
+      "baseStats": {
+        "HP": 129.8,
+        "ATTACK": 99.0,
+        "DEFENSE": 88.0,
+        "SPECIALATTACK": 77.0,
+        "SPECIALDEFENSE": 88.0,
+        "SPEED": 68.2
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "IronStrike",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Soldant": {
+      "monsterName": "Soldant",
+      "monsterID": 217,
+      "monsterType": [
+        "Insect",
+        "Dark"
+      ],
+      "baseStats": {
+        "HP": 173.414627,
+        "ATTACK": 186.585373,
+        "DEFENSE": 131.707321,
+        "SPECIALATTACK": 120.731705,
+        "SPECIALDEFENSE": 131.707321,
+        "SPEED": 155.853653
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "IronStrike",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "parroot": {
+      "monsterName": "Parroot",
+      "monsterID": 216,
+      "monsterType": [
+        "Wind",
+        "Leaf"
+      ],
+      "baseStats": {
+        "HP": 129.8,
+        "ATTACK": 99.0,
+        "DEFENSE": 88.0,
+        "SPECIALATTACK": 77.0,
+        "SPECIALDEFENSE": 88.0,
+        "SPEED": 68.2
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "IronStrike",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "parroast": {
+      "monsterName": "Parroot",
+      "monsterID": 216,
+      "monsterType": [
+        "Wind",
+        "Fire"
+      ],
+      "baseStats": {
+        "HP": 129.8,
+        "ATTACK": 99.0,
+        "DEFENSE": 88.0,
+        "SPECIALATTACK": 77.0,
+        "SPECIALDEFENSE": 88.0,
+        "SPEED": 68.2
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "IronStrike",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Parrolage": {
+      "monsterName": "Parrolage",
+      "monsterID": 217,
+      "monsterType": [
+        "Wind",
+        "Leaf"
+      ],
+      "baseStats": {
+        "HP": 173.414627,
+        "ATTACK": 186.585373,
+        "DEFENSE": 131.707321,
+        "SPECIALATTACK": 120.731705,
+        "SPECIALDEFENSE": 131.707321,
+        "SPEED": 155.853653
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "IronStrike",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Parroblaze": {
+      "monsterName": "Parroblaze",
+      "monsterID": 216,
+      "monsterType": [
+        "Wind",
+        "Fire"
+      ],
+      "baseStats": {
+        "HP": 129.8,
+        "ATTACK": 99.0,
+        "DEFENSE": 88.0,
+        "SPECIALATTACK": 77.0,
+        "SPECIALDEFENSE": 88.0,
+        "SPEED": 68.2
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "IronStrike",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "sludguppy": {
+      "monsterName": "Sludguppy",
+      "monsterID": 220,
+      "monsterType": [
+        "Water",
+        "Earth"
+      ],
+      "baseStats": {
+        "HP": 129.8,
+        "ATTACK": 99.0,
+        "DEFENSE": 88.0,
+        "SPECIALATTACK": 77.0,
+        "SPECIALDEFENSE": 88.0,
+        "SPEED": 68.2
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "IronStrike",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "merguppy": {
+      "monsterName": "Merguppy",
+      "monsterID": 220,
+      "monsterType": [
+        "Water",
+        "Psy"
+      ],
+      "baseStats": {
+        "HP": 129.8,
+        "ATTACK": 99.0,
+        "DEFENSE": 88.0,
+        "SPECIALATTACK": 77.0,
+        "SPECIALDEFENSE": 88.0,
+        "SPEED": 68.2
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "IronStrike",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Sludgudge": {
+      "monsterName": "Sludgudge",
+      "monsterID": 221,
+      "monsterType": [
+        "Water",
+        "Earth"
+      ],
+      "baseStats": {
+        "HP": 173.414627,
+        "ATTACK": 186.585373,
+        "DEFENSE": 131.707321,
+        "SPECIALATTACK": 120.731705,
+        "SPECIALDEFENSE": 131.707321,
+        "SPEED": 155.853653
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "IronStrike",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Muckmaid": {
+      "monsterName": "Muckmaid",
+      "monsterID": 221,
+      "monsterType": [
+        "Water",
+        "Psy"
+      ],
+      "baseStats": {
+        "HP": 129.8,
+        "ATTACK": 99.0,
+        "DEFENSE": 88.0,
+        "SPECIALATTACK": 77.0,
+        "SPECIALDEFENSE": 88.0,
+        "SPEED": 68.2
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "IronStrike",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "dracicle": {
+      "monsterName": "Dracicle",
+      "monsterID": 222,
+      "monsterType": [
+        "Ice",
+        "Dino"
+      ],
+      "baseStats": {
+        "HP": 129.8,
+        "ATTACK": 99.0,
+        "DEFENSE": 88.0,
+        "SPECIALATTACK": 77.0,
+        "SPECIALDEFENSE": 88.0,
+        "SPEED": 68.2
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "IronStrike",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Glacicle": {
+      "monsterName": "Glacicle",
+      "monsterID": 223,
+      "monsterType": [
+        "Ice",
+        "Dino"
+      ],
+      "baseStats": {
+        "HP": 173.414627,
+        "ATTACK": 186.585373,
+        "DEFENSE": 131.707321,
+        "SPECIALATTACK": 120.731705,
+        "SPECIALDEFENSE": 131.707321,
+        "SPEED": 155.853653
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "IronStrike",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Boreacicle": {
+      "monsterName": "Boreacicle",
+      "monsterID": 224,
+      "monsterType": [
+        "Ice",
+        "Dino"
+      ],
+      "baseStats": {
+        "HP": 173.414627,
+        "ATTACK": 186.585373,
+        "DEFENSE": 131.707321,
+        "SPECIALATTACK": 120.731705,
+        "SPECIALDEFENSE": 131.707321,
+        "SPEED": 155.853653
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "IronStrike",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Icegoat": {
+      "monsterName": "Icegoat",
+      "monsterID": 225,
+      "monsterType": [
+        "Ice",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 129.8,
+        "ATTACK": 99.0,
+        "DEFENSE": 88.0,
+        "SPECIALATTACK": 77.0,
+        "SPECIALDEFENSE": 88.0,
+        "SPEED": 68.2
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "IronStrike",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Icehorn": {
+      "monsterName": "Icehorn",
+      "monsterID": 226,
+      "monsterType": [
+        "Ice",
+        "Normal"
+      ],
+      "baseStats": {
+        "HP": 173.414627,
+        "ATTACK": 186.585373,
+        "DEFENSE": 131.707321,
+        "SPECIALATTACK": 120.731705,
+        "SPECIALDEFENSE": 131.707321,
+        "SPEED": 155.853653
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "WaterTackle",
+        "IronStrike",
+        "ArmorUp"
+      ],
+      "evolutions": null
+    },
+    "Venosnek": {
+      "monsterName": "Venosnek",
+      "monsterID": 41,
+      "monsterType": [
+        "Poison",
+        "Fire"
+      ],
+      "baseStats": {
+        "HP": 73.66071,
+        "ATTACK": 116.629463,
+        "DEFENSE": 84.70982,
+        "SPECIALATTACK": 79.79911,
+        "SPECIALDEFENSE": 96.98661,
+        "SPEED": 98.21429
+      },
+      "abilities": [
+        "rockhead"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "Unnerve",
+        "StalactiteSpear"
+      ],
+      "evolutions": null
+    },
+    "Venohead": {
+      "monsterName": "Venohead",
+      "monsterID": 42,
+      "monsterType": [
+        "Poison",
+        "Fire"
+      ],
+      "baseStats": {
+        "HP": 100.446426,
+        "ATTACK": 159.040176,
+        "DEFENSE": 115.51339,
+        "SPECIALATTACK": 108.816963,
+        "SPECIALDEFENSE": 132.254471,
+        "SPEED": 133.928574
+      },
+      "abilities": [
+        "rockhead"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "Unnerve",
+        "StalactiteSpear"
+      ],
+      "evolutions": null
+    },
+    "Manul": {
+      "monsterName": "Manul",
+      "monsterID": 229,
+      "monsterType": [
+        "Ice",
+        "Lightning"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "SeedShot",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Dragonfly": {
+      "monsterName": "Dragonfly",
+      "monsterID": 230,
+      "monsterType": [
+        "Insect",
+        "Lightning"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "SeedShot",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "beeMuscle": {
+      "monsterName": "BeeMuscle",
+      "monsterID": 231,
+      "monsterType": [
+        "Insect",
+        "Combat"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "SeedShot",
+        "Growth"
+      ],
+      "evolutions": null
+    }
+  }
+}
