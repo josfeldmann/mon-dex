@@ -1,6 +1,7 @@
 {
   "monsters": {
     "Shibu": {
+      "monsterKey": "Shibu",
       "monsterName": "Shibu",
       "monsterID": 1,
       "monsterType": [
@@ -26,6 +27,7 @@
       "evolutions": null
     },
     "BugShibu": {
+      "monsterKey": "BugShibu",
       "monsterName": "Sectinu",
       "monsterID": 2,
       "monsterType": [
@@ -52,6 +54,7 @@
       "evolutions": null
     },
     "WaterShibu": {
+      "monsterKey": "WaterShibu",
       "monsterName": "Swampinu",
       "monsterID": 3,
       "monsterType": [
@@ -78,6 +81,7 @@
       "evolutions": null
     },
     "FireShibu": {
+      "monsterKey": "FireShibu",
       "monsterName": "Cindinu",
       "monsterID": 5,
       "monsterType": [
@@ -104,6 +108,7 @@
       "evolutions": null
     },
     "ElecShibu": {
+      "monsterKey": "ElecShibu",
       "monsterName": "Voltinu",
       "monsterID": 6,
       "monsterType": [
@@ -130,6 +135,7 @@
       "evolutions": null
     },
     "IceShibu": {
+      "monsterKey": "IceShibu",
       "monsterName": "Frostinu",
       "monsterID": 7,
       "monsterType": [
@@ -156,6 +162,7 @@
       "evolutions": null
     },
     "FightSHibu": {
+      "monsterKey": "FightSHibu",
       "monsterName": "Cheeminu",
       "monsterID": 8,
       "monsterType": [
@@ -182,6 +189,7 @@
       "evolutions": null
     },
     "UndeadShibe": {
+      "monsterKey": "UndeadShibe",
       "monsterName": "Specinu",
       "monsterID": 9,
       "monsterType": [
@@ -208,6 +216,7 @@
       "evolutions": null
     },
     "DarkShibu": {
+      "monsterKey": "DarkShibu",
       "monsterName": "Necrinu",
       "monsterID": 10,
       "monsterType": [
@@ -234,6 +243,7 @@
       "evolutions": null
     },
     "GrassSHibu": {
+      "monsterKey": "GrassSHibu",
       "monsterName": "Shishinu",
       "monsterID": 11,
       "monsterType": [
@@ -260,6 +270,7 @@
       "evolutions": null
     },
     "DinoShibu": {
+      "monsterKey": "DinoShibu",
       "monsterName": "Tyrinu",
       "monsterID": 12,
       "monsterType": [
@@ -286,6 +297,7 @@
       "evolutions": null
     },
     "MoonShibu": {
+      "monsterKey": "MoonShibu",
       "monsterName": "Papillinu",
       "monsterID": 13,
       "monsterType": [
@@ -312,6 +324,7 @@
       "evolutions": null
     },
     "NormalShibu": {
+      "monsterKey": "NormalShibu",
       "monsterName": "Tsuinu",
       "monsterID": 14,
       "monsterType": [
@@ -337,6 +350,7 @@
       "evolutions": null
     },
     "SteelShibu": {
+      "monsterKey": "SteelShibu",
       "monsterName": "SteelShibu",
       "monsterID": 15,
       "monsterType": [
@@ -363,6 +377,7 @@
       "evolutions": null
     },
     "GroundShibu": {
+      "monsterKey": "GroundShibu",
       "monsterName": "MoleShibu",
       "monsterID": 17,
       "monsterType": [
@@ -389,6 +404,7 @@
       "evolutions": null
     },
     "PoisonShibu": {
+      "monsterKey": "PoisonShibu",
       "monsterName": "Shroomu",
       "monsterID": 18,
       "monsterType": [
@@ -415,6 +431,7 @@
       "evolutions": null
     },
     "FlyingShibu": {
+      "monsterKey": "FlyingShibu",
       "monsterName": "Angu",
       "monsterID": 19,
       "monsterType": [
@@ -441,6 +458,7 @@
       "evolutions": null
     },
     "Alshocka": {
+      "monsterKey": "Alshocka",
       "monsterName": "Alshocka",
       "monsterID": 20,
       "monsterType": [
@@ -471,6 +489,7 @@
       "evolutions": null
     },
     "Voltcaya": {
+      "monsterKey": "Voltcaya",
       "monsterName": "Voltcaya",
       "monsterID": 21,
       "monsterType": [
@@ -501,6 +520,7 @@
       "evolutions": null
     },
     "Voltpaca": {
+      "monsterKey": "Voltpaca",
       "monsterName": "Voltpaca",
       "monsterID": 22,
       "monsterType": [
@@ -531,6 +551,7 @@
       "evolutions": null
     },
     "Ignilob": {
+      "monsterKey": "Ignilob",
       "monsterName": "Ignilob",
       "monsterID": 23,
       "monsterType": [
@@ -559,6 +580,7 @@
       "evolutions": null
     },
     "Cindclaw": {
+      "monsterKey": "Cindclaw",
       "monsterName": "Cindclaw",
       "monsterID": 24,
       "monsterType": [
@@ -587,6 +609,7 @@
       "evolutions": null
     },
     "Cindcannon": {
+      "monsterKey": "Cindcannon",
       "monsterName": "Cindcannon",
       "monsterID": 25,
       "monsterType": [
@@ -615,6 +638,7 @@
       "evolutions": null
     },
     "Lapiseal": {
+      "monsterKey": "Lapiseal",
       "monsterName": "Lapiseal",
       "monsterID": 26,
       "monsterType": [
@@ -643,6 +667,7 @@
       "evolutions": null
     },
     "Lapisvitula": {
+      "monsterKey": "Lapisvitula",
       "monsterName": "Lapisvitula",
       "monsterID": 27,
       "monsterType": [
@@ -671,6 +696,7 @@
       "evolutions": null
     },
     "Lapislion": {
+      "monsterKey": "Lapislion",
       "monsterName": "Lapislion",
       "monsterID": 28,
       "monsterType": [
@@ -699,6 +725,7 @@
       "evolutions": null
     },
     "Elofly": {
+      "monsterKey": "Elofly",
       "monsterName": "Elofly",
       "monsterID": 29,
       "monsterType": [
@@ -728,6 +755,7 @@
       "evolutions": null
     },
     "Elowind": {
+      "monsterKey": "Elowind",
       "monsterName": "Elowind",
       "monsterID": 30,
       "monsterType": [
@@ -757,6 +785,7 @@
       "evolutions": null
     },
     "Elostorm": {
+      "monsterKey": "Elostorm",
       "monsterName": "Elostorm",
       "monsterID": 31,
       "monsterType": [
@@ -786,6 +815,7 @@
       "evolutions": null
     },
     "Rockitten": {
+      "monsterKey": "Rockitten",
       "monsterName": "Rockitten",
       "monsterID": 32,
       "monsterType": [
@@ -813,6 +843,7 @@
       "evolutions": null
     },
     "Boulynx": {
+      "monsterKey": "Boulynx",
       "monsterName": "Boulynx",
       "monsterID": 33,
       "monsterType": [
@@ -840,6 +871,7 @@
       "evolutions": null
     },
     "Rockat": {
+      "monsterKey": "Rockat",
       "monsterName": "Rockat",
       "monsterID": 34,
       "monsterType": [
@@ -867,6 +899,7 @@
       "evolutions": null
     },
     "Delichick": {
+      "monsterKey": "Delichick",
       "monsterName": "Delichick",
       "monsterID": 35,
       "monsterType": [
@@ -895,6 +928,7 @@
       "evolutions": null
     },
     "Felichick": {
+      "monsterKey": "Felichick",
       "monsterName": "Felichick",
       "monsterID": 35,
       "monsterType": [
@@ -923,6 +957,7 @@
       "evolutions": null
     },
     "Herotint": {
+      "monsterKey": "Herotint",
       "monsterName": "Herotint",
       "monsterID": 36,
       "monsterType": [
@@ -951,6 +986,7 @@
       "evolutions": null
     },
     "Feerotint": {
+      "monsterKey": "Feerotint",
       "monsterName": "Feerotint",
       "monsterID": 36,
       "monsterType": [
@@ -979,6 +1015,7 @@
       "evolutions": null
     },
     "Azuron": {
+      "monsterKey": "Azuron",
       "monsterName": "Azuron",
       "monsterID": 37,
       "monsterType": [
@@ -1007,6 +1044,7 @@
       "evolutions": null
     },
     "Blancron": {
+      "monsterKey": "Blancron",
       "monsterName": "Blancron",
       "monsterID": 37,
       "monsterType": [
@@ -1035,6 +1073,7 @@
       "evolutions": null
     },
     "Lambert": {
+      "monsterKey": "Lambert",
       "monsterName": "Lambert",
       "monsterID": 38,
       "monsterType": [
@@ -1065,6 +1104,7 @@
       "evolutions": null
     },
     "Vambert": {
+      "monsterKey": "Vambert",
       "monsterName": "Vambert",
       "monsterID": 38,
       "monsterType": [
@@ -1095,6 +1135,7 @@
       "evolutions": null
     },
     "Legko": {
+      "monsterKey": "Legko",
       "monsterName": "Legko",
       "monsterID": 39,
       "monsterType": [
@@ -1125,6 +1166,7 @@
       "evolutions": null
     },
     "Velko": {
+      "monsterKey": "Velko",
       "monsterName": "Velko",
       "monsterID": 39,
       "monsterType": [
@@ -1155,6 +1197,7 @@
       "evolutions": null
     },
     "Moloch": {
+      "monsterKey": "Moloch",
       "monsterName": "Moloch",
       "monsterID": 40,
       "monsterType": [
@@ -1185,6 +1228,7 @@
       "evolutions": null
     },
     "Velloch": {
+      "monsterKey": "Velloch",
       "monsterName": "Velloch",
       "monsterID": 40,
       "monsterType": [
@@ -1215,6 +1259,7 @@
       "evolutions": null
     },
     "Rocksnek": {
+      "monsterKey": "Rocksnek",
       "monsterName": "Rocksnek",
       "monsterID": 41,
       "monsterType": [
@@ -1241,6 +1286,7 @@
       "evolutions": null
     },
     "Rockhead": {
+      "monsterKey": "Rockhead",
       "monsterName": "Rockhead",
       "monsterID": 42,
       "monsterType": [
@@ -1267,6 +1313,7 @@
       "evolutions": null
     },
     "Rockobra": {
+      "monsterKey": "Rockobra",
       "monsterName": "Rockobra",
       "monsterID": 43,
       "monsterType": [
@@ -1293,6 +1340,7 @@
       "evolutions": null
     },
     "Tulemur": {
+      "monsterKey": "Tulemur",
       "monsterName": "Tulemur",
       "monsterID": 44,
       "monsterType": [
@@ -1321,6 +1369,7 @@
       "evolutions": null
     },
     "Tulemuru": {
+      "monsterKey": "Tulemuru",
       "monsterName": "Tulemuru",
       "monsterID": 45,
       "monsterType": [
@@ -1349,6 +1398,7 @@
       "evolutions": null
     },
     "Larvug": {
+      "monsterKey": "Larvug",
       "monsterName": "Larvug",
       "monsterID": 46,
       "monsterType": [
@@ -1375,6 +1425,7 @@
       "evolutions": null
     },
     "LarvaFly": {
+      "monsterKey": "LarvaFly",
       "monsterName": "LarvaFly",
       "monsterID": 47,
       "monsterType": [
@@ -1401,6 +1452,7 @@
       "evolutions": null
     },
     "Aard": {
+      "monsterKey": "Aard",
       "monsterName": "Aard",
       "monsterID": 48,
       "monsterType": [
@@ -1427,6 +1479,7 @@
       "evolutions": null
     },
     "Chaard": {
+      "monsterKey": "Chaard",
       "monsterName": "Chaard",
       "monsterID": 48,
       "monsterType": [
@@ -1456,6 +1509,7 @@
       "evolutions": null
     },
     "Aartorious": {
+      "monsterKey": "Aartorious",
       "monsterName": "Aartorious",
       "monsterID": 49,
       "monsterType": [
@@ -1482,6 +1536,7 @@
       "evolutions": null
     },
     "Chaartorious": {
+      "monsterKey": "Chaartorious",
       "monsterName": "Chaartorious",
       "monsterID": 49,
       "monsterType": [
@@ -1511,6 +1566,7 @@
       "evolutions": null
     },
     "Dreed": {
+      "monsterKey": "Dreed",
       "monsterName": "Dreed",
       "monsterID": 50,
       "monsterType": [
@@ -1537,6 +1593,7 @@
       "evolutions": null
     },
     "Drout": {
+      "monsterKey": "Drout",
       "monsterName": "Drout",
       "monsterID": 51,
       "monsterType": [
@@ -1563,6 +1620,7 @@
       "evolutions": null
     },
     "Dragalia": {
+      "monsterKey": "Dragalia",
       "monsterName": "Dragalia",
       "monsterID": 52,
       "monsterType": [
@@ -1589,6 +1647,7 @@
       "evolutions": null
     },
     "Coldrhabi": {
+      "monsterKey": "Coldrhabi",
       "monsterName": "Coldrhabi",
       "monsterID": 53,
       "monsterType": [
@@ -1615,6 +1674,7 @@
       "evolutions": null
     },
     "Letice": {
+      "monsterKey": "Letice",
       "monsterName": "Letice",
       "monsterID": 54,
       "monsterType": [
@@ -1641,6 +1701,7 @@
       "evolutions": null
     },
     "Frostuce": {
+      "monsterKey": "Frostuce",
       "monsterName": "Frostuce",
       "monsterID": 55,
       "monsterType": [
@@ -1667,6 +1728,7 @@
       "evolutions": null
     },
     "Chillimp": {
+      "monsterKey": "Chillimp",
       "monsterName": "Chillimp",
       "monsterID": 58,
       "monsterType": [
@@ -1693,6 +1755,7 @@
       "evolutions": null
     },
     "Cheti": {
+      "monsterKey": "Cheti",
       "monsterName": "Cheti",
       "monsterID": 59,
       "monsterType": [
@@ -1719,6 +1782,7 @@
       "evolutions": null
     },
     "Boltnu": {
+      "monsterKey": "Boltnu",
       "monsterName": "Boltnu",
       "monsterID": 60,
       "monsterType": [
@@ -1743,6 +1807,7 @@
       "evolutions": null
     },
     "Zagon": {
+      "monsterKey": "Zagon",
       "monsterName": "Zagon",
       "monsterID": 61,
       "monsterType": [
@@ -1767,6 +1832,7 @@
       "evolutions": null
     },
     "Drashimi": {
+      "monsterKey": "Drashimi",
       "monsterName": "Drashimi",
       "monsterID": 62,
       "monsterType": [
@@ -1793,6 +1859,7 @@
       "evolutions": null
     },
     "Drushi": {
+      "monsterKey": "Drushi",
       "monsterName": "Drushi",
       "monsterID": 63,
       "monsterType": [
@@ -1819,6 +1886,7 @@
       "evolutions": null
     },
     "Dragami": {
+      "monsterKey": "Dragami",
       "monsterName": "Dragami",
       "monsterID": 64,
       "monsterType": [
@@ -1845,6 +1913,7 @@
       "evolutions": null
     },
     "Metesaur": {
+      "monsterKey": "Metesaur",
       "monsterName": "Metesaur",
       "monsterID": 65,
       "monsterType": [
@@ -1871,6 +1940,7 @@
       "evolutions": null
     },
     "Meteodactly": {
+      "monsterKey": "Meteodactly",
       "monsterName": "Meteodactly",
       "monsterID": 66,
       "monsterType": [
@@ -1897,6 +1967,7 @@
       "evolutions": null
     },
     "Pyghoul": {
+      "monsterKey": "Pyghoul",
       "monsterName": "Pyghoul",
       "monsterID": 67,
       "monsterType": [
@@ -1923,6 +1994,7 @@
       "evolutions": null
     },
     "Vyghoul": {
+      "monsterKey": "Vyghoul",
       "monsterName": "Vyghoul",
       "monsterID": 67,
       "monsterType": [
@@ -1949,6 +2021,7 @@
       "evolutions": null
     },
     "Pythock": {
+      "monsterKey": "Pythock",
       "monsterName": "Pythock",
       "monsterID": 68,
       "monsterType": [
@@ -1975,6 +2048,7 @@
       "evolutions": null
     },
     "Vythock": {
+      "monsterKey": "Vythock",
       "monsterName": "Vythock",
       "monsterID": 68,
       "monsterType": [
@@ -2001,6 +2075,7 @@
       "evolutions": null
     },
     "Seltek": {
+      "monsterKey": "Seltek",
       "monsterName": "Seltek",
       "monsterID": 69,
       "monsterType": [
@@ -2027,6 +2102,7 @@
       "evolutions": null
     },
     "Selmatek": {
+      "monsterKey": "Selmatek",
       "monsterName": "Selmatek",
       "monsterID": 70,
       "monsterType": [
@@ -2053,6 +2129,7 @@
       "evolutions": null
     },
     "Turnipper": {
+      "monsterKey": "Turnipper",
       "monsterName": "Turnipper",
       "monsterID": 71,
       "monsterType": [
@@ -2079,6 +2156,7 @@
       "evolutions": null
     },
     "Beenstalker": {
+      "monsterKey": "Beenstalker",
       "monsterName": "Beenstalker",
       "monsterID": 72,
       "monsterType": [
@@ -2105,6 +2183,7 @@
       "evolutions": null
     },
     "Agnite": {
+      "monsterKey": "Agnite",
       "monsterName": "Agnite",
       "monsterID": 73,
       "monsterType": [
@@ -2131,6 +2210,7 @@
       "evolutions": null
     },
     "Agnidon": {
+      "monsterKey": "Agnidon",
       "monsterName": "Agnidon",
       "monsterID": 74,
       "monsterType": [
@@ -2157,6 +2237,7 @@
       "evolutions": null
     },
     "Agnigon": {
+      "monsterKey": "Agnigon",
       "monsterName": "Agnigon",
       "monsterID": 75,
       "monsterType": [
@@ -2183,6 +2264,7 @@
       "evolutions": null
     },
     "Memnomnon": {
+      "monsterKey": "Memnomnon",
       "monsterName": "Memnomnon",
       "monsterID": 78,
       "monsterType": [
@@ -2208,6 +2290,7 @@
       "evolutions": null
     },
     "Miaownolith": {
+      "monsterKey": "Miaownolith",
       "monsterName": "Miaownolith",
       "monsterID": 79,
       "monsterType": [
@@ -2233,6 +2316,7 @@
       "evolutions": null
     },
     "Pyraminx": {
+      "monsterKey": "Pyraminx",
       "monsterName": "Pyraminx",
       "monsterID": 80,
       "monsterType": [
@@ -2258,6 +2342,7 @@
       "evolutions": null
     },
     "Pyrominx": {
+      "monsterKey": "Pyrominx",
       "monsterName": "Pyrominx",
       "monsterID": 81,
       "monsterType": [
@@ -2283,6 +2368,7 @@
       "evolutions": null
     },
     "Bigfin": {
+      "monsterKey": "Bigfin",
       "monsterName": "Bigfin",
       "monsterID": 82,
       "monsterType": [
@@ -2309,6 +2395,7 @@
       "evolutions": null
     },
     "Sharpfin": {
+      "monsterKey": "Sharpfin",
       "monsterName": "Sharpfin",
       "monsterID": 83,
       "monsterType": [
@@ -2335,6 +2422,7 @@
       "evolutions": null
     },
     "Grintot": {
+      "monsterKey": "Grintot",
       "monsterName": "Grintot",
       "monsterID": 84,
       "monsterType": [
@@ -2360,6 +2448,7 @@
       "evolutions": null
     },
     "Grinflare": {
+      "monsterKey": "Grinflare",
       "monsterName": "Grinflare",
       "monsterID": 85,
       "monsterType": [
@@ -2386,6 +2475,7 @@
       "evolutions": null
     },
     "Grinshock": {
+      "monsterKey": "Grinshock",
       "monsterName": "Grinshock",
       "monsterID": 86,
       "monsterType": [
@@ -2412,6 +2502,7 @@
       "evolutions": null
     },
     "Pondive": {
+      "monsterKey": "Pondive",
       "monsterName": "Pondive",
       "monsterID": 87,
       "monsterType": [
@@ -2440,6 +2531,7 @@
       "evolutions": null
     },
     "Divurf": {
+      "monsterKey": "Divurf",
       "monsterName": "Divurf",
       "monsterID": 88,
       "monsterType": [
@@ -2468,6 +2560,7 @@
       "evolutions": null
     },
     "Medipup": {
+      "monsterKey": "Medipup",
       "monsterName": "Medipup",
       "monsterID": 89,
       "monsterType": [
@@ -2493,6 +2586,7 @@
       "evolutions": null
     },
     "Doctsy": {
+      "monsterKey": "Doctsy",
       "monsterName": "Doctsy",
       "monsterID": 90,
       "monsterType": [
@@ -2518,6 +2612,7 @@
       "evolutions": null
     },
     "Foillet": {
+      "monsterKey": "Foillet",
       "monsterName": "Foillet",
       "monsterID": 91,
       "monsterType": [
@@ -2544,6 +2639,7 @@
       "evolutions": null
     },
     "Swanfoil": {
+      "monsterKey": "Swanfoil",
       "monsterName": "Swanfoil",
       "monsterID": 92,
       "monsterType": [
@@ -2570,6 +2666,7 @@
       "evolutions": null
     },
     "Psynaps": {
+      "monsterKey": "Psynaps",
       "monsterName": "Psynaps",
       "monsterID": 93,
       "monsterType": [
@@ -2596,6 +2693,7 @@
       "evolutions": null
     },
     "Denvivo": {
+      "monsterKey": "Denvivo",
       "monsterName": "Denvivo",
       "monsterID": 94,
       "monsterType": [
@@ -2622,6 +2720,7 @@
       "evolutions": null
     },
     "Somatose": {
+      "monsterKey": "Somatose",
       "monsterName": "Somatose",
       "monsterID": 95,
       "monsterType": [
@@ -2648,6 +2747,7 @@
       "evolutions": null
     },
     "Bumbulus": {
+      "monsterKey": "Bumbulus",
       "monsterName": "Bumbulus",
       "monsterID": 96,
       "monsterType": [
@@ -2674,6 +2774,7 @@
       "evolutions": null
     },
     "Nimbulus": {
+      "monsterKey": "Nimbulus",
       "monsterName": "Nimbulus",
       "monsterID": 97,
       "monsterType": [
@@ -2700,6 +2801,7 @@
       "evolutions": null
     },
     "Tribial": {
+      "monsterKey": "Tribial",
       "monsterName": "Tribial",
       "monsterID": 98,
       "monsterType": [
@@ -2726,6 +2828,7 @@
       "evolutions": null
     },
     "Shamage": {
+      "monsterKey": "Shamage",
       "monsterName": "Shamage",
       "monsterID": 99,
       "monsterType": [
@@ -2752,6 +2855,7 @@
       "evolutions": null
     },
     "Tadcool": {
+      "monsterKey": "Tadcool",
       "monsterName": "Tadcool",
       "monsterID": 100,
       "monsterType": [
@@ -2778,6 +2882,7 @@
       "evolutions": null
     },
     "Fribbit": {
+      "monsterKey": "Fribbit",
       "monsterName": "Fribbit",
       "monsterID": 101,
       "monsterType": [
@@ -2804,6 +2909,7 @@
       "evolutions": null
     },
     "Millil": {
+      "monsterKey": "Millil",
       "monsterName": "Millil",
       "monsterID": 102,
       "monsterType": [
@@ -2830,6 +2936,7 @@
       "evolutions": null
     },
     "Millisting": {
+      "monsterKey": "Millisting",
       "monsterName": "Millisting",
       "monsterID": 103,
       "monsterType": [
@@ -2856,6 +2963,7 @@
       "evolutions": null
     },
     "Sampsack": {
+      "monsterKey": "Sampsack",
       "monsterName": "Sampsack",
       "monsterID": 104,
       "monsterType": [
@@ -2881,6 +2989,7 @@
       "evolutions": null
     },
     "Sampsage": {
+      "monsterKey": "Sampsage",
       "monsterName": "Sampsage",
       "monsterID": 105,
       "monsterType": [
@@ -2907,6 +3016,7 @@
       "evolutions": null
     },
     "Weedsea": {
+      "monsterKey": "Weedsea",
       "monsterName": "Weedsea",
       "monsterID": 106,
       "monsterType": [
@@ -2933,6 +3043,7 @@
       "evolutions": null
     },
     "Weedlantis": {
+      "monsterKey": "Weedlantis",
       "monsterName": "Weedlantis",
       "monsterID": 107,
       "monsterType": [
@@ -2959,6 +3070,7 @@
       "evolutions": null
     },
     "Tungrub": {
+      "monsterKey": "Tungrub",
       "monsterName": "Tungrub",
       "monsterID": 108,
       "monsterType": [
@@ -2985,6 +3097,7 @@
       "evolutions": null
     },
     "Worbolt": {
+      "monsterKey": "Worbolt",
       "monsterName": "Worbolt",
       "monsterID": 109,
       "monsterType": [
@@ -3011,6 +3124,7 @@
       "evolutions": null
     },
     "Waysprite": {
+      "monsterKey": "Waysprite",
       "monsterName": "Waysprite",
       "monsterID": 110,
       "monsterType": [
@@ -3037,6 +3151,7 @@
       "evolutions": null
     },
     "Agnesnow": {
+      "monsterKey": "Agnesnow",
       "monsterName": "Agnesnow",
       "monsterID": 111,
       "monsterType": [
@@ -3063,6 +3178,7 @@
       "evolutions": null
     },
     "Seraphice": {
+      "monsterKey": "Seraphice",
       "monsterName": "Seraphice",
       "monsterID": 112,
       "monsterType": [
@@ -3089,6 +3205,7 @@
       "evolutions": null
     },
     "Demisnow": {
+      "monsterKey": "Demisnow",
       "monsterName": "Demisnow",
       "monsterID": 113,
       "monsterType": [
@@ -3115,6 +3232,7 @@
       "evolutions": null
     },
     "Lucifice": {
+      "monsterKey": "Lucifice",
       "monsterName": "Lucifice",
       "monsterID": 114,
       "monsterType": [
@@ -3141,6 +3259,7 @@
       "evolutions": null
     },
     "Nudaflott": {
+      "monsterKey": "Nudaflott",
       "monsterName": "Nudaflott",
       "monsterID": 115,
       "monsterType": [
@@ -3166,6 +3285,7 @@
       "evolutions": null
     },
     "Nudaqueen": {
+      "monsterKey": "Nudaqueen",
       "monsterName": "Nudaqueen",
       "monsterID": 116,
       "monsterType": [
@@ -3192,6 +3312,7 @@
       "evolutions": null
     },
     "NudoFlott": {
+      "monsterKey": "NudoFlott",
       "monsterName": "NudoFlott",
       "monsterID": 117,
       "monsterType": [
@@ -3217,6 +3338,7 @@
       "evolutions": null
     },
     "Nudoking": {
+      "monsterKey": "Nudoking",
       "monsterName": "Nudoking",
       "monsterID": 118,
       "monsterType": [
@@ -3243,6 +3365,7 @@
       "evolutions": null
     },
     "Poturney": {
+      "monsterKey": "Poturney",
       "monsterName": "Poturney",
       "monsterID": 119,
       "monsterType": [
@@ -3268,6 +3391,7 @@
       "evolutions": null
     },
     "Potturnery": {
+      "monsterKey": "Potturnery",
       "monsterName": "Potturnery",
       "monsterID": 120,
       "monsterType": [
@@ -3293,6 +3417,7 @@
       "evolutions": null
     },
     "Pawsand": {
+      "monsterKey": "Pawsand",
       "monsterName": "Pawsand",
       "monsterID": 121,
       "monsterType": [
@@ -3318,6 +3443,7 @@
       "evolutions": null
     },
     "Rooksand": {
+      "monsterKey": "Rooksand",
       "monsterName": "Rooksand",
       "monsterID": 122,
       "monsterType": [
@@ -3343,6 +3469,7 @@
       "evolutions": null
     },
     "Embra": {
+      "monsterKey": "Embra",
       "monsterName": "Embra",
       "monsterID": 123,
       "monsterType": [
@@ -3369,6 +3496,7 @@
       "evolutions": null
     },
     "Ruption": {
+      "monsterKey": "Ruption",
       "monsterName": "Ruption",
       "monsterID": 124,
       "monsterType": [
@@ -3395,6 +3523,7 @@
       "evolutions": null
     },
     "Eyenemy": {
+      "monsterKey": "Eyenemy",
       "monsterName": "Eyenemy",
       "monsterID": 125,
       "monsterType": [
@@ -3421,6 +3550,7 @@
       "evolutions": null
     },
     "Eyesore": {
+      "monsterKey": "Eyesore",
       "monsterName": "Eyesore",
       "monsterID": 126,
       "monsterType": [
@@ -3447,6 +3577,7 @@
       "evolutions": null
     },
     "Polyrock": {
+      "monsterKey": "Polyrock",
       "monsterName": "Polyrock",
       "monsterID": 127,
       "monsterType": [
@@ -3473,6 +3604,7 @@
       "evolutions": null
     },
     "Polypoison": {
+      "monsterKey": "Polypoison",
       "monsterName": "Polypoison",
       "monsterID": 128,
       "monsterType": [
@@ -3499,6 +3631,7 @@
       "evolutions": null
     },
     "Polyice": {
+      "monsterKey": "Polyice",
       "monsterName": "Polyice",
       "monsterID": 129,
       "monsterType": [
@@ -3525,6 +3658,7 @@
       "evolutions": null
     },
     "Tweesher": {
+      "monsterKey": "Tweesher",
       "monsterName": "Tweesher",
       "monsterID": 130,
       "monsterType": [
@@ -3551,6 +3685,7 @@
       "evolutions": null
     },
     "Heronquak": {
+      "monsterKey": "Heronquak",
       "monsterName": "Heronquak",
       "monsterID": 131,
       "monsterType": [
@@ -3577,6 +3712,7 @@
       "evolutions": null
     },
     "Eaglace": {
+      "monsterKey": "Eaglace",
       "monsterName": "Eaglace",
       "monsterID": 132,
       "monsterType": [
@@ -3603,6 +3739,7 @@
       "evolutions": null
     },
     "Sniprit": {
+      "monsterKey": "Sniprit",
       "monsterName": "Sniprit",
       "monsterID": 133,
       "monsterType": [
@@ -3629,6 +3766,7 @@
       "evolutions": null
     },
     "Foutlaw": {
+      "monsterKey": "Foutlaw",
       "monsterName": "Foutlaw",
       "monsterID": 134,
       "monsterType": [
@@ -3655,6 +3793,7 @@
       "evolutions": null
     },
     "Flamdito": {
+      "monsterKey": "Flamdito",
       "monsterName": "Flamdito",
       "monsterID": 135,
       "monsterType": [
@@ -3681,6 +3820,7 @@
       "evolutions": null
     },
     "Pickoon": {
+      "monsterKey": "Pickoon",
       "monsterName": "Pickoon",
       "monsterID": 136,
       "monsterType": [
@@ -3707,6 +3847,7 @@
       "evolutions": null
     },
     "Raccsal": {
+      "monsterKey": "Raccsal",
       "monsterName": "Raccsal",
       "monsterID": 137,
       "monsterType": [
@@ -3733,6 +3874,7 @@
       "evolutions": null
     },
     "Stonifly": {
+      "monsterKey": "Stonifly",
       "monsterName": "Stonifly",
       "monsterID": 138,
       "monsterType": [
@@ -3759,6 +3901,7 @@
       "evolutions": null
     },
     "Cocrune": {
+      "monsterKey": "Cocrune",
       "monsterName": "Cocrune",
       "monsterID": 139,
       "monsterType": [
@@ -3785,6 +3928,7 @@
       "evolutions": null
     },
     "Runesquito": {
+      "monsterKey": "Runesquito",
       "monsterName": "Runesquito",
       "monsterID": 140,
       "monsterType": [
@@ -3811,6 +3955,7 @@
       "evolutions": null
     },
     "Sparepple": {
+      "monsterKey": "Sparepple",
       "monsterName": "Sparepple",
       "monsterID": 141,
       "monsterType": [
@@ -3837,6 +3982,7 @@
       "evolutions": null
     },
     "Samurepple": {
+      "monsterKey": "Samurepple",
       "monsterName": "Samurepple",
       "monsterID": 142,
       "monsterType": [
@@ -3863,6 +4009,7 @@
       "evolutions": null
     },
     "Bulkow": {
+      "monsterKey": "Bulkow",
       "monsterName": "Bulkow",
       "monsterID": 149,
       "monsterType": [
@@ -3889,6 +4036,7 @@
       "evolutions": null
     },
     "Muscletaur": {
+      "monsterKey": "Muscletaur",
       "monsterName": "Muscletaur",
       "monsterID": 150,
       "monsterType": [
@@ -3915,6 +4063,7 @@
       "evolutions": null
     },
     "Flouresfin": {
+      "monsterKey": "Flouresfin",
       "monsterName": "Flouresfin",
       "monsterID": 151,
       "monsterType": [
@@ -3941,6 +4090,7 @@
       "evolutions": null
     },
     "Lightmare": {
+      "monsterKey": "Lightmare",
       "monsterName": "Lightmare",
       "monsterID": 153,
       "monsterType": [
@@ -3967,6 +4117,7 @@
       "evolutions": null
     },
     "Pairagrin": {
+      "monsterKey": "Pairagrin",
       "monsterName": "Pairagrin",
       "monsterID": 154,
       "monsterType": [
@@ -3993,6 +4144,7 @@
       "evolutions": null
     },
     "Pairagrim": {
+      "monsterKey": "Pairagrim",
       "monsterName": "Pairagrim",
       "monsterID": 155,
       "monsterType": [
@@ -4019,6 +4171,7 @@
       "evolutions": null
     },
     "Forturtle": {
+      "monsterKey": "Forturtle",
       "monsterName": "Forturtle",
       "monsterID": 156,
       "monsterType": [
@@ -4044,6 +4197,7 @@
       "evolutions": null
     },
     "Prophetoise": {
+      "monsterKey": "Prophetoise",
       "monsterName": "Prophetoise",
       "monsterID": 157,
       "monsterType": [
@@ -4070,6 +4224,7 @@
       "evolutions": null
     },
     "Yabba": {
+      "monsterKey": "Yabba",
       "monsterName": "Yabba",
       "monsterID": 165,
       "monsterType": [
@@ -4095,6 +4250,7 @@
       "evolutions": null
     },
     "Dabadoo": {
+      "monsterKey": "Dabadoo",
       "monsterName": "Dabadoo",
       "monsterID": 166,
       "monsterType": [
@@ -4121,6 +4277,7 @@
       "evolutions": null
     },
     "SLichen": {
+      "monsterKey": "SLichen",
       "monsterName": "SLichen",
       "monsterID": 167,
       "monsterType": [
@@ -4147,6 +4304,7 @@
       "evolutions": null
     },
     "Glombroc": {
+      "monsterKey": "Glombroc",
       "monsterName": "Glombroc",
       "monsterID": 168,
       "monsterType": [
@@ -4173,6 +4331,7 @@
       "evolutions": null
     },
     "Uneye": {
+      "monsterKey": "Uneye",
       "monsterName": "Uneye",
       "monsterID": 170,
       "monsterType": [
@@ -4199,6 +4358,7 @@
       "evolutions": null
     },
     "Lendos": {
+      "monsterKey": "Lendos",
       "monsterName": "Lendos",
       "monsterID": 171,
       "monsterType": [
@@ -4225,6 +4385,7 @@
       "evolutions": null
     },
     "Boldersaur": {
+      "monsterKey": "Boldersaur",
       "monsterName": "Boldersaur",
       "monsterID": 176,
       "monsterType": [
@@ -4251,6 +4412,7 @@
       "evolutions": null
     },
     "Shocksaur": {
+      "monsterKey": "Shocksaur",
       "monsterName": "Shocksaur",
       "monsterID": 176,
       "monsterType": [
@@ -4277,6 +4439,7 @@
       "evolutions": null
     },
     "Velocifracture": {
+      "monsterKey": "Velocifracture",
       "monsterName": "Velocifracture",
       "monsterID": 177,
       "monsterType": [
@@ -4303,6 +4466,7 @@
       "evolutions": null
     },
     "Velocishock": {
+      "monsterKey": "Velocishock",
       "monsterName": "Velocishock",
       "monsterID": 177,
       "monsterType": [
@@ -4329,6 +4493,7 @@
       "evolutions": null
     },
     "Neublott": {
+      "monsterKey": "Neublott",
       "monsterName": "Neublott",
       "monsterID": 179,
       "monsterType": [
@@ -4355,6 +4520,7 @@
       "evolutions": null
     },
     "Praysteel": {
+      "monsterKey": "Praysteel",
       "monsterName": "Praysteel",
       "monsterID": 180,
       "monsterType": [
@@ -4381,6 +4547,7 @@
       "evolutions": null
     },
     "Mantobo": {
+      "monsterKey": "Mantobo",
       "monsterName": "Mantobo",
       "monsterID": 180,
       "monsterType": [
@@ -4407,6 +4574,7 @@
       "evolutions": null
     },
     "Mantsteel": {
+      "monsterKey": "Mantsteel",
       "monsterName": "Mantsteel",
       "monsterID": 181,
       "monsterType": [
@@ -4433,6 +4601,7 @@
       "evolutions": null
     },
     "Mantoboggan": {
+      "monsterKey": "Mantoboggan",
       "monsterName": "Mantoboggan",
       "monsterID": 181,
       "monsterType": [
@@ -4459,6 +4628,7 @@
       "evolutions": null
     },
     "Swampu": {
+      "monsterKey": "Swampu",
       "monsterName": "Swampu",
       "monsterID": 182,
       "monsterType": [
@@ -4485,6 +4655,7 @@
       "evolutions": null
     },
     "Blazu": {
+      "monsterKey": "Blazu",
       "monsterName": "Blazu",
       "monsterID": 182,
       "monsterType": [
@@ -4510,6 +4681,7 @@
       "evolutions": null
     },
     "Swamploom": {
+      "monsterKey": "Swamploom",
       "monsterName": "Swamploom",
       "monsterID": 183,
       "monsterType": [
@@ -4536,6 +4708,7 @@
       "evolutions": null
     },
     "Blazloom": {
+      "monsterKey": "Blazloom",
       "monsterName": "Blazloom",
       "monsterID": 183,
       "monsterType": [
@@ -4561,6 +4734,7 @@
       "evolutions": null
     },
     "Shockshrew": {
+      "monsterKey": "Shockshrew",
       "monsterName": "Shockshrew",
       "monsterID": 184,
       "monsterType": [
@@ -4587,6 +4761,7 @@
       "evolutions": null
     },
     "Cindshrew": {
+      "monsterKey": "Cindshrew",
       "monsterName": "Cindshrew",
       "monsterID": 184,
       "monsterType": [
@@ -4613,6 +4788,7 @@
       "evolutions": null
     },
     "Shockupine": {
+      "monsterKey": "Shockupine",
       "monsterName": "Shockupine",
       "monsterID": 185,
       "monsterType": [
@@ -4639,6 +4815,7 @@
       "evolutions": null
     },
     "Cindipine": {
+      "monsterKey": "Cindipine",
       "monsterName": "Cindipine",
       "monsterID": 185,
       "monsterType": [
@@ -4665,6 +4842,7 @@
       "evolutions": null
     },
     "PysOwl": {
+      "monsterKey": "PysOwl",
       "monsterName": "PysOwl",
       "monsterID": 186,
       "monsterType": [
@@ -4691,6 +4869,7 @@
       "evolutions": null
     },
     "Xylofish": {
+      "monsterKey": "Xylofish",
       "monsterName": "Xylofish",
       "monsterID": 188,
       "monsterType": [
@@ -4717,6 +4896,7 @@
       "evolutions": null
     },
     "BloatFish": {
+      "monsterKey": "BloatFish",
       "monsterName": "BloatFish",
       "monsterID": 190,
       "monsterType": [
@@ -4743,6 +4923,7 @@
       "evolutions": null
     },
     "Apeoro": {
+      "monsterKey": "Apeoro",
       "monsterName": "Apeoro",
       "monsterID": 194,
       "monsterType": [
@@ -4768,6 +4949,7 @@
       "evolutions": null
     },
     "Dankush": {
+      "monsterKey": "Dankush",
       "monsterName": "Dankush",
       "monsterID": 195,
       "monsterType": [
@@ -4794,6 +4976,7 @@
       "evolutions": null
     },
     "Mingdyn": {
+      "monsterKey": "Mingdyn",
       "monsterName": "Mingdyn",
       "monsterID": 196,
       "monsterType": [
@@ -4820,6 +5003,7 @@
       "evolutions": null
     },
     "Mauai": {
+      "monsterKey": "Mauai",
       "monsterName": "Mauai",
       "monsterID": 196,
       "monsterType": [
@@ -4845,6 +5029,7 @@
       "evolutions": null
     },
     "Mystikapi": {
+      "monsterKey": "Mystikapi",
       "monsterName": "Mystikapi",
       "monsterID": 196,
       "monsterType": [
@@ -4870,6 +5055,7 @@
       "evolutions": null
     },
     "Medushock": {
+      "monsterKey": "Medushock",
       "monsterName": "Medushock",
       "monsterID": 196,
       "monsterType": [
@@ -4896,6 +5082,7 @@
       "evolutions": null
     },
     "Medusting": {
+      "monsterKey": "Medusting",
       "monsterName": "Medusting",
       "monsterID": 196,
       "monsterType": [
@@ -4922,6 +5109,7 @@
       "evolutions": null
     },
     "Baoby": {
+      "monsterKey": "Baoby",
       "monsterName": "Baoby",
       "monsterID": 196,
       "monsterType": [
@@ -4947,6 +5135,7 @@
       "evolutions": null
     },
     "Baobaraffe": {
+      "monsterKey": "Baobaraffe",
       "monsterName": "Baobaraffe",
       "monsterID": 196,
       "monsterType": [
@@ -4972,6 +5161,7 @@
       "evolutions": null
     },
     "leonSoul": {
+      "monsterKey": "leonSoul",
       "monsterName": "leonSoul",
       "monsterID": 196,
       "monsterType": [
@@ -4998,6 +5188,7 @@
       "evolutions": null
     },
     "Wendigo": {
+      "monsterKey": "Wendigo",
       "monsterName": "Wendigo",
       "monsterID": 196,
       "monsterType": [
@@ -5024,6 +5215,7 @@
       "evolutions": null
     },
     "Goldstream": {
+      "monsterKey": "Goldstream",
       "monsterName": "GoldStream",
       "monsterID": 196,
       "monsterType": [
@@ -5050,6 +5242,7 @@
       "evolutions": null
     },
     "Goldscale": {
+      "monsterKey": "Goldscale",
       "monsterName": "Goldscale",
       "monsterID": 196,
       "monsterType": [
@@ -5076,6 +5269,7 @@
       "evolutions": null
     },
     "Goldcind": {
+      "monsterKey": "Goldcind",
       "monsterName": "Goldcind",
       "monsterID": 196,
       "monsterType": [
@@ -5102,6 +5296,7 @@
       "evolutions": null
     },
     "GrassRhinoBaby": {
+      "monsterKey": "GrassRhinoBaby",
       "monsterName": "GrassRhinoBaby",
       "monsterID": 196,
       "monsterType": [
@@ -5128,6 +5323,7 @@
       "evolutions": null
     },
     "GrassRhino": {
+      "monsterKey": "GrassRhino",
       "monsterName": "GrassRhino",
       "monsterID": 196,
       "monsterType": [
@@ -5154,6 +5350,7 @@
       "evolutions": null
     },
     "FirePony": {
+      "monsterKey": "FirePony",
       "monsterName": "FirePony",
       "monsterID": 196,
       "monsterType": [
@@ -5180,6 +5377,7 @@
       "evolutions": null
     },
     "FireHorse": {
+      "monsterKey": "FireHorse",
       "monsterName": "FireHorse",
       "monsterID": 196,
       "monsterType": [
@@ -5206,6 +5404,7 @@
       "evolutions": null
     },
     "SteelPlatypus": {
+      "monsterKey": "SteelPlatypus",
       "monsterName": "SteelPlatypus",
       "monsterID": 196,
       "monsterType": [
@@ -5232,6 +5431,7 @@
       "evolutions": null
     },
     "SteelPlatypusLarge": {
+      "monsterKey": "SteelPlatypusLarge",
       "monsterName": "SteelPlatypusLarge",
       "monsterID": 197,
       "monsterType": [
@@ -5258,6 +5458,7 @@
       "evolutions": null
     },
     "Workant": {
+      "monsterKey": "Workant",
       "monsterName": "Workant",
       "monsterID": 216,
       "monsterType": [
@@ -5284,6 +5485,7 @@
       "evolutions": null
     },
     "Soldant": {
+      "monsterKey": "Soldant",
       "monsterName": "Soldant",
       "monsterID": 217,
       "monsterType": [
@@ -5310,6 +5512,7 @@
       "evolutions": null
     },
     "parroot": {
+      "monsterKey": "parroot",
       "monsterName": "Parroot",
       "monsterID": 216,
       "monsterType": [
@@ -5336,6 +5539,7 @@
       "evolutions": null
     },
     "parroast": {
+      "monsterKey": "parroast",
       "monsterName": "Parroot",
       "monsterID": 216,
       "monsterType": [
@@ -5362,6 +5566,7 @@
       "evolutions": null
     },
     "Parrolage": {
+      "monsterKey": "Parrolage",
       "monsterName": "Parrolage",
       "monsterID": 217,
       "monsterType": [
@@ -5388,6 +5593,7 @@
       "evolutions": null
     },
     "Parroblaze": {
+      "monsterKey": "Parroblaze",
       "monsterName": "Parroblaze",
       "monsterID": 216,
       "monsterType": [
@@ -5414,6 +5620,7 @@
       "evolutions": null
     },
     "sludguppy": {
+      "monsterKey": "sludguppy",
       "monsterName": "Sludguppy",
       "monsterID": 220,
       "monsterType": [
@@ -5440,6 +5647,7 @@
       "evolutions": null
     },
     "merguppy": {
+      "monsterKey": "merguppy",
       "monsterName": "Merguppy",
       "monsterID": 220,
       "monsterType": [
@@ -5466,6 +5674,7 @@
       "evolutions": null
     },
     "Sludgudge": {
+      "monsterKey": "Sludgudge",
       "monsterName": "Sludgudge",
       "monsterID": 221,
       "monsterType": [
@@ -5492,6 +5701,7 @@
       "evolutions": null
     },
     "Muckmaid": {
+      "monsterKey": "Muckmaid",
       "monsterName": "Muckmaid",
       "monsterID": 221,
       "monsterType": [
@@ -5518,6 +5728,7 @@
       "evolutions": null
     },
     "dracicle": {
+      "monsterKey": "dracicle",
       "monsterName": "Dracicle",
       "monsterID": 222,
       "monsterType": [
@@ -5544,6 +5755,7 @@
       "evolutions": null
     },
     "Glacicle": {
+      "monsterKey": "Glacicle",
       "monsterName": "Glacicle",
       "monsterID": 223,
       "monsterType": [
@@ -5570,6 +5782,7 @@
       "evolutions": null
     },
     "Boreacicle": {
+      "monsterKey": "Boreacicle",
       "monsterName": "Boreacicle",
       "monsterID": 224,
       "monsterType": [
@@ -5596,6 +5809,7 @@
       "evolutions": null
     },
     "Icegoat": {
+      "monsterKey": "Icegoat",
       "monsterName": "Icegoat",
       "monsterID": 225,
       "monsterType": [
@@ -5622,6 +5836,7 @@
       "evolutions": null
     },
     "Icehorn": {
+      "monsterKey": "Icehorn",
       "monsterName": "Icehorn",
       "monsterID": 226,
       "monsterType": [
@@ -5648,6 +5863,7 @@
       "evolutions": null
     },
     "Venosnek": {
+      "monsterKey": "Venosnek",
       "monsterName": "Venosnek",
       "monsterID": 41,
       "monsterType": [
@@ -5674,6 +5890,7 @@
       "evolutions": null
     },
     "Venohead": {
+      "monsterKey": "Venohead",
       "monsterName": "Venohead",
       "monsterID": 42,
       "monsterType": [
@@ -5700,6 +5917,7 @@
       "evolutions": null
     },
     "Manul": {
+      "monsterKey": "Manul",
       "monsterName": "Manul",
       "monsterID": 229,
       "monsterType": [
@@ -5726,6 +5944,7 @@
       "evolutions": null
     },
     "Dragonfly": {
+      "monsterKey": "Dragonfly",
       "monsterName": "Dragonfly",
       "monsterID": 230,
       "monsterType": [
@@ -5752,11 +5971,228 @@
       "evolutions": null
     },
     "beeMuscle": {
+      "monsterKey": "beeMuscle",
       "monsterName": "BeeMuscle",
       "monsterID": 231,
       "monsterType": [
         "Insect",
         "Combat"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "SeedShot",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Scorpion": {
+      "monsterKey": "Scorpion",
+      "monsterName": "Scorpion",
+      "monsterID": 232,
+      "monsterType": [
+        "Poison",
+        "Steel"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "SeedShot",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Kangaroo": {
+      "monsterKey": "Kangaroo",
+      "monsterName": "Kangaroo",
+      "monsterID": 233,
+      "monsterType": [
+        "Combat",
+        "Lightning"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "SeedShot",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "BunnyLegendary": {
+      "monsterKey": "BunnyLegendary",
+      "monsterName": "BunnyLegendary",
+      "monsterID": 234,
+      "monsterType": [
+        "Combat",
+        "Fire"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "SeedShot",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Deerlegendary": {
+      "monsterKey": "Deerlegendary",
+      "monsterName": "DeerLegendary",
+      "monsterID": 235,
+      "monsterType": [
+        "Leaf",
+        "Undead"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "SeedShot",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "TentacleLegendary": {
+      "monsterKey": "TentacleLegendary",
+      "monsterName": "TentacleLegendary",
+      "monsterID": 236,
+      "monsterType": [
+        "Psy",
+        "Poison"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "SeedShot",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "SteelDragon": {
+      "monsterKey": "SteelDragon",
+      "monsterName": "SteelDragon",
+      "monsterID": 233,
+      "monsterType": [
+        "Steel",
+        "Dino"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "SeedShot",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "Penguin": {
+      "monsterKey": "Penguin",
+      "monsterName": "Penguin",
+      "monsterID": 238,
+      "monsterType": [
+        "Water",
+        "Combat"
+      ],
+      "baseStats": {
+        "HP": 91.0,
+        "ATTACK": 91.0,
+        "DEFENSE": 91.0,
+        "SPECIALATTACK": 91.0,
+        "SPECIALDEFENSE": 91.0,
+        "SPEED": 91.0
+      },
+      "abilities": [
+        "default"
+      ],
+      "moves": [
+        "Tackle",
+        "FireSpray",
+        "SeedShot",
+        "Growth"
+      ],
+      "evolutions": null
+    },
+    "BerrySpider": {
+      "monsterKey": "BerrySpider",
+      "monsterName": "BerrySpider",
+      "monsterID": 239,
+      "monsterType": [
+        "Insect",
+        "Leaf"
       ],
       "baseStats": {
         "HP": 91.0,

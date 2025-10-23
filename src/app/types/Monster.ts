@@ -1,4 +1,5 @@
 export class Monster {
+  monsterKey: string;
   monsterName: string;
   monsterID: number;
   monsterType: string[];
@@ -15,6 +16,7 @@ export class Monster {
   evolutions: string | null;
 
   constructor(data: {
+    monsterKey : string;
     monsterName: string;
     monsterID: number;
     monsterType: string[];
@@ -30,6 +32,7 @@ export class Monster {
     moves: string[];
     evolutions: string | null;
   }) {
+    this.monsterKey = data.monsterKey;
     this.monsterName = data.monsterName;
     this.monsterID = data.monsterID;
     this.monsterType = data.monsterType;

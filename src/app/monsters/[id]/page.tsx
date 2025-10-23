@@ -1,7 +1,8 @@
 import { Monster } from '../../types/Monster';
-import monsters from '../../data/monsters.json';
+import monsters from '../../../../public/data/monsters.json';
 import { notFound } from 'next/navigation';
 import { MonsterDatabase } from '@/app/types/MonsterDatabase';
+import Script from 'next/script'
 
 import { log } from 'console';
 export type MonsterDictionary = Record<string, Monster>;
@@ -33,7 +34,31 @@ export default function MonsterPage({ params }: { params: { id: string } }) {
   return (
     <main style={{ fontFamily: 'sans-serif' }}>
       <h1>{monster.monsterName}</h1>
+      <img src={`../data/Monster-Images/${monster.monsterKey}.png`}/>
       <p>Type: {monster.monsterType[0]}</p>
+
+
+
+
+
+   
+
+    
+
+
+
+
+
+
     </main>
+
+
+
+
+
+
+
+
+
   );
 }
