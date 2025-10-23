@@ -1,11 +1,14 @@
 
-console.log(globint);
+
+  StatChart(Stats[0],Stats[1],Stats[2],Stats[3],Stats[4],Stats[5]);
+
+
 
 function StatChart(hp, attack, defense, spatt, spdef, speed) {
 
-  console.log("HERE BITCH");
 
-  const ctx = document.getElementById('graph');
+
+  const ctx = document.getElementById('statChart');
 
   new Chart(ctx, {
     type: 'bar',
@@ -19,11 +22,8 @@ function StatChart(hp, attack, defense, spatt, spdef, speed) {
       }]
     },
     options: {
-      scales: {
-        y: {
-          beginAtZero: true
-        }
-      }
+       responsive: false, // ✅ prevents auto-resizing
+       maintainAspectRatio: false, // optional, allows custom height
     }
   });
 

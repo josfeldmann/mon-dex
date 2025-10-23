@@ -18,11 +18,10 @@ export default function MonstersPage() {
       <head>
         <meta charSet="utf-8" />
         <title>Monster Stats</title>
-        <script defer dangerouslySetInnerHTML={{
-            __html: `const globint = ${test.baseStats.ATTACK}; console.log("globint =", globint);`,
-          }}/>
-        <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
-        <script src="./scripts/statchart.js" defer></script>
+         <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+          />
         
       </head>
       <body>
@@ -38,20 +37,53 @@ export default function MonstersPage() {
 
         {/* ✅ This WILL appear in the static HTML */}
         <h1>Monster Index</h1>
-        <div>
+        
+
+      <div key="containertest">
+      <h3 className="mb-3 text-center">Monster Grid</h3>
+
+      <div className="row row-cols-auto g-2" id="monster-grid">
+      
+      
+
         {Object.entries(monsters).map(([key, monster]) => (
-          <Link
+
+          <div key={monster.monsterKey}
+  style={{
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    textAlign: "center",
+    width: "172px",
+    margin: "10px auto",
+  }}
+>
+  <img
+    src={`./data/Monster-Images/${monster.monsterKey}.png`}
+    alt="Example Monster"
+    style={{
+      imageRendering: "pixelated",
+      width: "128px",
+      height: "128px",
+      objectFit: "contain",
+      marginBottom: "8px",
+    }}
+  />
+  <span style={{ fontSize: "16px", fontWeight: "bold" }}>
+    <Link
             key={key}
             href={`./monsters/${key}.html`}
         >
-
-            <img src={`./data/Monster-Images/${monster.monsterKey}.png`}/>
-
-            <h2 className="text-xl font-semibold">{monster.monsterName}</h2>
-            
-          </Link>
+          {monster.monsterName}
+        </Link>
+  </span>
+</div>
         ))}
-      </div>
+
+        </div>
+    </div>
+      
 
 
 
@@ -64,7 +96,18 @@ export default function MonstersPage() {
 
 /*
 
+<div key={monster.monsterKey} style={{
+              height: "150px",
+              width: "150px",
+            }}>
+          
 
+            <img src=/>
+
+            <h2 className="text-xl font-semibold">{monster.monsterName}</h2>
+            
+          </Link>
+          </div>
 
 
 
