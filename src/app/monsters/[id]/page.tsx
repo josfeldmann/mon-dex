@@ -1,7 +1,7 @@
-import { Monster } from '../../types/Monster';
+import { Monster } from '../../components/Monster';
 import monsters from '../../../../public/data/monsters.json';
 import { notFound } from 'next/navigation';
-import { MonsterDatabase } from '@/app/types/MonsterDatabase';
+import { MonsterDatabase } from '@/app/components/MonsterDatabase';
 import Script from 'next/script'
 import React from 'react';
 
@@ -9,7 +9,7 @@ import { log } from 'console';
 export type MonsterDictionary = Record<string, Monster>;
 
 export async function generateStaticParams() {
-  const mList = new MonsterDatabase(monsters).getKeys();
+  const mList = new MonsterDatabase(monsters).getMonsterKeys();
 
   return mList.map(monster  => ({
     id: monster,
@@ -26,7 +26,7 @@ export default function MonsterPage({ params }: { params: { id: string } }) {
   
   
 
-  const monster = db.get(params.id);
+  const monster = db.getMonster(params.id);
 
   if (!monster) {
     notFound();
@@ -66,30 +66,9 @@ export default function MonsterPage({ params }: { params: { id: string } }) {
     width: "400px !important",
   }}
 ></canvas>
-
-
-
-
-   
-
-    
-
-
-
-
-
-
     </main>
 
 </html>
-
-
-
-
-
-
-
-
 
   );
 }

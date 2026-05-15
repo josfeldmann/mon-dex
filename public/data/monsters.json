@@ -6213,5 +6213,15 @@
       ],
       "evolutions": null
     }
+  },
+
+  "abilities":{
+    
+    "tech" : {
+        "key":"tech",
+        "description":"technician ability"
+    }
+
+
   }
 }

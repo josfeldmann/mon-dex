@@ -27,12 +27,6 @@ export default function MonstersPage() {
       <body>
 
 
-        <h1>Monster Stats</h1>
-
-
-        <canvas id="graph" width="300px" height="200px"></canvas>
-
-        
     
 
         {/* ✅ This WILL appear in the static HTML */}
