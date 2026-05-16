@@ -1,7 +1,7 @@
-import { Monster } from '../../components/Monster';
+import { Monster } from '../../components/data/Monster';
 import monsters from '../../../../public/data/monsters.json';
 import { notFound } from 'next/navigation';
-import { MonsterDatabase } from '@/app/components/MonsterDatabase';
+import { MonsterDatabase } from '@/app/components/data/MonsterDatabase';
 import Script from 'next/script'
 import React from 'react';
 
@@ -28,33 +28,28 @@ export default function MonsterPage({ params }: { params: { id: string } }) {
 
   const monster = db.getMonster(params.id);
 
-  if (!monster) {
-    notFound();
+
+  var t1 = db.getMonsterType(monster.monsterType[0]);
+  var t2 = null;
+  if (monster.monsterType.length > 1) {
+    t2 = db.getMonsterType(monster.monsterType[1]);
   }
+
 
   return (
 
 
 <html>
     <head>
-      <script defer dangerouslySetInnerHTML={{
-            __html: `const Stats = [ ${monster.baseStats.HP}, ${monster.baseStats.ATTACK},${monster.baseStats.DEFENSE}, ${monster.baseStats.SPECIALATTACK}, ${monster.baseStats.SPECIALDEFENSE}, ${monster.baseStats.SPEED} ];`,
-          }}/>
-        
-
-        <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
-
-         <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels" defer></script>
 
 
-        <script src="../scripts/statchart2.js" defer></script>
     </head>
     <main style={{ fontFamily: 'sans-serif' }}>
       <h1>{monster.monsterName}</h1>
       <img src={`../data/Monster-Images/${monster.monsterKey}.png`}/>
       
-      <p>Type: {monster.monsterType[0]}</p>
-
+      <p>Type: {t1.name} {t2?.name}</p>
+      <p>Ability: {t1.name} {t2?.name}</p>
 
 
   <canvas

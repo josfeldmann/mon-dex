@@ -8,8 +8,10 @@ import React from 'react';
 import { log } from 'console';
 export type MonsterDictionary = Record<string, Monster>;
 
+
 export async function generateStaticParams() {
-  const mList = new MonsterDatabase(monsters).getTypeKeys();
+  
+  const mList = new MonsterDatabase(monsters).getMoveKeys();
 
   return mList.map(monster  => ({
     id: monster,
@@ -18,17 +20,18 @@ export async function generateStaticParams() {
 
 }
 
+
 // ✅ Your page component
-export default function MonsterTypePage({ params }: { params: { id: string } }) {
+export default function AbilityPage({ params }: { params: { id: string } }) {
 
 
   const db = new MonsterDatabase(monsters);
   
   
 
-  const ability = db.getMonsterType(params.id);
+  const move = db.getMove(params.id);
 
-  if (!ability) {
+  if (!move) {
     notFound();
   }
 
@@ -36,14 +39,7 @@ export default function MonsterTypePage({ params }: { params: { id: string } }) 
 
 
 <html>
-    
-    <main style={{ fontFamily: 'sans-serif' }}>
-      <h1>{ability.key}</h1>
-      
-
-
-
-    </main>
+    <h1>{move.name}</h1>
 
 </html>
 

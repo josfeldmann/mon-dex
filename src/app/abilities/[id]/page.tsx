@@ -1,7 +1,7 @@
-import { Monster } from '../../components/Monster';
+import { Monster } from '../../components/data/Monster';
 import monsters from '../../../../public/data/monsters.json';
 import { notFound } from 'next/navigation';
-import { MonsterDatabase } from '@/app/components/MonsterDatabase';
+import { MonsterDatabase } from '@/app/components/data/MonsterDatabase';
 import Script from 'next/script'
 import React from 'react';
 
