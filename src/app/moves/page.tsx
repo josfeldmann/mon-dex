@@ -8,18 +8,24 @@ import MonsterGrid from "../components/ui/MonsterGrid";
 import { MonsterDatabase } from "../components/data/MonsterDatabase";
 import monsters from '../../../public/data/monsters.json'
 import NavBar from "../components/ui/navbar";
+import Movelist from "../components/ui/MoveList";
 
 
 
 
 export default function MovesPage() {
-  // Extract the dictionary of monsters
+  const db = new MonsterDatabase(monsters)
+
+
   const m = new MonsterDatabase(monsters).getAllMonsters();
+  const l = db.getAllMoves();
   return (
     <html lang="en">
        <NavBar urlprefix='.'/>
         <h1>Moves</h1>
-      
+
+        <Movelist moves={l} />;
+
     </html>
   );
    

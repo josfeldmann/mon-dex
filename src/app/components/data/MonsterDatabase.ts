@@ -11,6 +11,7 @@ import { MapLocation } from "./MapLocation";
 
 export class MonsterDatabase {
   
+ 
 
   monsters: MonsterDictionary;
   abilities: AbilityDictionary;
@@ -61,7 +62,7 @@ export class MonsterDatabase {
 
   //Abilities
   
-  getAbility(id: string) : Ability | undefined {
+  getAbility(id: string) : Ability {
     return this.abilities[id];
   }
  
@@ -69,17 +70,26 @@ export class MonsterDatabase {
     return Object.keys(this.abilities);
   }
 
+  getAllAbilities() : Ability[] {
+    return Object.values(this.abilities);
+  }
+
   
   ///Moves
   
   
-  getMove(id: string) : MonsterMove | undefined {
+  getMove(id: string) : MonsterMove  {
     return this.moves[id];
   }
 
   getMoveKeys() : string[] {
     return Object.keys(this.moves);
   }
+
+  getAllMoves() : MonsterMove[] {
+    return Object.values(this.moves);
+  }
+  
 
 
   ///MonsterTypes
@@ -90,6 +100,10 @@ export class MonsterDatabase {
 
    getTypeKeys() : string[] {
     return Object.keys(this.types);
+  }
+
+  getAllTypes() : MonsterType[] {
+    return Object.values(this.types);
   }
 
 
@@ -149,6 +163,51 @@ export class MonsterDatabase {
     });
   return m;
   }
+
+  getAllMonstersWithMove(move: MonsterMove) : Monster[] {
+    
+  const m : Monster[] = [];
+  this.getAllMonsters().forEach(element => {
+  if (element.moves.includes(move.key)) {
+    m.push(element);
+  }
+  });
+  return m;
+
+  }
+
+  getMonstersFromKeyList(monsters: string[]) : Monster[] {
+    const results : Monster[] = [];
+
+    monsters.forEach(element => {
+      results.push(this.getMonster(element));
+    });
+
+    return results;
+  }
+
+   getMovesFromKeyList(moves: string[]): MonsterMove[] {
+    const results : MonsterMove[] = [];
+
+    moves.forEach(element => {
+      results.push(this.getMove(element));
+    });
+
+    return results;
+  }
+
+  getAllMovesWithType(type: MonsterType) : MonsterMove[] {
+    const m : MonsterMove[] = [];
+    this.getAllMoves().forEach(element => {
+    if (element.type == type.key) {
+      m.push(element);
+    }
+    });
+    return m;
+  }
+
+  
+
   
 
   

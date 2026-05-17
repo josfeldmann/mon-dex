@@ -7,6 +7,7 @@ import React from 'react';
 
 import { log } from 'console';
 import NavBar from '@/app/components/ui/navbar';
+import MonsterGrid from '@/app/components/ui/MonsterGrid';
 export type MonsterDictionary = Record<string, Monster>;
 
 
@@ -36,11 +37,17 @@ export default function LocationPage({ params }: { params: { id: string } }) {
     notFound();
   }
 
+  const m = db.getMonstersFromKeyList(location.monsters)
+
   return (
 
 
 <html>
     <h1>{location.name}</h1>
+
+    <h2>Monsters found here</h2>
+    <MonsterGrid monsters={m} imageSize={96} urlprefix='..'  />
+    
 
 </html>
 

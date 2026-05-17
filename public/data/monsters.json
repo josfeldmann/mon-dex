@@ -6377,7 +6377,7 @@
       "name": "ChiBall",
       "description": "",
       "power": 30,
-      "category": "Don't Key this"
+      "category": "special"
     },
     "FreezeBeam": {
       "key": "FreezeBeam",
@@ -6385,7 +6385,7 @@
       "name": "FreezeBeam",
       "description": "",
       "power": 80,
-      "category": "Don't Key this"
+      "category": "special"
     },
     "BlazeFist": {
       "key": "BlazeFist",
@@ -6393,7 +6393,7 @@
       "name": "BlazeFist",
       "description": "CUSTOM DESCRIPTION",
       "power": 60,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "BulletFist": {
       "key": "BulletFist",
@@ -6401,7 +6401,7 @@
       "name": "BulletFist",
       "description": "",
       "power": 50,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "DinoFist": {
       "key": "DinoFist",
@@ -6409,7 +6409,7 @@
       "name": "DinoFist",
       "description": "",
       "power": 70,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "FastFist": {
       "key": "FastFist",
@@ -6417,7 +6417,7 @@
       "name": "FastFist",
       "description": "",
       "power": 50,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "FreezeFist": {
       "key": "FreezeFist",
@@ -6425,7 +6425,7 @@
       "name": "FreezeFist",
       "description": "CUSTOM DESCRIPTION",
       "power": 60,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "NormalFist": {
       "key": "NormalFist",
@@ -6433,7 +6433,7 @@
       "name": "NormalFist",
       "description": "",
       "power": 70,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "PsyFist": {
       "key": "PsyFist",
@@ -6441,7 +6441,7 @@
       "name": "PsyFist",
       "description": "CUSTOM DESCRIPTION",
       "power": 60,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "RockFist": {
       "key": "RockFist",
@@ -6449,7 +6449,7 @@
       "name": "RockFist",
       "description": "CUSTOM DESCRIPTION",
       "power": 60,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "ShockFist": {
       "key": "ShockFist",
@@ -6457,7 +6457,7 @@
       "name": "ShockFist",
       "description": "CUSTOM DESCRIPTION",
       "power": 60,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "SinisterFist": {
       "key": "SinisterFist",
@@ -6465,7 +6465,7 @@
       "name": "SinisterFist",
       "description": "",
       "power": 75,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "SiphonFist": {
       "key": "SiphonFist",
@@ -6473,7 +6473,7 @@
       "name": "SiphonFist",
       "description": "CUSTOM DESCRIPTION",
       "power": 60,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "StingFist": {
       "key": "StingFist",
@@ -6481,7 +6481,7 @@
       "name": "StingFist",
       "description": "CUSTOM DESCRIPTION",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "TearFist": {
       "key": "TearFist",
@@ -6489,7 +6489,7 @@
       "name": "TearFist",
       "description": "CUSTOM DESCRIPTION",
       "power": 60,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "ToxicFist": {
       "key": "ToxicFist",
@@ -6497,7 +6497,7 @@
       "name": "ToxicFist",
       "description": "CUSTOM DESCRIPTION",
       "power": 60,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "WindFist": {
       "key": "WindFist",
@@ -6505,7 +6505,7 @@
       "name": "WindFist",
       "description": "CUSTOM DESCRIPTION",
       "power": 50,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "AirStrike": {
       "key": "AirStrike",
@@ -6513,7 +6513,7 @@
       "name": "AirStrike",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "BugCut": {
       "key": "BugCut",
@@ -6521,7 +6521,7 @@
       "name": "BugCut",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "ColdCrash": {
       "key": "ColdCrash",
@@ -6529,7 +6529,7 @@
       "name": "ColdCrash",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "DinoClaw": {
       "key": "DinoClaw",
@@ -6537,7 +6537,7 @@
       "name": "DinoClaw",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "FlameTackle": {
       "key": "FlameTackle",
@@ -6545,7 +6545,7 @@
       "name": "FlameTackle",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "IronStrike": {
       "key": "IronStrike",
@@ -6553,7 +6553,7 @@
       "name": "IronStrike",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "LowKick": {
       "key": "LowKick",
@@ -6561,7 +6561,7 @@
       "name": "LowKick",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "PsiStrike": {
       "key": "PsiStrike",
@@ -6569,7 +6569,7 @@
       "name": "PsiStrike",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "Rob": {
       "key": "Rob",
@@ -6577,7 +6577,7 @@
       "name": "Rob",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "RootStrike": {
       "key": "RootStrike",
@@ -6585,7 +6585,7 @@
       "name": "RootStrike",
       "description": "CUSTOM DESCRIPTION",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "StalactiteSpear": {
       "key": "StalactiteSpear",
@@ -6593,7 +6593,7 @@
       "name": "StalactiteSpear",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "VoltRush": {
       "key": "VoltRush",
@@ -6601,7 +6601,7 @@
       "name": "VoltRush",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "WaterTackle": {
       "key": "WaterTackle",
@@ -6609,7 +6609,7 @@
       "name": "WaterTackle",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "BubbleSpray": {
       "key": "BubbleSpray",
@@ -6617,7 +6617,7 @@
       "name": "BubbleSpray",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "special"
     },
     "PrehistoricPulse": {
       "key": "PrehistoricPulse",
@@ -6625,7 +6625,7 @@
       "name": "PrehistoricPulse",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "special"
     },
     "Drain": {
       "key": "Drain",
@@ -6633,7 +6633,7 @@
       "name": "Drain",
       "description": "CUSTOM DESCRIPTION",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "special"
     },
     "FireSpray": {
       "key": "FireSpray",
@@ -6641,7 +6641,7 @@
       "name": "FireSpray",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "special"
     },
     "FocusPellets": {
       "key": "FocusPellets",
@@ -6649,7 +6649,7 @@
       "name": "FocusPellets",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "special"
     },
     "GearBlast": {
       "key": "GearBlast",
@@ -6657,7 +6657,7 @@
       "name": "GearBlast",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "special"
     },
     "IceSpray": {
       "key": "IceSpray",
@@ -6665,7 +6665,7 @@
       "name": "IceSpray",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "special"
     },
     "NormalWave": {
       "key": "NormalWave",
@@ -6673,7 +6673,7 @@
       "name": "NormalWave",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "special"
     },
     "PebblePulse": {
       "key": "PebblePulse",
@@ -6681,7 +6681,7 @@
       "name": "PebblePulse",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "special"
     },
     "PoisonSting": {
       "key": "PoisonSting",
@@ -6689,7 +6689,7 @@
       "name": "PoisonSting",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "special"
     },
     "PsiBlast": {
       "key": "PsiBlast",
@@ -6697,7 +6697,7 @@
       "name": "PsiBlast",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "special"
     },
     "ShockSting": {
       "key": "ShockSting",
@@ -6705,7 +6705,7 @@
       "name": "ShockSting",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "special"
     },
     "SinisterPulse": {
       "key": "SinisterPulse",
@@ -6713,7 +6713,7 @@
       "name": "SinisterPulse",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "special"
     },
     "Sting": {
       "key": "Sting",
@@ -6721,7 +6721,7 @@
       "name": "Sting",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "special"
     },
     "WindBlast": {
       "key": "WindBlast",
@@ -6729,7 +6729,7 @@
       "name": "WindBlast",
       "description": "",
       "power": 40,
-      "category": "Don't Key this"
+      "category": "special"
     },
     "Growth": {
       "key": "Growth",
@@ -6737,7 +6737,7 @@
       "name": "Growth",
       "description": "CUSTOM DESCRIPTION",
       "power": 0,
-      "category": "Don't Key this"
+      "category": "status"
     },
     "Ingrain": {
       "key": "Ingrain",
@@ -6745,7 +6745,7 @@
       "name": "Ingrain",
       "description": "",
       "power": 30,
-      "category": "Don't Key this"
+      "category": "special"
     },
     "SeedShot": {
       "key": "SeedShot",
@@ -6753,7 +6753,7 @@
       "name": "SeedShot",
       "description": "",
       "power": 30,
-      "category": "Don't Key this"
+      "category": "special"
     },
     "ArmorUp": {
       "key": "ArmorUp",
@@ -6761,7 +6761,7 @@
       "name": "ArmorUp",
       "description": "CUSTOM DESCRIPTION",
       "power": 0,
-      "category": "Don't Key this"
+      "category": "status"
     },
     "Growl": {
       "key": "Growl",
@@ -6769,7 +6769,7 @@
       "name": "Growl",
       "description": "CUSTOM DESCRIPTION",
       "power": 0,
-      "category": "Don't Key this"
+      "category": "status"
     },
     "Haste": {
       "key": "Haste",
@@ -6777,7 +6777,7 @@
       "name": "Haste",
       "description": "CUSTOM DESCRIPTION",
       "power": 0,
-      "category": "Don't Key this"
+      "category": "status"
     },
     "PsycheOut": {
       "key": "PsycheOut",
@@ -6785,7 +6785,7 @@
       "name": "PsycheOut",
       "description": "CUSTOM DESCRIPTION",
       "power": 0,
-      "category": "Don't Key this"
+      "category": "status"
     },
     "SpeedStrike": {
       "key": "SpeedStrike",
@@ -6793,7 +6793,7 @@
       "name": "SpeedStrike",
       "description": "",
       "power": 35,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "Tackle": {
       "key": "Tackle",
@@ -6801,7 +6801,7 @@
       "name": "Tackle",
       "description": "",
       "power": 35,
-      "category": "Don't Key this"
+      "category": "physical"
     },
     "Unnerve": {
       "key": "Unnerve",
@@ -6809,7 +6809,7 @@
       "name": "Unnerve",
       "description": "CUSTOM DESCRIPTION",
       "power": 0,
-      "category": "Don't Key this"
+      "category": "status"
     }
   },
   "types": {

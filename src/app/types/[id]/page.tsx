@@ -8,6 +8,7 @@ import React from 'react';
 import { log } from 'console';
 import NavBar from '@/app/components/ui/navbar';
 import MonsterGrid from '@/app/components/ui/MonsterGrid';
+import Movelist from '@/app/components/ui/MoveList';
 export type MonsterDictionary = Record<string, Monster>;
 
 export async function generateStaticParams() {
@@ -32,6 +33,8 @@ export default function MonsterTypePage({ params }: { params: { id: string } }) 
 
   const typemonsters = db.getAllMonstersWithType(type);
 
+  const typeMoves = db.getAllMovesWithType(type);
+
   if (!type) {
     notFound();
   }
@@ -46,8 +49,12 @@ export default function MonsterTypePage({ params }: { params: { id: string } }) 
       
       <h2>Monsters With Type</h2>
 
+
     <MonsterGrid monsters={typemonsters} imageSize={96} urlprefix='..'  />
 
+    <h2>Monsters With Type</h2>
+
+    <Movelist moves={typeMoves} />;
 
     </main>
 

@@ -10,6 +10,8 @@ import { SingleLineList } from '@/app/components/ui/SingleLineList';
 import { GenericLink } from '@/app/components/ui/GenericLink';
 import { MapLocation } from '@/app/components/data/MapLocation';
 import NavBar from '@/app/components/ui/navbar';
+import { MonsterMove } from '@/app/components/data/MonsterMove';
+import Movelist from '@/app/components/ui/MoveList';
 export type MonsterDictionary = Record<string, Monster>;
 
 export async function generateStaticParams() {
@@ -41,7 +43,7 @@ export default function MonsterPage({ params }: { params: { id: string } }) {
 
  const locations : string[] = db.getAllLocationsWithMonster(params.id);
 
- 
+ const moves : MonsterMove[] = db.getMovesFromKeyList(monster.moves);
 
 
 
@@ -60,9 +62,11 @@ export default function MonsterPage({ params }: { params: { id: string } }) {
       <p>
         <SingleLineList items={monster.abilities} renderItem={(ability) => (<GenericLink value={ability} basePath="../abilities/" />)} labelSingle='Ability' labelPlural='Abilities'  ></SingleLineList>
       </p>
-      
+      <p>
       <SingleLineList items={locations} renderItem={(location) => (<GenericLink value={location} basePath="../locations/" />)} labelSingle='Location' labelPlural='Locations'  ></SingleLineList>
-      
+      </p>
+
+      <Movelist moves={moves} />;
 
 
     </main>
