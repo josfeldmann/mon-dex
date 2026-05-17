@@ -6,6 +6,10 @@ import Script from 'next/script'
 import React from 'react';
 
 import { log } from 'console';
+import { SingleLineList } from '@/app/components/ui/SingleLineList';
+import { GenericLink } from '@/app/components/ui/GenericLink';
+import { MapLocation } from '@/app/components/data/MapLocation';
+import NavBar from '@/app/components/ui/navbar';
 export type MonsterDictionary = Record<string, Monster>;
 
 export async function generateStaticParams() {
@@ -29,38 +33,38 @@ export default function MonsterPage({ params }: { params: { id: string } }) {
   const monster = db.getMonster(params.id);
 
 
-  var t1 = db.getMonsterType(monster.monsterType[0]);
-  var t2 = null;
+  const t1 = db.getMonsterType(monster.monsterType[0]);
+  let t2 = null;
   if (monster.monsterType.length > 1) {
     t2 = db.getMonsterType(monster.monsterType[1]);
   }
+
+ const locations : string[] = db.getAllLocationsWithMonster(params.id);
+
+ 
+
 
 
   return (
 
 
 <html>
-    <head>
-
-
-    </head>
+   <NavBar urlprefix='..'/>
     <main style={{ fontFamily: 'sans-serif' }}>
       <h1>{monster.monsterName}</h1>
       <img src={`../data/Monster-Images/${monster.monsterKey}.png`}/>
       
-      <p>Type: {t1.name} {t2?.name}</p>
-      <p>Ability: {t1.name} {t2?.name}</p>
+      <p>
+        <SingleLineList items={monster.monsterType} renderItem={(monsterType) => (<GenericLink value={monsterType} basePath="../types/" />)} labelSingle='Type' labelPlural='types'  ></SingleLineList>
+      </p>
+      <p>
+        <SingleLineList items={monster.abilities} renderItem={(ability) => (<GenericLink value={ability} basePath="../abilities/" />)} labelSingle='Ability' labelPlural='Abilities'  ></SingleLineList>
+      </p>
+      
+      <SingleLineList items={locations} renderItem={(location) => (<GenericLink value={location} basePath="../locations/" />)} labelSingle='Location' labelPlural='Locations'  ></SingleLineList>
+      
 
 
-  <canvas
-  id="statChart"
-  style={{
-    display: "block",
-    boxSizing: "border-box",
-    height: "400px !important",
-    width: "400px !important",
-  }}
-></canvas>
     </main>
 
 </html>

@@ -6,6 +6,7 @@ import Script from 'next/script'
 import React from 'react';
 
 import { log } from 'console';
+import NavBar from '@/app/components/ui/navbar';
 export type MonsterDictionary = Record<string, Monster>;
 
 
@@ -39,6 +40,7 @@ export default function AbilityPage({ params }: { params: { id: string } }) {
 
 
 <html>
+   <NavBar urlprefix='.'/>
     <h1>{move.name}</h1>
 
 </html>

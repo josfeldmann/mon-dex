@@ -6,6 +6,7 @@ import Script from 'next/script'
 import React from 'react';
 
 import { log } from 'console';
+import NavBar from '@/app/components/ui/navbar';
 export type MonsterDictionary = Record<string, Monster>;
 
 
@@ -22,6 +23,7 @@ export async function generateStaticParams() {
 // ✅ Your page component
 export default function AbilityPage({ params }: { params: { id: string } }) {
 
+  
 
   const db = new MonsterDatabase(monsters);
   
@@ -37,6 +39,7 @@ export default function AbilityPage({ params }: { params: { id: string } }) {
 
 
 <html>
+   <NavBar urlprefix='..'/>
     
     <main style={{ fontFamily: 'sans-serif' }}>
       <h1>{ability.key}</h1>

@@ -6375,331 +6375,441 @@
       "key": "ChiBall",
       "type": "Combat",
       "name": "ChiBall",
-      "description": ""
+      "description": "",
+      "power": 30,
+      "category": "Don't Key this"
     },
     "FreezeBeam": {
       "key": "FreezeBeam",
       "type": "Ice",
       "name": "FreezeBeam",
-      "description": ""
+      "description": "",
+      "power": 80,
+      "category": "Don't Key this"
     },
     "BlazeFist": {
       "key": "BlazeFist",
       "type": "Fire",
       "name": "BlazeFist",
-      "description": "CUSTOM DESCRIPTION"
+      "description": "CUSTOM DESCRIPTION",
+      "power": 60,
+      "category": "Don't Key this"
     },
     "BulletFist": {
       "key": "BulletFist",
       "type": "Steel",
       "name": "BulletFist",
-      "description": ""
+      "description": "",
+      "power": 50,
+      "category": "Don't Key this"
     },
     "DinoFist": {
       "key": "DinoFist",
       "type": "Dino",
       "name": "DinoFist",
-      "description": ""
+      "description": "",
+      "power": 70,
+      "category": "Don't Key this"
     },
     "FastFist": {
       "key": "FastFist",
       "type": "Combat",
       "name": "FastFist",
-      "description": ""
+      "description": "",
+      "power": 50,
+      "category": "Don't Key this"
     },
     "FreezeFist": {
       "key": "FreezeFist",
       "type": "Ice",
       "name": "FreezeFist",
-      "description": "CUSTOM DESCRIPTION"
+      "description": "CUSTOM DESCRIPTION",
+      "power": 60,
+      "category": "Don't Key this"
     },
     "NormalFist": {
       "key": "NormalFist",
       "type": "Beast",
       "name": "NormalFist",
-      "description": ""
+      "description": "",
+      "power": 70,
+      "category": "Don't Key this"
     },
     "PsyFist": {
       "key": "PsyFist",
       "type": "Psy",
       "name": "PsyFist",
-      "description": "CUSTOM DESCRIPTION"
+      "description": "CUSTOM DESCRIPTION",
+      "power": 60,
+      "category": "Don't Key this"
     },
     "RockFist": {
       "key": "RockFist",
       "type": "Earth",
       "name": "RockFist",
-      "description": "CUSTOM DESCRIPTION"
+      "description": "CUSTOM DESCRIPTION",
+      "power": 60,
+      "category": "Don't Key this"
     },
     "ShockFist": {
       "key": "ShockFist",
       "type": "Elec",
       "name": "ShockFist",
-      "description": "CUSTOM DESCRIPTION"
+      "description": "CUSTOM DESCRIPTION",
+      "power": 60,
+      "category": "Don't Key this"
     },
     "SinisterFist": {
       "key": "SinisterFist",
       "type": "Shadow",
       "name": "SinisterFist",
-      "description": ""
+      "description": "",
+      "power": 75,
+      "category": "Don't Key this"
     },
     "SiphonFist": {
       "key": "SiphonFist",
       "type": "Leaf",
       "name": "SiphonFist",
-      "description": "CUSTOM DESCRIPTION"
+      "description": "CUSTOM DESCRIPTION",
+      "power": 60,
+      "category": "Don't Key this"
     },
     "StingFist": {
       "key": "StingFist",
       "type": "Insect",
       "name": "StingFist",
-      "description": "CUSTOM DESCRIPTION"
+      "description": "CUSTOM DESCRIPTION",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "TearFist": {
       "key": "TearFist",
       "type": "Water",
       "name": "TearFist",
-      "description": "CUSTOM DESCRIPTION"
+      "description": "CUSTOM DESCRIPTION",
+      "power": 60,
+      "category": "Don't Key this"
     },
     "ToxicFist": {
       "key": "ToxicFist",
       "type": "Poison",
       "name": "ToxicFist",
-      "description": "CUSTOM DESCRIPTION"
+      "description": "CUSTOM DESCRIPTION",
+      "power": 60,
+      "category": "Don't Key this"
     },
     "WindFist": {
       "key": "WindFist",
       "type": "Wind",
       "name": "WindFist",
-      "description": "CUSTOM DESCRIPTION"
+      "description": "CUSTOM DESCRIPTION",
+      "power": 50,
+      "category": "Don't Key this"
     },
     "AirStrike": {
       "key": "AirStrike",
       "type": "Wind",
       "name": "AirStrike",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "BugCut": {
       "key": "BugCut",
       "type": "Insect",
       "name": "BugCut",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "ColdCrash": {
       "key": "ColdCrash",
       "type": "Ice",
       "name": "ColdCrash",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "DinoClaw": {
       "key": "DinoClaw",
       "type": "Dino",
       "name": "DinoClaw",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "FlameTackle": {
       "key": "FlameTackle",
       "type": "Fire",
       "name": "FlameTackle",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "IronStrike": {
       "key": "IronStrike",
       "type": "Steel",
       "name": "IronStrike",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "LowKick": {
       "key": "LowKick",
       "type": "Combat",
       "name": "LowKick",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "PsiStrike": {
       "key": "PsiStrike",
       "type": "Psy",
       "name": "PsiStrike",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "Rob": {
       "key": "Rob",
       "type": "Shadow",
       "name": "Rob",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "RootStrike": {
       "key": "RootStrike",
       "type": "Leaf",
       "name": "RootStrike",
-      "description": "CUSTOM DESCRIPTION"
+      "description": "CUSTOM DESCRIPTION",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "StalactiteSpear": {
       "key": "StalactiteSpear",
       "type": "Earth",
       "name": "StalactiteSpear",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "VoltRush": {
       "key": "VoltRush",
       "type": "Elec",
       "name": "VoltRush",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "WaterTackle": {
       "key": "WaterTackle",
       "type": "Water",
       "name": "WaterTackle",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "BubbleSpray": {
       "key": "BubbleSpray",
       "type": "Water",
       "name": "BubbleSpray",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "PrehistoricPulse": {
       "key": "PrehistoricPulse",
       "type": "Dino",
       "name": "PrehistoricPulse",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "Drain": {
       "key": "Drain",
       "type": "Leaf",
       "name": "Drain",
-      "description": "CUSTOM DESCRIPTION"
+      "description": "CUSTOM DESCRIPTION",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "FireSpray": {
       "key": "FireSpray",
       "type": "Fire",
       "name": "FireSpray",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "FocusPellets": {
       "key": "FocusPellets",
       "type": "Combat",
       "name": "FocusPellets",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "GearBlast": {
       "key": "GearBlast",
       "type": "Steel",
       "name": "GearBlast",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "IceSpray": {
       "key": "IceSpray",
       "type": "Ice",
       "name": "IceSpray",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "NormalWave": {
       "key": "NormalWave",
       "type": "Beast",
       "name": "NormalWave",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "PebblePulse": {
       "key": "PebblePulse",
       "type": "Earth",
       "name": "PebblePulse",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "PoisonSting": {
       "key": "PoisonSting",
       "type": "Poison",
       "name": "PoisonSting",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "PsiBlast": {
       "key": "PsiBlast",
       "type": "Psy",
       "name": "PsiBlast",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "ShockSting": {
       "key": "ShockSting",
       "type": "Elec",
       "name": "ShockSting",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "SinisterPulse": {
       "key": "SinisterPulse",
       "type": "Shadow",
       "name": "SinisterPulse",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "Sting": {
       "key": "Sting",
       "type": "Insect",
       "name": "Sting",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "WindBlast": {
       "key": "WindBlast",
       "type": "Wind",
       "name": "WindBlast",
-      "description": ""
+      "description": "",
+      "power": 40,
+      "category": "Don't Key this"
     },
     "Growth": {
       "key": "Growth",
       "type": "Leaf",
       "name": "Growth",
-      "description": "CUSTOM DESCRIPTION"
+      "description": "CUSTOM DESCRIPTION",
+      "power": 0,
+      "category": "Don't Key this"
     },
     "Ingrain": {
       "key": "Ingrain",
       "type": "Leaf",
       "name": "Ingrain",
-      "description": ""
+      "description": "",
+      "power": 30,
+      "category": "Don't Key this"
     },
     "SeedShot": {
       "key": "SeedShot",
       "type": "Leaf",
       "name": "SeedShot",
-      "description": ""
+      "description": "",
+      "power": 30,
+      "category": "Don't Key this"
     },
     "ArmorUp": {
       "key": "ArmorUp",
       "type": "Beast",
       "name": "ArmorUp",
-      "description": "CUSTOM DESCRIPTION"
+      "description": "CUSTOM DESCRIPTION",
+      "power": 0,
+      "category": "Don't Key this"
     },
     "Growl": {
       "key": "Growl",
       "type": "Beast",
       "name": "Growl",
-      "description": "CUSTOM DESCRIPTION"
+      "description": "CUSTOM DESCRIPTION",
+      "power": 0,
+      "category": "Don't Key this"
     },
     "Haste": {
       "key": "Haste",
       "type": "Beast",
       "name": "Haste",
-      "description": "CUSTOM DESCRIPTION"
+      "description": "CUSTOM DESCRIPTION",
+      "power": 0,
+      "category": "Don't Key this"
     },
     "PsycheOut": {
       "key": "PsycheOut",
       "type": "Psy",
       "name": "PsycheOut",
-      "description": "CUSTOM DESCRIPTION"
+      "description": "CUSTOM DESCRIPTION",
+      "power": 0,
+      "category": "Don't Key this"
     },
     "SpeedStrike": {
       "key": "SpeedStrike",
       "type": "Beast",
       "name": "SpeedStrike",
-      "description": ""
+      "description": "",
+      "power": 35,
+      "category": "Don't Key this"
     },
     "Tackle": {
       "key": "Tackle",
       "type": "Beast",
       "name": "Tackle",
-      "description": ""
+      "description": "",
+      "power": 35,
+      "category": "Don't Key this"
     },
     "Unnerve": {
       "key": "Unnerve",
       "type": "Beast",
       "name": "Unnerve",
-      "description": "CUSTOM DESCRIPTION"
+      "description": "CUSTOM DESCRIPTION",
+      "power": 0,
+      "category": "Don't Key this"
     }
   },
   "types": {
@@ -6769,8 +6879,8 @@
     "SeedMainTown": {
       "key": "SeedMainTown",
       "name": "Town",
-      "description": null,
-      "monsterPool": [
+      "description": "",
+      "monsters": [
         "Goldstream",
         "Goldstream"
       ]
@@ -6778,38 +6888,38 @@
     "Healing Center": {
       "key": "Healing Center",
       "name": "Healing Center",
-      "description": null,
-      "monsterPool": []
+      "description": "",
+      "monsters": []
     },
     "Seed Lab": {
       "key": "Seed Lab",
       "name": "Lab",
-      "description": null,
-      "monsterPool": []
+      "description": "",
+      "monsters": []
     },
     "Naomi House": {
       "key": "Naomi House",
       "name": "Naomi's House",
-      "description": null,
-      "monsterPool": []
+      "description": "",
+      "monsters": []
     },
     "Seed House 1": {
       "key": "Seed House 1",
       "name": "House",
-      "description": null,
-      "monsterPool": []
+      "description": "",
+      "monsters": []
     },
     "Seed House 2": {
       "key": "Seed House 2",
       "name": "House",
-      "description": null,
-      "monsterPool": []
+      "description": "",
+      "monsters": []
     },
     "Crossroads": {
       "key": "Crossroads",
       "name": "Crossroads",
-      "description": null,
-      "monsterPool": [
+      "description": "",
+      "monsters": [
         "Elofly",
         "Aard",
         "Pondive",
@@ -6822,8 +6932,8 @@
     "Forest Path": {
       "key": "Forest Path",
       "name": "Forest Path",
-      "description": null,
-      "monsterPool": [
+      "description": "",
+      "monsters": [
         "Tulemur",
         "Elofly",
         "Pondive",
@@ -6837,8 +6947,8 @@
     "Forest Entrance": {
       "key": "Forest Entrance",
       "name": "Forest",
-      "description": null,
-      "monsterPool": [
+      "description": "",
+      "monsters": [
         "Coldrhabi",
         "Larvug",
         "Dreed",
@@ -6852,8 +6962,8 @@
     "Forest Clearing": {
       "key": "Forest Clearing",
       "name": "Forest Clearing",
-      "description": null,
-      "monsterPool": [
+      "description": "",
+      "monsters": [
         "Delichick",
         "Tadcool",
         "Sparepple",
@@ -6865,8 +6975,8 @@
     "Forest Depths": {
       "key": "Forest Depths",
       "name": "Forest Depths",
-      "description": null,
-      "monsterPool": [
+      "description": "",
+      "monsters": [
         "Coldrhabi",
         "Sparepple",
         "Dreed",
@@ -6879,8 +6989,8 @@
     "Meadow": {
       "key": "Meadow",
       "name": "Meadow",
-      "description": null,
-      "monsterPool": [
+      "description": "",
+      "monsters": [
         "leonSoul",
         "Delichick",
         "Elofly",
@@ -6892,8 +7002,8 @@
     "FirstFloorCave": {
       "key": "FirstFloorCave",
       "name": "Cave 1F",
-      "description": null,
-      "monsterPool": [
+      "description": "",
+      "monsters": [
         "Rocksnek",
         "Aard",
         "Stonifly",
@@ -6908,8 +7018,8 @@
     "SecondFloorCave": {
       "key": "SecondFloorCave",
       "name": "Cave 2F",
-      "description": null,
-      "monsterPool": [
+      "description": "",
+      "monsters": [
         "Grintot",
         "Stonifly",
         "SLichen",
@@ -6923,8 +7033,8 @@
     "Shaft": {
       "key": "Shaft",
       "name": "Shaft",
-      "description": null,
-      "monsterPool": [
+      "description": "",
+      "monsters": [
         "Medipup",
         "Tungrub",
         "SLichen",
@@ -6942,8 +7052,8 @@
     "Cold Cave": {
       "key": "Cold Cave",
       "name": "Cold Cave",
-      "description": null,
-      "monsterPool": [
+      "description": "",
+      "monsters": [
         "Chillimp",
         "Tadcool",
         "Coldrhabi",
@@ -6953,20 +7063,20 @@
     "Cold Cave Clearing": {
       "key": "Cold Cave Clearing",
       "name": "Cold Cave",
-      "description": null,
-      "monsterPool": []
+      "description": "",
+      "monsters": []
     },
     "Water Path": {
       "key": "Water Path",
       "name": "Water Path",
-      "description": null,
-      "monsterPool": []
+      "description": "",
+      "monsters": []
     },
     "Seed Isles": {
       "key": "Seed Isles",
       "name": "Seed Isles",
-      "description": null,
-      "monsterPool": [
+      "description": "",
+      "monsters": [
         "Shockshrew",
         "Tungrub",
         "Millisting",
@@ -6981,8 +7091,8 @@
     "Peninsula": {
       "key": "Peninsula",
       "name": "Peninsula",
-      "description": null,
-      "monsterPool": [
+      "description": "",
+      "monsters": [
         "Tungrub",
         "Shockshrew",
         "Doctsy",
@@ -6996,8 +7106,8 @@
     "North Water": {
       "key": "North Water",
       "name": "North Water",
-      "description": null,
-      "monsterPool": [
+      "description": "",
+      "monsters": [
         "Goldscale",
         "NudoFlott",
         "Nudaflott",
@@ -7009,8 +7119,8 @@
     "West Water Route": {
       "key": "West Water Route",
       "name": "West Water",
-      "description": null,
-      "monsterPool": [
+      "description": "",
+      "monsters": [
         "Goldscale",
         "NudoFlott",
         "Nudaflott",
@@ -7020,32 +7130,32 @@
     "IntroBedroom": {
       "key": "IntroBedroom",
       "name": "Bedroom",
-      "description": null,
-      "monsterPool": []
+      "description": "",
+      "monsters": []
     },
     "IntroHunterHouse": {
       "key": "IntroHunterHouse",
       "name": "House",
-      "description": null,
-      "monsterPool": []
+      "description": "",
+      "monsters": []
     },
     "IntroCity": {
       "key": "IntroCity",
       "name": "City",
-      "description": null,
-      "monsterPool": []
+      "description": "",
+      "monsters": []
     },
     "IntroLab": {
       "key": "IntroLab",
       "name": "Lab",
-      "description": null,
-      "monsterPool": []
+      "description": "",
+      "monsters": []
     },
     "StarMissionMap": {
       "key": "StarMissionMap",
       "name": "StarMissionMap",
-      "description": null,
-      "monsterPool": []
+      "description": "",
+      "monsters": []
     }
   }
 }

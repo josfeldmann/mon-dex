@@ -6,6 +6,8 @@ import Script from 'next/script'
 import React from 'react';
 
 import { log } from 'console';
+import NavBar from '@/app/components/ui/navbar';
+import MonsterGrid from '@/app/components/ui/MonsterGrid';
 export type MonsterDictionary = Record<string, Monster>;
 
 export async function generateStaticParams() {
@@ -26,9 +28,11 @@ export default function MonsterTypePage({ params }: { params: { id: string } }) 
   
   
 
-  const ability = db.getMonsterType(params.id);
+  const type = db.getMonsterType(params.id);
 
-  if (!ability) {
+  const typemonsters = db.getAllMonstersWithType(type);
+
+  if (!type) {
     notFound();
   }
 
@@ -36,11 +40,13 @@ export default function MonsterTypePage({ params }: { params: { id: string } }) 
 
 
 <html>
-    
+     <NavBar urlprefix='..'/>
     <main style={{ fontFamily: 'sans-serif' }}>
-      <h1>{ability.key}</h1>
+      <h1>{type.key}</h1>
       
+      <h2>Monsters With Type</h2>
 
+    <MonsterGrid monsters={typemonsters} imageSize={96} urlprefix='..'  />
 
 
     </main>

@@ -6,12 +6,17 @@ import { MonsterTypeDictionary } from "./MonsterTypeDictionary";
 import { MonsterType } from "./MonsterType";
 import { MonsterMoveDictionary } from "./MonsterMoveDictionary";
 import { MonsterMove } from "./MonsterMove";
+import { MapLocationDictionary } from "./MapLocationDictionary";
+import { MapLocation } from "./MapLocation";
 
 export class MonsterDatabase {
+  
+
   monsters: MonsterDictionary;
   abilities: AbilityDictionary;
   types: MonsterTypeDictionary;
   moves: MonsterMoveDictionary;
+  locations : MapLocationDictionary;
 
 
   constructor(data: { 
@@ -19,6 +24,7 @@ export class MonsterDatabase {
     abilities: Record<string, Ability>,
     types: Record<string, MonsterType>,
     moves: Record<string, MonsterMove> 
+    locations: Record<string,MapLocation>
   }) {
 
     // Convert each plain object into a Monster instance
@@ -42,6 +48,11 @@ export class MonsterDatabase {
       acc[key] = new MonsterMove(value);
       return acc;
     }, {} as MonsterMoveDictionary);
+
+    this.locations =  Object.entries(data.locations).reduce((acc, [key, value]) => {
+      acc[key] = new MapLocation(value);
+      return acc;
+    }, {} as MapLocationDictionary);
 
 
   }
@@ -78,7 +89,7 @@ export class MonsterDatabase {
   }
 
    getTypeKeys() : string[] {
-    return Object.keys(this.moves);
+    return Object.keys(this.types);
   }
 
 
@@ -97,7 +108,49 @@ export class MonsterDatabase {
     return this.monsters[name];
   }
 
+
+  //Locations
+  
+  getAllLocations(): MapLocation[] {
+    return Object.values(this.locations)
+  }
+
+  getLocation(name: string): MapLocation {
+    return this.locations[name];
+  }
+
+  getLocationKeys() : string[] {
+    return Object.keys(this.locations);
+  }
+
+
+
+
+  //Getters
+
+  getAllLocationsWithMonster(id: string): string[] {
+
+  const location : string[] = [];
+    this.getAllLocations().forEach(element => {
+    if (element.monsters.includes(id)) {
+      location.push(element.key);
+    }
+    });
+  return location;
+  }
+
+
+  getAllMonstersWithType(type: MonsterType) : Monster[] {
+    const m : Monster[] = [];
+    this.getAllMonsters().forEach(element => {
+    if (element.monsterType.includes(type.key)) {
+      m.push(element);
+    }
+    });
+  return m;
+  }
   
 
+  
  
 }
