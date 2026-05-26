@@ -7,7 +7,7 @@ export default function TypesPage() {
   return (
 
     <html>
-       <NavBar urlprefix='.'/>
+       <NavBar/>
         <h1>Types</h1>
     </html>
 

@@ -17,7 +17,7 @@ export default function LocationsPage() {
   const m = new MonsterDatabase(monsters).getAllMonsters();
   return (
     <html lang="en">
-       <NavBar urlprefix='.'/>
+       <NavBar/>
         <h1>Locations</h1>
       
     </html>

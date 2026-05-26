@@ -25,7 +25,7 @@ export async function generateStaticParams() {
 
 // ✅ Your page component
 export default function LocationPage({ params }: { params: { id: string } }) {
- <NavBar urlprefix='.'/>
+ <NavBar/>
 
   const db = new MonsterDatabase(monsters);
   

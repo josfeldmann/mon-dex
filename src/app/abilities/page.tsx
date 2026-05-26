@@ -8,7 +8,7 @@ export default function AbilitiesPage() {
 
      
     <html>
-      <NavBar urlprefix="."/>
+      <NavBar/>
         <h1>Abilities</h1>
     </html>
 

@@ -43,7 +43,7 @@ export default function MonsterTypePage({ params }: { params: { id: string } }) 
 
 
 <html>
-     <NavBar urlprefix='..'/>
+     <NavBar/>
     <main style={{ fontFamily: 'sans-serif' }}>
       <h1>{type.key}</h1>
       

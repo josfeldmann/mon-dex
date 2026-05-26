@@ -44,7 +44,7 @@ export default function AbilityPage({ params }: { params: { id: string } }) {
 
 
 <html>
-   <NavBar urlprefix='.'/>
+   <NavBar/>
     <h1>{move.name}</h1>
 
     <Movelist moves={[move]} />;

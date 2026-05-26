@@ -17,7 +17,7 @@ export default function MonstersPage() {
   const m = new MonsterDatabase(monsters).getAllMonsters();
   return (
     <html lang="en">
-       <NavBar urlprefix='.'/>
+       <NavBar/>
         <MonsterGrid monsters={m} imageSize={96}  urlprefix="."/>
       
     </html>

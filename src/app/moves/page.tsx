@@ -21,7 +21,7 @@ export default function MovesPage() {
   const l = db.getAllMoves();
   return (
     <html lang="en">
-       <NavBar urlprefix='.'/>
+       <NavBar/>
         <h1>Moves</h1>
 
         <Movelist moves={l} />;

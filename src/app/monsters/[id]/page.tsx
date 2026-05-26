@@ -51,10 +51,10 @@ export default function MonsterPage({ params }: { params: { id: string } }) {
 
 
 <html>
-   <NavBar urlprefix='..'/>
+   <NavBar/>
     <main style={{ fontFamily: 'sans-serif' }}>
       <h1>{monster.monsterName}</h1>
-      <img src={`../data/Monster-Images/${monster.monsterKey}.png`}/>
+      <img src={`/data/Monster-Images/${monster.monsterKey}.png`}/>
       
       <p>
         <SingleLineList items={monster.monsterType} renderItem={(monsterType) => (<GenericLink value={monsterType} basePath="../types/" />)} labelSingle='Type' labelPlural='types'  ></SingleLineList>

@@ -39,7 +39,7 @@ export default function AbilityPage({ params }: { params: { id: string } }) {
 
 
 <html>
-   <NavBar urlprefix='..'/>
+   <NavBar/>
     
     <main style={{ fontFamily: 'sans-serif' }}>
       <h1>{ability.key}</h1>

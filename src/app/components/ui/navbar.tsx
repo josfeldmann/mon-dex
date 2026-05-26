@@ -1,13 +1,8 @@
 import Link from "next/link";
 
-type NavBarProps = {
-  urlprefix: string
-};
 
 
-export default function NavBar({
-  urlprefix
-}: NavBarProps) {
+export default function NavBar() {
   return (
     <nav
       style={{
@@ -19,7 +14,7 @@ export default function NavBar({
       }}
     >
       <a
-        href={urlprefix + "/index.html"}
+        href={"/index.html"}
         style={{
           fontSize: "24px",
           fontWeight: "bold",
@@ -36,13 +31,13 @@ export default function NavBar({
           gap: "20px",
         }}
       >
-        <Link href={urlprefix + "/monsters.html"}>Monsters</Link>
+        <Link href={"/monsters.html"}>Monsters</Link>
 
-        <Link href={urlprefix + "/moves.html"}>Moves</Link>
+        <Link href={"/moves.html"}>Moves</Link>
 
-        <Link href={urlprefix + "/locations.html"}>Locations</Link>
+        <Link href={"/locations.html"}>Locations</Link>
 
-        <Link href={urlprefix + "/items.html"}>Items</Link>
+        <Link href={"/items.html"}>Items</Link>
       </div>
     </nav>
   );
