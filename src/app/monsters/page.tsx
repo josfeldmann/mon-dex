@@ -14,13 +14,12 @@ import NavBar from "../components/ui/navbar";
 
 export default function MonstersPage() {
   // Extract the dictionary of monsters
-  const m = new MonsterDatabase(monsters).getAllMonsters();
+  const m = MonsterDatabase.getInstance().getAllMonsters();
   return (
-    <html lang="en">
-       <NavBar/>
-        <MonsterGrid monsters={m} imageSize={96}  urlprefix="."/>
+    <div>
+        <MonsterGrid monsters={m} imageSize={96}/>
       
-    </html>
+    </div>
   );
    
 }

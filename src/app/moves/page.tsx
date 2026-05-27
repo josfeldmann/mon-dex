@@ -14,19 +14,19 @@ import Movelist from "../components/ui/MoveList";
 
 
 export default function MovesPage() {
-  const db = new MonsterDatabase(monsters)
+  const db = MonsterDatabase.getInstance();
 
 
-  const m = new MonsterDatabase(monsters).getAllMonsters();
+  const m = MonsterDatabase.getInstance().getAllMonsters();
   const l = db.getAllMoves();
   return (
-    <html lang="en">
+    <div>
        <NavBar/>
         <h1>Moves</h1>
 
         <Movelist moves={l} />;
 
-    </html>
+    </div>
   );
    
 }

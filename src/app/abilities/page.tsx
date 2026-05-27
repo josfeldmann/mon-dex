@@ -7,10 +7,9 @@ export default function AbilitiesPage() {
   return (
 
      
-    <html>
-      <NavBar/>
+    <div>
         <h1>Abilities</h1>
-    </html>
+    </div>
 
   );
 }

@@ -14,7 +14,7 @@ export type MonsterDictionary = Record<string, Monster>;
 
 export async function generateStaticParams() {
   
-  const mList = new MonsterDatabase(monsters).getMoveKeys();
+  const mList = MonsterDatabase.getInstance().getMoveKeys();
 
   return mList.map(monster  => ({
     id: monster,
@@ -28,7 +28,7 @@ export async function generateStaticParams() {
 export default function AbilityPage({ params }: { params: { id: string } }) {
 
 
-  const db = new MonsterDatabase(monsters);
+  const db = MonsterDatabase.getInstance();;
   
   
 
@@ -43,18 +43,17 @@ export default function AbilityPage({ params }: { params: { id: string } }) {
   return (
 
 
-<html>
-   <NavBar/>
+<div>
     <h1>{move.name}</h1>
 
     <Movelist moves={[move]} />;
 
     <h2>Monsters that learn this move</h2>
-    <MonsterGrid monsters={m} imageSize={96} urlprefix='..'  />
+    <MonsterGrid monsters={m} imageSize={96}  />
 
 
 
-</html>
+</div>
 
   );
 }

@@ -8,10 +8,21 @@ import { MonsterMoveDictionary } from "./MonsterMoveDictionary";
 import { MonsterMove } from "./MonsterMove";
 import { MapLocationDictionary } from "./MapLocationDictionary";
 import { MapLocation } from "./MapLocation";
+import monsters from '../../../../public/data/monsters.json';
 
 export class MonsterDatabase {
   
  
+  private static instance: MonsterDatabase = new MonsterDatabase(monsters);
+
+
+ static getInstance(): MonsterDatabase {
+    if (!MonsterDatabase.instance) {
+      this.instance = new MonsterDatabase(monsters);
+    }
+
+    return MonsterDatabase.instance;
+  }
 
   monsters: MonsterDictionary;
   abilities: AbilityDictionary;

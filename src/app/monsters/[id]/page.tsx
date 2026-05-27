@@ -15,7 +15,7 @@ import Movelist from '@/app/components/ui/MoveList';
 export type MonsterDictionary = Record<string, Monster>;
 
 export async function generateStaticParams() {
-  const mList = new MonsterDatabase(monsters).getMonsterKeys();
+  const mList = MonsterDatabase.getInstance().getMonsterKeys();
 
   return mList.map(monster  => ({
     id: monster,
@@ -28,7 +28,7 @@ export async function generateStaticParams() {
 export default function MonsterPage({ params }: { params: { id: string } }) {
 
 
-  const db = new MonsterDatabase(monsters);
+  const db = MonsterDatabase.getInstance();;
   
   
 
@@ -50,9 +50,7 @@ export default function MonsterPage({ params }: { params: { id: string } }) {
   return (
 
 
-<html>
-   <NavBar/>
-    <main style={{ fontFamily: 'sans-serif' }}>
+<div>
       <h1>{monster.monsterName}</h1>
       <img src={`/data/Monster-Images/${monster.monsterKey}.png`}/>
       
@@ -69,9 +67,7 @@ export default function MonsterPage({ params }: { params: { id: string } }) {
       <Movelist moves={moves} />;
 
 
-    </main>
-
-</html>
+    </div>
 
   );
 }

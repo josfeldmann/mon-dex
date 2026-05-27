@@ -36,7 +36,6 @@ function Grid<T>({
 
 type MonsterGridProps = {
   monsters: Monster[];
-  urlprefix: string;
   columns?: number;
   imageSize?: number;
 };
@@ -44,7 +43,6 @@ type MonsterGridProps = {
 export default function MonsterGrid({
   monsters,
   columns = 5,
-  urlprefix,
   imageSize = 96,
 }: MonsterGridProps) {
   return (
@@ -53,7 +51,7 @@ export default function MonsterGrid({
       columns={columns}
       renderItem={(monster) => (
         <a
-          href={ `${urlprefix}/monsters/${monster.monsterKey}.html`}
+          href={ `/monsters/${monster.monsterKey}.html`}
           style={{
             display: "flex",
             flexDirection: "column",
@@ -63,7 +61,7 @@ export default function MonsterGrid({
           }}
         >
           <img
-            src={`${urlprefix}/data/Monster-images/${monster.monsterKey}.png`}
+            src={`/data/Monster-images/${monster.monsterKey}.png`}
           />
 
           <div style={{ marginTop: 8 }}>

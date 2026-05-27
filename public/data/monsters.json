@@ -6141,63 +6141,93 @@
   "types": {
     "Insect": {
       "key": "Insect",
-      "name": "Insect"
+      "name": "Insect",
+      "color": "ADBD21",
+      "description": ""
     },
     "Dino": {
       "key": "Dino",
-      "name": "Dino"
+      "name": "Dino",
+      "color": "7B63E7",
+      "description": ""
     },
     "Earth": {
       "key": "Earth",
-      "name": "Earth"
+      "name": "Earth",
+      "color": "BA6C2D",
+      "description": ""
     },
     "Elec": {
       "key": "Elec",
-      "name": "Elec"
+      "name": "Elec",
+      "color": "FFFF6C",
+      "description": ""
     },
     "Combat": {
       "key": "Combat",
-      "name": "Combat"
+      "name": "Combat",
+      "color": "A55239",
+      "description": ""
     },
     "Fire": {
       "key": "Fire",
-      "name": "Fire"
+      "name": "Fire",
+      "color": "F75231",
+      "description": ""
     },
     "Wind": {
       "key": "Wind",
-      "name": "Wind"
+      "name": "Wind",
+      "color": "E6FFFF",
+      "description": ""
     },
     "Leaf": {
       "key": "Leaf",
-      "name": "Leaf"
+      "name": "Leaf",
+      "color": "7BCE52",
+      "description": ""
     },
     "Ice": {
       "key": "Ice",
-      "name": "Ice"
+      "name": "Ice",
+      "color": "5ACEE7",
+      "description": ""
     },
     "Beast": {
       "key": "Beast",
-      "name": "Beast"
+      "name": "Beast",
+      "color": "C8B088",
+      "description": ""
     },
     "Poison": {
       "key": "Poison",
-      "name": "Poison"
+      "name": "Poison",
+      "color": "9141CB",
+      "description": ""
     },
     "Psy": {
       "key": "Psy",
-      "name": "Psy"
+      "name": "Psy",
+      "color": "D95AFF",
+      "description": ""
     },
     "Shadow": {
       "key": "Shadow",
-      "name": "Shadow"
+      "name": "Shadow",
+      "color": "362B3F",
+      "description": ""
     },
     "Steel": {
       "key": "Steel",
-      "name": "Steel"
+      "name": "Steel",
+      "color": "81A6BE",
+      "description": ""
     },
     "Water": {
       "key": "Water",
-      "name": "Water"
+      "name": "Water",
+      "color": "399CFF",
+      "description": ""
     }
   },
   "items": {},

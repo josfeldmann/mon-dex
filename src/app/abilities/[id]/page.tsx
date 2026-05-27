@@ -11,7 +11,7 @@ export type MonsterDictionary = Record<string, Monster>;
 
 
 export async function generateStaticParams() {
-  const mList = new MonsterDatabase(monsters).getAbilityKeys();
+  const mList = MonsterDatabase.getInstance().getAbilityKeys();
 
   return mList.map(monster  => ({
     id: monster,
@@ -25,7 +25,7 @@ export default function AbilityPage({ params }: { params: { id: string } }) {
 
   
 
-  const db = new MonsterDatabase(monsters);
+  const db = MonsterDatabase.getInstance();;
   
   
 
@@ -36,21 +36,10 @@ export default function AbilityPage({ params }: { params: { id: string } }) {
   }
 
   return (
-
-
-<html>
-   <NavBar/>
-    
-    <main style={{ fontFamily: 'sans-serif' }}>
+  <div>
       <h1>{ability.key}</h1>
       
       <p>{ability.description}</p>
-
-
-
-    </main>
-
-</html>
-
+  </div>
   );
 }

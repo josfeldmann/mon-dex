@@ -5,10 +5,6 @@ import NavBar from "./components/ui/navbar";
 
 export default function Home() {
   return (
-    <html>
-      <NavBar/>
-
-
-    </html>
+    <div></div>
   )
 }

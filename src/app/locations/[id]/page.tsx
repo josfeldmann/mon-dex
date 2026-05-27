@@ -13,7 +13,7 @@ export type MonsterDictionary = Record<string, Monster>;
 
 export async function generateStaticParams() {
   
-  const mList = new MonsterDatabase(monsters).getLocationKeys();
+  const mList = MonsterDatabase.getInstance().getLocationKeys();
 
   return mList.map(loc  => ({
     id: loc,
@@ -27,7 +27,7 @@ export async function generateStaticParams() {
 export default function LocationPage({ params }: { params: { id: string } }) {
  <NavBar/>
 
-  const db = new MonsterDatabase(monsters);
+  const db = MonsterDatabase.getInstance();;
   
   
 
@@ -42,14 +42,14 @@ export default function LocationPage({ params }: { params: { id: string } }) {
   return (
 
 
-<html>
+<div>
     <h1>{location.name}</h1>
 
     <h2>Monsters found here</h2>
-    <MonsterGrid monsters={m} imageSize={96} urlprefix='..'  />
+    <MonsterGrid monsters={m} imageSize={96}  />
     
 
-</html>
+</div>
 
   );
 }

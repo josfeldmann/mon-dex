@@ -6,10 +6,9 @@ import NavBar from "../components/ui/navbar";
 export default function TypesPage() {
   return (
 
-    <html>
-       <NavBar/>
+    <div>
         <h1>Types</h1>
-    </html>
+    </div>
 
   );
 }
