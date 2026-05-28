@@ -13,6 +13,7 @@ import NavBar from '@/app/components/ui/navbar';
 import { MonsterMove } from '@/app/components/data/MonsterMove';
 import Movelist from '@/app/components/ui/MoveList';
 import MonsterBadge from '@/app/components/ui/MonsterBadge';
+import TypeButton from '@/app/components/ui/TypeButton';
 export type MonsterDictionary = Record<string, Monster>;
 
 export async function generateStaticParams() {
@@ -55,7 +56,7 @@ export default function MonsterPage({ params }: { params: { id: string } }) {
       <h1>{monster.monsterName}</h1>
       <MonsterBadge data={monster}/>      
       <p>
-        <SingleLineList items={monster.monsterType} renderItem={(monsterType) => (<GenericLink value={monsterType} basePath="../types/" />)} labelSingle='Type' labelPlural='types'  ></SingleLineList>
+        <SingleLineList items={monster.monsterType} renderItem={(monsterType) => <TypeButton data={db.getMonsterType(monsterType)}/>} labelSingle='Type' labelPlural='types'  ></SingleLineList>
       </p>
       <p>
         <SingleLineList items={monster.abilities} renderItem={(ability) => (<GenericLink value={ability} basePath="../abilities/" />)} labelSingle='Ability' labelPlural='Abilities'  ></SingleLineList>

@@ -1,5 +1,7 @@
+import { MonsterDatabase } from "../data/MonsterDatabase";
 import { MonsterMove } from "../data/MonsterMove";
 import { MonsterType } from "../data/MonsterType";
+import TypeButton from "./TypeButton";
 
 type MoveListProps = {
   moves: MonsterMove[];
@@ -36,11 +38,13 @@ export default function MoveList( { moves  } : MoveListProps) {
           {moveList.map((move) => (
             <tr key={move.key} className="hover:bg-gray-100">
               <td className="border border-gray-300 px-4 py-2">
+                <a href={`/moves/${move.key}.html`}>
                 {move.name}
+                </a>
               </td>
 
               <td className="border border-gray-300 px-4 py-2">
-                {move.type}
+                <TypeButton data={MonsterDatabase.getInstance().getMonsterType(move.type)}/>
               </td>
 
               <td className="border border-gray-300 px-4 py-2 capitalize">
