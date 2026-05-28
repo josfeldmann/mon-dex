@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Monster } from "../data/Monster";
+import MonsterBadge from "./MonsterBadge";
 
 
 type GridProps<T> = {
@@ -50,24 +51,7 @@ export default function MonsterGrid({
       items={monsters}
       columns={columns}
       renderItem={(monster) => (
-        <a
-          href={ `/monsters/${monster.monsterKey}.html`}
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            textAlign: "center",
-            textDecoration: "none",
-          }}
-        >
-          <img
-            src={`/data/Monster-images/${monster.monsterKey}.png`}
-          />
-
-          <div style={{ marginTop: 8 }}>
-            {monster.monsterName}
-          </div>
-        </a>
+        <MonsterBadge data={monster} />
       )}
     />
   );

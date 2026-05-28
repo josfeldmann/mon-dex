@@ -12,6 +12,7 @@ import { MapLocation } from '@/app/components/data/MapLocation';
 import NavBar from '@/app/components/ui/navbar';
 import { MonsterMove } from '@/app/components/data/MonsterMove';
 import Movelist from '@/app/components/ui/MoveList';
+import MonsterBadge from '@/app/components/ui/MonsterBadge';
 export type MonsterDictionary = Record<string, Monster>;
 
 export async function generateStaticParams() {
@@ -52,8 +53,7 @@ export default function MonsterPage({ params }: { params: { id: string } }) {
 
 <div>
       <h1>{monster.monsterName}</h1>
-      <img src={`/data/Monster-Images/${monster.monsterKey}.png`}/>
-      
+      <MonsterBadge data={monster}/>      
       <p>
         <SingleLineList items={monster.monsterType} renderItem={(monsterType) => (<GenericLink value={monsterType} basePath="../types/" />)} labelSingle='Type' labelPlural='types'  ></SingleLineList>
       </p>
