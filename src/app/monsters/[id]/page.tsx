@@ -14,6 +14,10 @@ import { MonsterMove } from '@/app/components/data/MonsterMove';
 import Movelist from '@/app/components/ui/MoveList';
 import MonsterBadge from '@/app/components/ui/MonsterBadge';
 import TypeButton from '@/app/components/ui/TypeButton';
+import MonsterStatsGraph from '@/app/components/ui/MonsterStatsGraph';
+import { Metadata } from 'next';
+import AbilityButton from '@/app/components/ui/AbilityButton';
+import { Ability } from '@/app/components/data/Ability';
 export type MonsterDictionary = Record<string, Monster>;
 
 export async function generateStaticParams() {
@@ -25,6 +29,25 @@ export async function generateStaticParams() {
   
 
 }
+
+
+
+export async function generateMetadata(
+  { params }: { params: { id: string } }
+): Promise<Metadata> {
+  const monster = MonsterDatabase.getInstance().getMonster(params.id);
+  if (!monster) {
+    return {
+      title: "Monster Not Found " + params.id,
+    };
+  }
+
+  return {
+    title: `${monster.monsterName} | Novodex`,
+  };
+}
+
+
 
 // ✅ Your page component
 export default function MonsterPage({ params }: { params: { id: string } }) {
@@ -47,25 +70,62 @@ export default function MonsterPage({ params }: { params: { id: string } }) {
 
  const moves : MonsterMove[] = db.getMovesFromKeyList(monster.moves);
 
-
+ const ability : Ability = db.getAbility(monster.abilities[0])
 
   return (
 
 
 <div>
-      <h1>{monster.monsterName}</h1>
-      <MonsterBadge data={monster}/>      
+
+      <div className="d-flex flex-wrap  justify-content-around">
+
+      <div className="p-2">
+        <MonsterBadge data={monster} scale={3}/> 
+      </div>
+
+      <div className="p-2">
+        <h1>{monster.monsterName}</h1>
+        <p>
+            Types: <SingleLineList items={monster.monsterType} renderItem={(monsterType) => <TypeButton data={db.getMonsterType(monsterType)}/>}></SingleLineList>
+        </p>
+
+        
+        <h2>Passives</h2>
+
       <p>
-        <SingleLineList items={monster.monsterType} renderItem={(monsterType) => <TypeButton data={db.getMonsterType(monsterType)}/>} labelSingle='Type' labelPlural='types'  ></SingleLineList>
-      </p>
+        <SingleLineList items={monster.abilities} renderItem={(location) => (<GenericLink value={location} basePath="/abilities/" />)}></SingleLineList>
+      </p> 
+        
+        <h2>Abilities</h2>
       <p>
-        <SingleLineList items={monster.abilities} renderItem={(ability) => (<GenericLink value={ability} basePath="../abilities/" />)} labelSingle='Ability' labelPlural='Abilities'  ></SingleLineList>
-      </p>
-      <p>
-      <SingleLineList items={locations} renderItem={(location) => (<GenericLink value={location} basePath="../locations/" />)} labelSingle='Location' labelPlural='Locations'  ></SingleLineList>
+        <SingleLineList items={monster.abilities} renderItem={(location) => (<GenericLink value={location} basePath="/abilities/" />)}></SingleLineList>
       </p>
 
-      <Movelist moves={moves} />;
+
+      </div>
+    
+
+      <div className="p-2">
+      <MonsterStatsGraph monster={monster} />
+      </div>
+      </div>
+
+      <h2>Dex</h2>
+      <p>
+        {monster.monsterID};
+      </p>
+
+      
+      <p>
+        <SingleLineList items={locations} renderItem={(location) => (<GenericLink value={location} basePath="/locations/" />)} ></SingleLineList>
+      </p>
+      
+           
+      
+
+      <h2>Moves</h2>
+      <Movelist moves={moves} />
+
 
 
     </div>

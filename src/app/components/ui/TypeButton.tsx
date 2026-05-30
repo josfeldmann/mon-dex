@@ -21,11 +21,17 @@ export default function TypeButton({
 <div
 style={
 {
-borderRadius: "2px",
-
+borderRadius: "3px",
+minWidth: "60px",
 display: "inline-block",
 backgroundColor: "#" + data.color,
-padding: "4px"
+padding: "4px",
+border:"1px",
+color: "white",
+WebkitFontSmoothing: "antiAliased",
+textAlign:"center",
+
+//textShadow: "#000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px, #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px; !important"
 }
 }>
     {data.name}

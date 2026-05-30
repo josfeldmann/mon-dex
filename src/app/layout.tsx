@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import 'bootstrap/dist/css/bootstrap.css';
 import NavBar from "./components/ui/navbar";
 import Footer from "./components/ui/Footer";
 import "./globals.css";
@@ -19,7 +20,9 @@ export default function RootLayout({
       <NavBar/>
 
       <body>
+      <div className="container mt-5">
         {children}
+        </div>
       </body>
 
       <Footer/>

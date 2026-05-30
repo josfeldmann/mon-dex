@@ -484,14 +484,14 @@
         "Growth",
         "VoltRush",
         "LeechSeed",
-        "Sap Strike",
-        "Volt Swap",
-        "Curing Aroma",
+        "sapStrike",
+        "voltSwap",
+        "curingAroma",
         "SeedShot",
-        "Storm Strikes",
+        "stormStrikes",
         "VineThrash",
-        "Sap Strike",
-        "Life Sap"
+        "sapStrike",
+        "lifeSap"
       ],
       "evolutions": null
     },
@@ -523,14 +523,14 @@
         "Growth",
         "VoltRush",
         "LeechSeed",
-        "Sap Strike",
-        "Volt Swap",
-        "Curing Aroma",
+        "sapStrike",
+        "voltSwap",
+        "curingAroma",
         "SeedShot",
-        "Storm Strikes",
+        "stormStrikes",
         "VineThrash",
-        "Sap Strike",
-        "Life Sap"
+        "sapStrike",
+        "lifeSap"
       ],
       "evolutions": null
     },
@@ -562,14 +562,14 @@
         "Growth",
         "VoltRush",
         "LeechSeed",
-        "Sap Strike",
-        "Volt Swap",
-        "Curing Aroma",
+        "sapStrike",
+        "voltSwap",
+        "curingAroma",
         "SeedShot",
-        "Storm Strikes",
+        "stormStrikes",
         "VineThrash",
-        "Sap Strike",
-        "Life Sap"
+        "sapStrike",
+        "lifeSap"
       ],
       "evolutions": null
     },
@@ -1083,7 +1083,7 @@
         "SPEED": 212.4
       },
       "abilities": [
-        "Shock Immunity"
+        "shockImmunity"
       ],
       "moves": [
         "Tackle",
@@ -5481,8 +5481,8 @@
     },
     "Toothy": {
       "key": "Toothy",
-      "name": "",
-      "description": ""
+      "name": "Toothy",
+      "description": "Boosts power of biting moves"
     },
     "burnnotice": {
       "key": "burnnotice",
@@ -5509,8 +5509,8 @@
       "name": "Default",
       "description": "Not Implemented"
     },
-    "Shock Immunity": {
-      "key": "Shock Immunity",
+    "shockImmunity": {
+      "key": "shockImmunity",
       "name": "Shock Immunity",
       "description": "Immune to Shock and takes 50% from lightning attacks"
     },
@@ -5609,42 +5609,42 @@
       "power": 40,
       "category": "physical"
     },
-    "Shock Blast": {
-      "key": "Shock Blast",
+    "shockBlast": {
+      "key": "shockBlast",
       "type": "Elec",
-      "name": "Shock Blast",
+      "name": "shockBlast",
       "description": "CUSTOM DESCRIPTION",
       "power": 80,
       "category": "special"
     },
-    "Shock Slam": {
-      "key": "Shock Slam",
+    "shockSlam": {
+      "key": "shockSlam",
       "type": "Elec",
-      "name": "Shock Slam",
+      "name": "shockSlam",
       "description": "CUSTOM DESCRIPTION",
       "power": 80,
       "category": "physical"
     },
-    "Storm Strikes": {
-      "key": "Storm Strikes",
+    "stormStrikes": {
+      "key": "stormStrikes",
       "type": "Elec",
-      "name": "Storm Strikes",
+      "name": "stormStrikes",
       "description": "CUSTOM DESCRIPTIONCUSTOM DESCRIPTION",
       "power": 30,
       "category": "physical"
     },
-    "Thunder Wave": {
-      "key": "Thunder Wave",
+    "ThunderWave": {
+      "key": "ThunderWave",
       "type": "Elec",
-      "name": "Thunder Wave",
+      "name": "ThunderWave",
       "description": "CUSTOM DESCRIPTION",
       "power": 80,
       "category": "status"
     },
-    "Volt Swap": {
-      "key": "Volt Swap",
+    "voltSwap": {
+      "key": "voltSwap",
       "type": "Elec",
-      "name": "Volt Swap",
+      "name": "voltSwap",
       "description": "CUSTOM DESCRIPTIONCUSTOM DESCRIPTION",
       "power": 50,
       "category": "physical"
@@ -6009,18 +6009,18 @@
       "power": 40,
       "category": "special"
     },
-    "Curing Aroma": {
-      "key": "Curing Aroma",
+    "curingAroma": {
+      "key": "curingAroma",
       "type": "Leaf",
-      "name": "Curing Aroma",
+      "name": "curingAroma",
       "description": "CUSTOM DESCRIPTION",
       "power": 0,
       "category": "status"
     },
-    "Gaia Ball": {
-      "key": "Gaia Ball",
+    "gaiaBall": {
+      "key": "gaiaBall",
       "type": "Leaf",
-      "name": "Gaia Ball",
+      "name": "gaiaBall",
       "description": "CUSTOM DESCRIPTION",
       "power": 90,
       "category": "special"
@@ -6049,18 +6049,18 @@
       "power": 20,
       "category": "status"
     },
-    "Life Sap": {
-      "key": "Life Sap",
+    "lifeSap": {
+      "key": "lifeSap",
       "type": "Leaf",
-      "name": "Life Sap",
+      "name": "lifeSap",
       "description": "CUSTOM DESCRIPTION",
       "power": 80,
       "category": "special"
     },
-    "Sap Strike": {
-      "key": "Sap Strike",
+    "sapStrike": {
+      "key": "sapStrike",
       "type": "Leaf",
-      "name": "Sap Strike",
+      "name": "sapStrike",
       "description": "CUSTOM DESCRIPTION",
       "power": 80,
       "category": "physical"

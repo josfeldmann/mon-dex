@@ -1,14 +1,10 @@
 type SingleLineListProps = {
   items: string[];
-  labelPlural : string;
-  labelSingle : string;
   renderItem?: (item: string) => React.ReactNode;
 };
 
 export function SingleLineList({
   items,
-  labelPlural,
-  labelSingle,
   renderItem
 }: SingleLineListProps) {
   if (items.length === 0) {
@@ -17,9 +13,6 @@ export function SingleLineList({
 
   return (
     <div>
-      <strong>
-        {items.length === 1 ? labelSingle : labelPlural}:
-      </strong>{" "}
       {items.map((item, index) => (
         <span key={item}>
           {renderItem ? renderItem(item) : item}

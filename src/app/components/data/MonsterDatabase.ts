@@ -12,6 +12,7 @@ import monsters from '../../../../public/data/monsters.json';
 
 export class MonsterDatabase {
   
+  
  
   private static instance: MonsterDatabase = new MonsterDatabase(monsters);
 
@@ -162,6 +163,17 @@ export class MonsterDatabase {
     }
     });
   return location;
+  }
+
+
+  getAllMonstersWithAbility(ability : Ability) {
+    const m : Monster[] = [];
+    this.getAllMonsters().forEach(element => {
+  if (element.abilities.includes(ability.key)) {
+    m.push(element);
+  }
+  });
+  return m;
   }
 
 

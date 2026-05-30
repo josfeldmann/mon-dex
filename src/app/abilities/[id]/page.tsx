@@ -7,6 +7,7 @@ import React from 'react';
 
 import { log } from 'console';
 import NavBar from '@/app/components/ui/navbar';
+import MonsterGrid from '@/app/components/ui/MonsterGrid';
 export type MonsterDictionary = Record<string, Monster>;
 
 
@@ -31,6 +32,8 @@ export default function AbilityPage({ params }: { params: { id: string } }) {
 
   const ability = db.getAbility(params.id);
 
+  const m = db.getAllMonstersWithAbility(ability);
+
   if (!ability) {
     notFound();
   }
@@ -40,6 +43,8 @@ export default function AbilityPage({ params }: { params: { id: string } }) {
       <h1>{ability.key}</h1>
       
       <p>{ability.description}</p>
+
+      <MonsterGrid monsters={m} imageSize={96}  />
   </div>
   );
 }

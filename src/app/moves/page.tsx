@@ -21,7 +21,6 @@ export default function MovesPage() {
   const l = db.getAllMoves();
   return (
     <div>
-       <NavBar/>
         <h1>Moves</h1>
 
         <Movelist moves={l} />;

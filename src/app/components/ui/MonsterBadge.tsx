@@ -4,12 +4,12 @@ import { MonsterDatabase } from "../data/MonsterDatabase";
 
 type SplitBadgeProps = {
   data: Monster;
-  size?: number;
+  scale: number;
 };
 
 export default function MonsterBadge({
   data,
-  size = 192,
+  scale = 2,
 }: SplitBadgeProps) {
 
     const db = MonsterDatabase.getInstance();
@@ -26,8 +26,8 @@ export default function MonsterBadge({
     position: "relative",
     overflow: "hidden",
     
-    width: size,
-    height: size,
+    width: 96 * scale,
+    height: 96 * scale,
 
     opacity: 0,
     animation: "fadeIn 0s forwards",
@@ -79,8 +79,8 @@ export default function MonsterBadge({
         position: "absolute",
         top: 0,
         left: 0,
-        width: "192px",
-        height: "192px",
+        width: "100%",
+        height: "100%",
         pointerEvents: "none",
         imageRendering: "pixelated"
       }}
@@ -92,8 +92,8 @@ export default function MonsterBadge({
       style={{
         position: "relative",
         zIndex: 1,
-        width: "128px",
-        height: "128px",
+        width: scale * 64,
+        height: scale * 64,
         objectFit: "contain",
         
         imageRendering: "pixelated"

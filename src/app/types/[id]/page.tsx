@@ -50,7 +50,7 @@ export default function MonsterTypePage({ params }: { params: { id: string } }) 
 
     <MonsterGrid monsters={typemonsters} imageSize={96}  />
 
-    <h2>Monsters With Type</h2>
+    <h2>Moves With Type</h2>
 
     <Movelist moves={typeMoves} />;
     

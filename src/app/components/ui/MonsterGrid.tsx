@@ -51,7 +51,7 @@ export default function MonsterGrid({
       items={monsters}
       columns={columns}
       renderItem={(monster) => (
-        <MonsterBadge data={monster} />
+        <MonsterBadge data={monster} scale={2} />
       )}
     />
   );
